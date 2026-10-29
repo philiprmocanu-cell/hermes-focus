@@ -1,0 +1,3160 @@
+{
+ "break_point_s": [
+  {
+   "ended_at": 1790001500.0,
+   "expected": null,
+   "frames": [
+    {
+     "at": 1790000300.0,
+     "on_goal": 0.9,
+     "quality": 0.8
+    }
+   ],
+   "name": "focused",
+   "started_at": 1790000000.0,
+   "ticks": [
+    {
+     "at": 1790000060.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000120.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000180.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000240.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000300.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000360.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000420.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000480.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000540.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000600.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000660.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000720.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000780.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000840.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000900.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000960.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001020.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001080.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001140.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001200.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001260.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001320.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001380.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001440.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001500.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    }
+   ]
+  },
+  {
+   "ended_at": 1790001500.0,
+   "expected": 1020.0,
+   "frames": [],
+   "name": "left_the_keyboard",
+   "started_at": 1790000000.0,
+   "ticks": [
+    {
+     "at": 1790000060.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000120.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000180.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000240.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000300.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000360.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000420.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000480.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000540.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000600.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000660.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000720.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000780.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000840.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000900.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000960.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001020.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001080.0,
+     "idle_s": 200,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001140.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001200.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001260.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001320.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001380.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001440.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001500.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    }
+   ]
+  },
+  {
+   "ended_at": 1790001500.0,
+   "expected": 540.0,
+   "frames": [],
+   "name": "still_reading_then_spike",
+   "started_at": 1790000000.0,
+   "ticks": [
+    {
+     "at": 1790000060.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000120.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000180.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000240.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "app": "Preview",
+     "at": 1790000300.0,
+     "idle_s": 200,
+     "phase": "work",
+     "switches": 1,
+     "title": "chapter2.pdf"
+    },
+    {
+     "at": 1790000360.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000420.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000480.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000540.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000600.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 6
+    },
+    {
+     "at": 1790000660.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000720.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000780.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000840.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000900.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000960.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001020.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001080.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001140.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001200.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001260.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001320.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001380.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001440.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001500.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    }
+   ]
+  },
+  {
+   "ended_at": 1790001500.0,
+   "expected": 720.0,
+   "frames": [
+    {
+     "at": 1790000240.0,
+     "on_goal": 0.9,
+     "quality": 0.9
+    },
+    {
+     "at": 1790000720.0,
+     "on_goal": 0.8,
+     "quality": 0.1
+    },
+    {
+     "at": 1790000960.0,
+     "on_goal": 0.1,
+     "quality": 0.9
+    }
+   ],
+   "name": "off_goal_frame",
+   "started_at": 1790000000.0,
+   "ticks": [
+    {
+     "at": 1790000060.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000120.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000180.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000240.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000300.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000360.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000420.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000480.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000540.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000600.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000660.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000720.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000780.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000840.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000900.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000960.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001020.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001080.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001140.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001200.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001260.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001320.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001380.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001440.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001500.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    }
+   ]
+  },
+  {
+   "ended_at": 1790001500.0,
+   "expected": null,
+   "frames": [],
+   "name": "other_blocks_and_breaks",
+   "started_at": 1790000000.0,
+   "ticks": [
+    {
+     "at": 1790000180.0,
+     "idle_s": 900,
+     "phase": "break",
+     "switches": 1
+    },
+    {
+     "at": 1789999700.0,
+     "idle_s": 900,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790002400.0,
+     "idle_s": 900,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000240.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    }
+   ]
+  },
+  {
+   "ended_at": null,
+   "expected": null,
+   "frames": [],
+   "name": "no_start",
+   "started_at": 0,
+   "ticks": [
+    {
+     "at": 1790000060.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000120.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000180.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000240.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000300.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000360.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000420.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000480.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000540.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000600.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000660.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000720.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000780.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000840.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000900.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790000960.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001020.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001080.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001140.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001200.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001260.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001320.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001380.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001440.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    },
+    {
+     "at": 1790001500.0,
+     "idle_s": 2,
+     "phase": "work",
+     "switches": 1
+    }
+   ]
+  },
+  {
+   "ended_at": 1790001500.0,
+   "expected": null,
+   "frames": [
+    {
+     "at": 1790000090.0,
+     "on_goal": 0.0,
+     "quality": 0.0
+    }
+   ],
+   "name": "settling_in",
+   "started_at": 1790000000.0,
+   "ticks": []
+  },
+  {
+   "ended_at": 1790000060.0,
+   "expected": 30.0,
+   "frames": [
+    {
+     "at": 1790000030.0,
+     "on_goal": 0.0,
+     "quality": 0.0
+    }
+   ],
+   "name": "short_test_block",
+   "started_at": 1790000000.0,
+   "ticks": []
+  },
+  {
+   "ended_at": null,
+   "expected": 2940.0,
+   "frames": [],
+   "name": "long_block_no_end",
+   "started_at": 1790000000.0,
+   "ticks": [
+    {
+     "at": 1790000060.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "at": 1790003000.0,
+     "idle_s": 300,
+     "phase": "work"
+    }
+   ]
+  }
+ ],
+ "call_sentence": [
+  {
+   "app": "",
+   "doing": "watching YouTube",
+   "expected": "You said you'd work on the essay. You've been on watching YouTube for about six minutes — want to get back to it?",
+   "goal": "the essay",
+   "minutes": 6,
+   "why": "screen"
+  },
+  {
+   "app": "",
+   "doing": "",
+   "expected": "You said you'd work on the essay, but you've been away from the desk for about seven minutes — want to get back to it?",
+   "goal": "the essay",
+   "minutes": 7,
+   "why": "away"
+  },
+  {
+   "app": "Safari",
+   "doing": "",
+   "expected": "You said you'd work on your goal. You've been on Safari for about 12 minutes — want to get back to it?",
+   "goal": "",
+   "minutes": 12,
+   "why": "screen"
+  },
+  {
+   "app": "",
+   "doing": "",
+   "expected": "You said you'd work on x. You've been on something else for about nine minutes — want to get back to it?",
+   "goal": "x",
+   "minutes": 9,
+   "why": "screen"
+  }
+ ],
+ "day_stats": [
+  {
+   "blocks": [
+    {
+     "advice": "Close YouTube first.",
+     "ended_at": 1790000000.0,
+     "goal": "essay",
+     "score": 600
+    },
+    {
+     "advice": "Keep going.",
+     "ended_at": 1790001800.0,
+     "goal": "Acme",
+     "score": 900
+    },
+    {
+     "score": "x"
+    }
+   ],
+   "report": "Focus blocks: 2 today, averaging 750 out of 1000.\nYour best was 900, working on Acme.\nFor tomorrow: Close YouTube first.",
+   "speak": "You did 2 focus blocks today, averaging 750 out of 1000. The best was 900, on Acme. One thing to try: close YouTube first.",
+   "stats": {
+    "advice": "Close YouTube first.",
+    "avg": 750,
+    "best": {
+     "goal": "Acme",
+     "score": 900
+    },
+    "count": 2
+   }
+  },
+  {
+   "blocks": [],
+   "report": "",
+   "speak": "",
+   "stats": {
+    "advice": "",
+    "avg": null,
+    "best": null,
+    "count": 0
+   }
+  },
+  {
+   "blocks": [
+    {
+     "advice": "Close YouTube first.",
+     "ended_at": 1790000000.0,
+     "goal": "essay",
+     "score": 600
+    }
+   ],
+   "report": "Focus blocks: 1 today, averaging 600 out of 1000.\nYour best was 600, working on essay.\nFor tomorrow: Close YouTube first.",
+   "speak": "You did 1 focus block today, averaging 600 out of 1000. One thing to try: close YouTube first.",
+   "stats": {
+    "advice": "Close YouTube first.",
+    "avg": 600,
+    "best": {
+     "goal": "essay",
+     "score": 600
+    },
+    "count": 1
+   }
+  }
+ ],
+ "distracted_run": [
+  {
+   "expected": [
+    360,
+    "away"
+   ],
+   "frames": [],
+   "name": "away_six_minutes",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002700.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002760.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002820.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "idle_s": 400,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    120,
+    "away"
+   ],
+   "frames": [],
+   "name": "one_minute_of_input_breaks_it",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002700.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002760.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002820.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "idle_s": 3,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "idle_s": 400,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    0,
+    ""
+   ],
+   "frames": [],
+   "name": "reading_url_gets_six_minutes",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002580.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002640.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002700.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002760.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002820.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002880.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790002940.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    },
+    {
+     "active_s": 0,
+     "app": "Google Chrome",
+     "at": 1790003000.0,
+     "idle_s": 300,
+     "phase": "work",
+     "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+    }
+   ]
+  },
+  {
+   "expected": [
+    480,
+    "away"
+   ],
+   "frames": [],
+   "name": "slack_is_away",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002580.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002640.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002700.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002760.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002820.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002880.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002940.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790003000.0,
+     "idle_s": 300,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    0,
+    ""
+   ],
+   "frames": [
+    {
+     "at": 1790003000.0,
+     "mode": "studying",
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790002820.0,
+     "mode": "studying",
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790002640.0,
+     "mode": "studying",
+     "on_goal": 0.9
+    }
+   ],
+   "name": "studying_frames_give_reading_allowance",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002580.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002640.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002700.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002760.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002820.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002880.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790002940.0,
+     "idle_s": 300,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Slack",
+     "at": 1790003000.0,
+     "idle_s": 300,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    480,
+    "away"
+   ],
+   "frames": [],
+   "name": "preview_past_six_minutes",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002580.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002640.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002700.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002760.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002820.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002880.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790002940.0,
+     "idle_s": 400,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Preview",
+     "at": 1790003000.0,
+     "idle_s": 400,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    0,
+    ""
+   ],
+   "frames": [],
+   "name": "no_idle_reported",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002580.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002640.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002700.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002760.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002820.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "phase": "work"
+    },
+    {
+     "active_s": 0,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    420,
+    "screen"
+   ],
+   "frames": [
+    {
+     "at": 1790002640.0,
+     "doing": "watching YouTube",
+     "on_goal": 0.1
+    },
+    {
+     "at": 1790002880.0,
+     "doing": "watching YouTube",
+     "on_goal": 0.1
+    }
+   ],
+   "name": "off_goal_screens",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002640.0,
+     "idle_s": 2,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002700.0,
+     "idle_s": 2,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002760.0,
+     "idle_s": 2,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002820.0,
+     "idle_s": 2,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "idle_s": 2,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "idle_s": 2,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "idle_s": 2,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    0,
+    ""
+   ],
+   "frames": [],
+   "name": "breaks_never_count",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002580.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002640.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002700.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002760.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002820.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "idle_s": 900,
+     "phase": "break"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "idle_s": 900,
+     "phase": "break"
+    }
+   ]
+  },
+  {
+   "expected": [
+    0,
+    ""
+   ],
+   "frames": [],
+   "name": "stale_ticks",
+   "now": 1790003600.0,
+   "ticks": [
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002580.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002640.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002700.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002760.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002820.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "idle_s": 900,
+     "phase": "work"
+    }
+   ]
+  },
+  {
+   "expected": [
+    180,
+    "away"
+   ],
+   "frames": [],
+   "name": "gap_breaks_the_run",
+   "now": 1790003000.0,
+   "ticks": [
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002880.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790002940.0,
+     "idle_s": 900,
+     "phase": "work"
+    },
+    {
+     "active_s": 40,
+     "app": "Xcode",
+     "at": 1790003000.0,
+     "idle_s": 900,
+     "phase": "work"
+    }
+   ]
+  }
+ ],
+ "eyes": [
+  {
+   "clean": {
+    "blank": 0.0,
+    "blinks_per_min": 120.0,
+    "on_screen": 1.0,
+    "quality": "good",
+    "reading": 0.5,
+    "samples": 40
+   },
+   "eye": {
+    "blank": -1,
+    "blinks_per_min": 900,
+    "junk": 1,
+    "on_screen": 2,
+    "quality": "GOOD",
+    "reading": "0.5",
+    "samples": 40.7
+   },
+   "good": {
+    "away": 0.0,
+    "blank": 0.0,
+    "blinks_per_min": 120.0,
+    "on_screen": 1.0,
+    "quality": "good",
+    "reading": 0.5,
+    "samples": 40
+   }
+  },
+  {
+   "clean": null,
+   "eye": {
+    "quality": "good"
+   },
+   "good": null
+  },
+  {
+   "clean": {
+    "blinks_per_min": null,
+    "on_screen": 0.9,
+    "quality": "good",
+    "samples": 5
+   },
+   "eye": {
+    "on_screen": 0.9,
+    "quality": "good",
+    "samples": 5
+   },
+   "good": null
+  },
+  {
+   "clean": {
+    "blinks_per_min": null,
+    "on_screen": 0.9,
+    "quality": "good",
+    "samples": null,
+    "unknown": 0.95
+   },
+   "eye": {
+    "on_screen": 0.9,
+    "quality": "good",
+    "unknown": 0.95
+   },
+   "good": null
+  },
+  {
+   "clean": {
+    "blinks_per_min": null,
+    "on_screen": 0.9,
+    "quality": "poor",
+    "samples": null
+   },
+   "eye": {
+    "on_screen": 0.9,
+    "quality": "poor"
+   },
+   "good": null
+  },
+  {
+   "clean": null,
+   "eye": null,
+   "good": null
+  }
+ ],
+ "input_minutes": [
+  {
+   "expected": 0.667,
+   "ticks": [
+    {
+     "phase": "work",
+     "scroll_s": 4
+    },
+    {
+     "active_s": 0,
+     "keys_s": 0,
+     "phase": "work"
+    },
+    {
+     "active_s": 12,
+     "phase": "work"
+    },
+    {
+     "phase": "break",
+     "scroll_s": 30
+    }
+   ]
+  },
+  {
+   "expected": null,
+   "ticks": [
+    {
+     "phase": "break"
+    }
+   ]
+  },
+  {
+   "expected": null,
+   "ticks": []
+  }
+ ],
+ "mark_detours": [
+  {
+   "after": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "detour": true,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "frames": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "marked": 1,
+   "name": "lone_short_detour"
+  },
+  {
+   "after": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000210.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "frames": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000210.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "marked": 0,
+   "name": "too_long"
+  },
+  {
+   "after": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "url": "https://www.instagram.com/reels",
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "frames": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "url": "https://www.instagram.com/reels",
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "marked": 0,
+   "name": "distracting_site"
+  },
+  {
+   "after": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000090.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "frames": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000090.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "marked": 0,
+   "name": "two_off_in_a_row"
+  },
+  {
+   "after": [
+    {
+     "app": "Claude",
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "frames": [
+    {
+     "app": "Claude",
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "marked": 0,
+   "name": "no_clock"
+  },
+  {
+   "after": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000030.0,
+     "detour": true,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000060.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000090.0,
+     "detour": true,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    "junk"
+   ],
+   "frames": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000030.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000060.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000090.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    "junk"
+   ],
+   "marked": 2,
+   "name": "alternating"
+  }
+ ],
+ "next_block_length": [
+  {
+   "break_s": 1080,
+   "cap_s": null,
+   "current_s": 1500,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 18, so the next block is 15 minutes.",
+    "next_work_s": 900
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": null,
+   "cap_s": null,
+   "current_s": 1500,
+   "expected": {
+    "next_reason": "You held focus the whole block — keeping 25 minutes.",
+    "next_work_s": 1500
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": null,
+   "cap_s": 900,
+   "current_s": 900,
+   "expected": {
+    "next_reason": "You held focus the whole block — keeping 15 minutes.",
+    "next_work_s": 900
+   },
+   "scale": 1.0,
+   "today": [
+    600
+   ]
+  },
+  {
+   "break_s": 1320,
+   "cap_s": null,
+   "current_s": 1500,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 22, so the next block is 10 minutes.",
+    "next_work_s": 600
+   },
+   "scale": 1.0,
+   "today": [
+    480,
+    720
+   ]
+  },
+  {
+   "break_s": 120,
+   "cap_s": null,
+   "current_s": 1500,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 2, so the next block is 10 minutes.",
+    "next_work_s": 600
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": 1440,
+   "cap_s": null,
+   "current_s": 1500,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 24, so the next block is 15 minutes.",
+    "next_work_s": 900
+   },
+   "scale": 1.0,
+   "today": [
+    840
+   ]
+  },
+  {
+   "break_s": 1440,
+   "cap_s": null,
+   "current_s": 900,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 24 — keeping 15 minutes.",
+    "next_work_s": 900
+   },
+   "scale": 1.0,
+   "today": [
+    1200,
+    1320
+   ]
+  },
+  {
+   "break_s": null,
+   "cap_s": 600,
+   "current_s": 1500,
+   "expected": {
+    "next_reason": "You held focus the whole block — keeping 10 minutes.",
+    "next_work_s": 600
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": 2400,
+   "cap_s": null,
+   "current_s": 3600,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 40, so the next block is 40 minutes.",
+    "next_work_s": 2400
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": 2520,
+   "cap_s": null,
+   "current_s": 3600,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 42, so the next block is 40 minutes.",
+    "next_work_s": 2400
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": null,
+   "cap_s": null,
+   "current_s": 9000,
+   "expected": {
+    "next_reason": "You held focus the whole block — keeping 120 minutes.",
+    "next_work_s": 7200
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": 5400,
+   "cap_s": null,
+   "current_s": 2700,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 90 — keeping 45 minutes.",
+    "next_work_s": 2700
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": 200,
+   "cap_s": null,
+   "current_s": 300,
+   "expected": {
+    "next_reason": "Your focus slipped around minute 3 — keeping 5 minutes.",
+    "next_work_s": 300
+   },
+   "scale": 1.0,
+   "today": []
+  },
+  {
+   "break_s": 30,
+   "cap_s": null,
+   "current_s": 60,
+   "expected": {
+    "next_reason": "Your focus slipped around second 30, so the next block is 24 seconds.",
+    "next_work_s": 24
+   },
+   "scale": 0.04,
+   "today": []
+  },
+  {
+   "break_s": 1,
+   "cap_s": null,
+   "current_s": 24,
+   "expected": {
+    "next_reason": "Your focus slipped around second 1, so the next block is 20 seconds.",
+    "next_work_s": 20
+   },
+   "scale": 0.01,
+   "today": []
+  },
+  {
+   "break_s": null,
+   "cap_s": null,
+   "current_s": 60,
+   "expected": {
+    "next_reason": "You held focus the whole block — keeping 60 seconds.",
+    "next_work_s": 60
+   },
+   "scale": 0.04,
+   "today": []
+  }
+ ],
+ "nudge_text": [
+  {
+   "expected": "Close youtube.com — back to the HIST 2 intro.",
+   "frame": {
+    "app": "Chrome",
+    "on_goal": 0.1,
+    "quality": 0.2,
+    "url": "https://www.youtube.com/watch?v=1"
+   },
+   "goal": "the HIST 2 intro",
+   "model": ""
+  },
+  {
+   "expected": "Stop and do the next concrete step on the HIST 2 intro.",
+   "frame": {
+    "on_goal": 0.8,
+    "quality": 0.1
+   },
+   "goal": "the HIST 2 intro",
+   "model": ""
+  },
+  {
+   "expected": "Close YouTube — back to the HIST 2 intro.",
+   "frame": {
+    "app": "Chrome",
+    "on_goal": 0.1,
+    "quality": 0.2,
+    "url": "https://www.youtube.com/watch?v=1"
+   },
+   "goal": "x",
+   "model": "Close YouTube — back to the HIST 2 intro. You got this!"
+  },
+  {
+   "expected": "That's not your goal — back to it.",
+   "frame": {
+    "on_goal": 0.1
+   },
+   "goal": "",
+   "model": ""
+  },
+  {
+   "expected": "Stop and do the next concrete step on essay.",
+   "frame": null,
+   "goal": "essay",
+   "model": ""
+  }
+ ],
+ "on_task_share": [
+  {
+   "expected": 0.9,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000120.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000180.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000240.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000300.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000360.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000420.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000480.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000540.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    },
+    {
+     "at": 1790000600.0,
+     "away_s": 6,
+     "on_goal": 1.0,
+     "seconds": 60
+    }
+   ]
+  },
+  {
+   "expected": 0.6,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "on_goal": 0.2,
+     "seconds": 60
+    },
+    {
+     "at": 1790000120.0,
+     "on_goal": 0.2,
+     "seconds": 60
+    },
+    {
+     "at": 1790000180.0,
+     "on_goal": 0.2,
+     "seconds": 60
+    },
+    {
+     "at": 1790000240.0,
+     "on_goal": 0.2,
+     "seconds": 60
+    },
+    {
+     "at": 1790000060.0,
+     "on_goal": 0.9,
+     "seconds": 60
+    },
+    {
+     "at": 1790000120.0,
+     "on_goal": 0.9,
+     "seconds": 60
+    },
+    {
+     "at": 1790000180.0,
+     "on_goal": 0.9,
+     "seconds": 60
+    },
+    {
+     "at": 1790000240.0,
+     "on_goal": 0.9,
+     "seconds": 60
+    },
+    {
+     "at": 1790000300.0,
+     "on_goal": 0.9,
+     "seconds": 60
+    },
+    {
+     "at": 1790000360.0,
+     "on_goal": 0.9,
+     "seconds": 60
+    }
+   ]
+  },
+  {
+   "expected": 1.0,
+   "frames": [
+    {
+     "on_goal": 0.2,
+     "seconds": 30,
+     "serves_goal": true
+    },
+    {
+     "on_goal": 0.9,
+     "pending": true
+    }
+   ]
+  },
+  {
+   "expected": null,
+   "frames": []
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "working": 1
+    }
+   ]
+  }
+ ],
+ "pending": [
+  {
+   "frame_pending": true,
+   "looks_ambiguous": true,
+   "provisional": {
+    "app": "Finder",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "Finder"
+   },
+   "said": null
+  },
+  {
+   "frame_pending": true,
+   "looks_ambiguous": true,
+   "provisional": {
+    "app": "Preview",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "Preview"
+   },
+   "said": null
+  },
+  {
+   "frame_pending": false,
+   "looks_ambiguous": false,
+   "provisional": {
+    "app": "Xcode",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "Xcode"
+   },
+   "said": null
+  },
+  {
+   "frame_pending": true,
+   "looks_ambiguous": true,
+   "provisional": {
+    "app": "Google Chrome",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "url": "https://mail.google.com/u/0",
+    "working": 0.5
+   },
+   "row": {
+    "app": "Google Chrome",
+    "url": "https://mail.google.com/u/0"
+   },
+   "said": null
+  },
+  {
+   "frame_pending": false,
+   "looks_ambiguous": false,
+   "provisional": {
+    "app": "Google Chrome",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "url": "https://www.instagram.com/reels",
+    "working": 0.5
+   },
+   "row": {
+    "app": "Google Chrome",
+    "url": "https://www.instagram.com/reels"
+   },
+   "said": true
+  },
+  {
+   "frame_pending": false,
+   "looks_ambiguous": false,
+   "provisional": {
+    "app": "Messages",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "Messages"
+   },
+   "said": true
+  },
+  {
+   "frame_pending": true,
+   "looks_ambiguous": false,
+   "provisional": {
+    "app": "Xcode",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "Xcode"
+   },
+   "said": true
+  },
+  {
+   "frame_pending": false,
+   "looks_ambiguous": true,
+   "provisional": {
+    "app": "Finder",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "Finder"
+   },
+   "said": false
+  },
+  {
+   "frame_pending": true,
+   "looks_ambiguous": true,
+   "provisional": {
+    "app": "iTerm2 — zsh",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   },
+   "row": {
+    "app": "iTerm2 — zsh"
+   },
+   "said": null
+  },
+  {
+   "frame_pending": false,
+   "looks_ambiguous": false,
+   "provisional": {
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "url": "docs.google.com/document/d/1",
+    "working": 0.5
+   },
+   "row": {
+    "url": "docs.google.com/document/d/1"
+   },
+   "said": null
+  }
+ ],
+ "retro_credit": [
+  {
+   "after": [
+    {
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": null
+     },
+     "on_goal": 0.95,
+     "pending": false,
+     "producing": 0.85,
+     "quality": 0.9,
+     "retro": true,
+     "working": 0.9
+    }
+   ],
+   "credited": 1,
+   "frames": [
+    {
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": null
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    }
+   ],
+   "row": {
+    "doing": "image pasted into the doc",
+    "on_goal": 0.95,
+    "producing": 0.85,
+    "quality": 0.9,
+    "working": 0.9
+   }
+  },
+  {
+   "after": [
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.95,
+     "pending": false,
+     "producing": 0.85,
+     "quality": 0.9,
+     "retro": true,
+     "working": 0.9
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.95,
+     "pending": false,
+     "producing": 0.85,
+     "quality": 0.9,
+     "retro": true,
+     "working": 0.9
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.95,
+     "pending": false,
+     "producing": 0.85,
+     "quality": 0.9,
+     "retro": true,
+     "working": 0.9
+    }
+   ],
+   "credited": 3,
+   "frames": [
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": 0.2
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    }
+   ],
+   "row": {
+    "doing": "image pasted into the doc",
+    "on_goal": 0.95,
+    "producing": 0.85,
+    "quality": 0.9,
+    "working": 0.9
+   }
+  },
+  {
+   "after": [
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": null,
+      "quality": null,
+      "working": null
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    }
+   ],
+   "credited": 0,
+   "frames": [
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": null,
+      "quality": null,
+      "working": null
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    }
+   ],
+   "row": {
+    "app": "Finder",
+    "judged": {
+     "on_goal": null,
+     "quality": null,
+     "working": null
+    },
+    "on_goal": 0.5,
+    "pending": true,
+    "quality": 0.5,
+    "working": 0.5
+   }
+  },
+  {
+   "after": [
+    {
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": null
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    }
+   ],
+   "credited": 0,
+   "frames": [
+    {
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "app": "Finder",
+     "judged": {
+      "on_goal": 0.2,
+      "quality": null,
+      "working": null
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    }
+   ],
+   "row": {
+    "doing": "x"
+   }
+  }
+ ],
+ "site_key": [
+  {
+   "expected": "youtube.com",
+   "row": {
+    "app": "Chrome",
+    "url": "https://www.YouTube.com/watch?v=1"
+   }
+  },
+  {
+   "expected": "Google Docs",
+   "row": {
+    "app": "  Google   Docs "
+   }
+  },
+  {
+   "expected": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "row": {
+    "app": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  },
+  {
+   "expected": "?",
+   "row": {}
+  },
+  {
+   "expected": "Notes",
+   "row": {
+    "app": "Notes",
+    "url": "not a url"
+   }
+  },
+  {
+   "expected": "localhost",
+   "row": {
+    "url": "http://localhost:3000/x"
+   }
+  }
+ ],
+ "to_ts": [
+  {
+   "expected": 1790000000.0,
+   "value": 1790000000.0
+  },
+  {
+   "expected": 1790000000.0,
+   "value": 1790000000000.0
+  },
+  {
+   "expected": 1790000000.0,
+   "value": "1790000000"
+  },
+  {
+   "expected": 1790000000.0,
+   "value": "2026-09-21T14:13:20+00:00"
+  },
+  {
+   "expected": 1789981200.0,
+   "value": "2026-09-21T09:00:00Z"
+  },
+  {
+   "expected": 1790006400.25,
+   "value": "2026-09-21T09:00:00.250-07:00"
+  },
+  {
+   "expected": 1789981200.0,
+   "value": "2026-09-21 09:00"
+  },
+  {
+   "expected": 1789948800.0,
+   "value": "2026-09-21"
+  },
+  {
+   "expected": 0.0,
+   "value": "nonsense"
+  },
+  {
+   "expected": 0.0,
+   "value": null
+  },
+  {
+   "expected": 0.0,
+   "value": ""
+  },
+  {
+   "expected": 0.0,
+   "value": 0
+  },
+  {
+   "expected": 1790000000.5,
+   "value": " 1790000000.5 "
+  }
+ ]
+}

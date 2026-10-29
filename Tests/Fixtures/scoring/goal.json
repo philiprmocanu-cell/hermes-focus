@@ -1,0 +1,1052 @@
+{
+ "frame_real_work": [
+  {
+   "expected": true,
+   "row": {
+    "actual_goal": "fixing the crash",
+    "app": "Claude",
+    "doing": "working on fixing the crash",
+    "mode": "making",
+    "on_goal": 0.1,
+    "quality": 0.7,
+    "working": 0.0
+   }
+  },
+  {
+   "expected": false,
+   "row": {
+    "actual_goal": "fixing the crash",
+    "app": "Claude",
+    "doing": "working on fixing the crash",
+    "mode": "making",
+    "on_goal": 0.1,
+    "quality": 0.2,
+    "working": 0.0
+   }
+  },
+  {
+   "expected": false,
+   "row": {
+    "actual_goal": "fixing the crash",
+    "app": "Claude",
+    "doing": "working on fixing the crash",
+    "mode": "other",
+    "on_goal": 0.1,
+    "quality": 0.7,
+    "working": 0.0
+   }
+  },
+  {
+   "expected": false,
+   "row": {
+    "actual_goal": "fixing the crash",
+    "app": "Claude",
+    "doing": "working on fixing the crash",
+    "mode": "making",
+    "on_goal": 0.1,
+    "quality": 0.7,
+    "url": "https://www.instagram.com/",
+    "working": 0.0
+   }
+  },
+  {
+   "expected": true,
+   "row": {
+    "actual_goal": "x",
+    "app": "Claude",
+    "doing": "working on x",
+    "mode": "making",
+    "on_goal": 0.0,
+    "producing": 0.85,
+    "quality": 0.7,
+    "working": 0.0
+   }
+  },
+  {
+   "expected": false,
+   "row": {
+    "actual_goal": "x",
+    "app": "Claude",
+    "doing": "working on x",
+    "judged": {
+     "on_goal": 0.1,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    "mode": "making",
+    "on_goal": 0.5,
+    "pending": true,
+    "producing": 0.85,
+    "quality": 0.5,
+    "working": 0.5
+   }
+  },
+  {
+   "expected": true,
+   "row": {
+    "mode": "studying",
+    "quality": 0.5
+   }
+  }
+ ],
+ "goal_change": [
+  {
+   "expected": "fixing the onboarding crash",
+   "frames": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "three_frames_same_other_thing"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "two_is_not_enough"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "watching reels",
+     "app": "Claude",
+     "doing": "working on watching reels",
+     "mode": "consuming",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.1,
+     "url": "https://www.instagram.com/reels",
+     "working": 0.1
+    },
+    {
+     "actual_goal": "watching reels",
+     "app": "Claude",
+     "doing": "working on watching reels",
+     "mode": "consuming",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.1,
+     "url": "https://www.instagram.com/reels",
+     "working": 0.1
+    },
+    {
+     "actual_goal": "watching reels",
+     "app": "Claude",
+     "doing": "working on watching reels",
+     "mode": "consuming",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.1,
+     "url": "https://www.instagram.com/reels",
+     "working": 0.1
+    },
+    {
+     "actual_goal": "watching reels",
+     "app": "Claude",
+     "doing": "working on watching reels",
+     "mode": "consuming",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.1,
+     "url": "https://www.instagram.com/reels",
+     "working": 0.1
+    }
+   ],
+   "n": 3,
+   "name": "instagram_is_never_a_goal"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "reading tiktok comments",
+     "app": "Claude",
+     "doing": "working on reading tiktok comments",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "url": "https://www.tiktok.com/@x",
+     "working": 0.8
+    },
+    {
+     "actual_goal": "reading tiktok comments",
+     "app": "Claude",
+     "doing": "working on reading tiktok comments",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "url": "https://www.tiktok.com/@x",
+     "working": 0.8
+    },
+    {
+     "actual_goal": "reading tiktok comments",
+     "app": "Claude",
+     "doing": "working on reading tiktok comments",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "url": "https://www.tiktok.com/@x",
+     "working": 0.8
+    },
+    {
+     "actual_goal": "reading tiktok comments",
+     "app": "Claude",
+     "doing": "working on reading tiktok comments",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "url": "https://www.tiktok.com/@x",
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "tiktok_busy_work"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "checking email",
+     "app": "Claude",
+     "doing": "working on checking email",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "reading the calendar spec",
+     "app": "Claude",
+     "doing": "working on reading the calendar spec",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "drifting"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Finder",
+     "doing": "working on fixing the onboarding crash",
+     "judged": {
+      "on_goal": 0.1,
+      "quality": 0.7,
+      "working": 0.8
+     },
+     "mode": "making",
+     "on_goal": 0.5,
+     "pending": true,
+     "producing": 0.85,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "pending_in_the_middle"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.4,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.4,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.4,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "low_producing"
+  },
+  {
+   "expected": null,
+   "frames": [
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "quality": 0.2,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "quality": 0.2,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "quality": 0.2,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "no_producing_low_quality"
+  },
+  {
+   "expected": "fixing the hermes call gate",
+   "frames": [
+    {
+     "actual_goal": "fixing the hermes call gate",
+     "app": "Claude",
+     "doing": "working on fixing the hermes call gate",
+     "mode": "making",
+     "on_goal": 0.0,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.0
+    },
+    {
+     "actual_goal": "fixing the hermes call gate",
+     "app": "Claude",
+     "doing": "working on fixing the hermes call gate",
+     "mode": "making",
+     "on_goal": 0.0,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.0
+    },
+    {
+     "actual_goal": "fixing the hermes call gate",
+     "app": "Claude",
+     "doing": "working on fixing the hermes call gate",
+     "mode": "making",
+     "on_goal": 0.0,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.0
+    }
+   ],
+   "n": 3,
+   "name": "working_zero_real_other_work"
+  },
+  {
+   "expected": "fixing the crash",
+   "frames": [
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "quality": 0.7,
+     "working": 0.0
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "quality": 0.7,
+     "working": 0.0
+    },
+    {
+     "actual_goal": "fixing the crash",
+     "app": "Claude",
+     "doing": "working on fixing the crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "quality": 0.7,
+     "working": 0.0
+    }
+   ],
+   "n": 3,
+   "name": "no_producing_falls_back"
+  },
+  {
+   "expected": "fixing the onboarding crash today",
+   "frames": [
+    {
+     "actual_goal": "fixing crash",
+     "app": "Claude",
+     "doing": "working on fixing crash",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "fixing the onboarding crash today",
+     "app": "Claude",
+     "doing": "working on fixing the onboarding crash today",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "crash fixing",
+     "app": "Claude",
+     "doing": "working on crash fixing",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 3,
+   "name": "longest_name_wins"
+  },
+  {
+   "expected": "hermes deploy",
+   "frames": [
+    {
+     "actual_goal": "hermes deploy",
+     "app": "Claude",
+     "doing": "working on hermes deploy",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    },
+    {
+     "actual_goal": "hermes deploy",
+     "app": "Claude",
+     "doing": "working on hermes deploy",
+     "mode": "making",
+     "on_goal": 0.1,
+     "producing": 0.85,
+     "quality": 0.7,
+     "working": 0.8
+    }
+   ],
+   "n": 2,
+   "name": "n_two"
+  }
+ ],
+ "goal_label": [
+  {
+   "expected": "write the intro of the HIST",
+   "text": "write the intro of the HIST 2 reaction paper today"
+  },
+  {
+   "expected": "Acme bug",
+   "text": "Acme bug."
+  },
+  {
+   "expected": "",
+   "text": ""
+  },
+  {
+   "expected": "a b",
+   "text": "  a  b  "
+  }
+ ],
+ "goal_vagueness": [
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "stuff"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "work"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "asdf"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "idk"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "things"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "work stuff"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "some stuff"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": ""
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "sdfghjk"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "whatever"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "be productive"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "just work"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "unknown",
+   "text": "banana"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "",
+   "text": "essay"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "",
+   "text": "essays"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "",
+   "text": "acme"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "",
+   "text": "calculus"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "",
+   "text": "fix the Acme onboarding bug"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "",
+   "text": "write intro of the HIST 2 paper"
+  },
+  {
+   "context": "His stated goals: - ship Acme onboarding\nOpen Canvas work: HIST 2 Reaction paper essay, due Tue 11:59 PM\nCalendar: Calculus lecture",
+   "expected": "junk",
+   "text": "I'm gonna do stuff"
+  }
+ ],
+ "is_same_goal": [
+  {
+   "expected": true,
+   "previous": "HIST 2 paper",
+   "text": "same"
+  },
+  {
+   "expected": true,
+   "previous": "",
+   "text": "Same."
+  },
+  {
+   "expected": true,
+   "previous": "",
+   "text": "same thing!"
+  },
+  {
+   "expected": true,
+   "previous": "",
+   "text": "keep going"
+  },
+  {
+   "expected": true,
+   "previous": "",
+   "text": ""
+  },
+  {
+   "expected": true,
+   "previous": "HIST 2 paper",
+   "text": "hist 2 paper"
+  },
+  {
+   "expected": false,
+   "previous": "HIST 2 paper",
+   "text": "the Acme bug"
+  },
+  {
+   "expected": false,
+   "previous": "",
+   "text": "same bug in acme"
+  },
+  {
+   "expected": true,
+   "previous": "",
+   "text": "sames"
+  }
+ ],
+ "name_new_goal": [
+  {
+   "actual": "fixing the onboarding crash",
+   "expected": [
+    "Acme onboarding crash",
+    "Fix the crash on the Acme onboarding screen"
+   ],
+   "recent": [
+    {
+     "goal": "Acme onboarding crash",
+     "specific_goal": "Fix the crash on the Acme onboarding screen"
+    },
+    {
+     "goal": "HIST 2 paper",
+     "understood": "Write the HIST 2 intro"
+    },
+    "junk"
+   ]
+  },
+  {
+   "actual": "sanding the guitar neck on the old strat today",
+   "expected": [
+    "sanding the guitar neck on the",
+    "sanding the guitar neck on the old strat today"
+   ],
+   "recent": [
+    {
+     "goal": "Acme onboarding crash",
+     "specific_goal": "Fix the crash on the Acme onboarding screen"
+    },
+    {
+     "goal": "HIST 2 paper",
+     "understood": "Write the HIST 2 intro"
+    },
+    "junk"
+   ]
+  },
+  {
+   "actual": "HIST 2 intro paragraph",
+   "expected": [
+    "HIST 2 paper",
+    "Write the HIST 2 intro"
+   ],
+   "recent": [
+    {
+     "goal": "Acme onboarding crash",
+     "specific_goal": "Fix the crash on the Acme onboarding screen"
+    },
+    {
+     "goal": "HIST 2 paper",
+     "understood": "Write the HIST 2 intro"
+    },
+    "junk"
+   ]
+  },
+  {
+   "actual": "",
+   "expected": [
+    "",
+    ""
+   ],
+   "recent": [
+    {
+     "goal": "Acme onboarding crash",
+     "specific_goal": "Fix the crash on the Acme onboarding screen"
+    },
+    {
+     "goal": "HIST 2 paper",
+     "understood": "Write the HIST 2 intro"
+    },
+    "junk"
+   ]
+  }
+ ],
+ "needs_inferred_goal": [
+  {
+   "expected": true,
+   "goal": "stuff",
+   "specific": ""
+  },
+  {
+   "expected": true,
+   "goal": "same",
+   "specific": ""
+  },
+  {
+   "expected": true,
+   "goal": "",
+   "specific": ""
+  },
+  {
+   "expected": false,
+   "goal": "stuff",
+   "specific": "Draft rulings 1-5"
+  },
+  {
+   "expected": false,
+   "goal": "Acme rulings",
+   "specific": ""
+  },
+  {
+   "expected": true,
+   "goal": "Acme rulings",
+   "specific": "stuff"
+  }
+ ],
+ "rescore_on_goal": [
+  {
+   "after": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "doing": "opening the onboarding crash log",
+     "mode": "making",
+     "on_goal": 0.833,
+     "rescored": true
+    },
+    {
+     "doing": "writing the essay intro",
+     "mode": "making",
+     "on_goal": 0.9
+    },
+    {
+     "doing": "scrolling reddit",
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": "https://www.reddit.com/r/x"
+    },
+    {
+     "doing": "Onboarding crash: the fix",
+     "note": "crash repro",
+     "on_goal": 1.0,
+     "rescored": true
+    },
+    "junk"
+   ],
+   "changed": 2,
+   "frames": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "doing": "opening the onboarding crash log",
+     "mode": "making",
+     "on_goal": 0.1
+    },
+    {
+     "doing": "writing the essay intro",
+     "mode": "making",
+     "on_goal": 0.9
+    },
+    {
+     "doing": "scrolling reddit",
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": "https://www.reddit.com/r/x"
+    },
+    {
+     "doing": "Onboarding crash: the fix",
+     "note": "crash repro"
+    },
+    "junk"
+   ],
+   "goal": "Fix the onboarding crash"
+  },
+  {
+   "after": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "doing": "opening the onboarding crash log",
+     "mode": "making",
+     "on_goal": 0.1
+    },
+    {
+     "doing": "writing the essay intro",
+     "mode": "making",
+     "on_goal": 0.9
+    },
+    {
+     "doing": "scrolling reddit",
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": "https://www.reddit.com/r/x"
+    },
+    {
+     "doing": "Onboarding crash: the fix",
+     "note": "crash repro"
+    },
+    "junk"
+   ],
+   "changed": 0,
+   "frames": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "doing": "opening the onboarding crash log",
+     "mode": "making",
+     "on_goal": 0.1
+    },
+    {
+     "doing": "writing the essay intro",
+     "mode": "making",
+     "on_goal": 0.9
+    },
+    {
+     "doing": "scrolling reddit",
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": "https://www.reddit.com/r/x"
+    },
+    {
+     "doing": "Onboarding crash: the fix",
+     "note": "crash repro"
+    },
+    "junk"
+   ],
+   "goal": "the"
+  },
+  {
+   "after": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "doing": "opening the onboarding crash log",
+     "mode": "making",
+     "on_goal": 0.1
+    },
+    {
+     "doing": "writing the essay intro",
+     "mode": "making",
+     "on_goal": 0.9
+    },
+    {
+     "doing": "scrolling reddit",
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": "https://www.reddit.com/r/x"
+    },
+    {
+     "doing": "Onboarding crash: the fix",
+     "note": "crash repro"
+    },
+    "junk"
+   ],
+   "changed": 0,
+   "frames": [
+    {
+     "actual_goal": "fixing the onboarding crash",
+     "doing": "opening the onboarding crash log",
+     "mode": "making",
+     "on_goal": 0.1
+    },
+    {
+     "doing": "writing the essay intro",
+     "mode": "making",
+     "on_goal": 0.9
+    },
+    {
+     "doing": "scrolling reddit",
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": "https://www.reddit.com/r/x"
+    },
+    {
+     "doing": "Onboarding crash: the fix",
+     "note": "crash repro"
+    },
+    "junk"
+   ],
+   "goal": "Write the essay intro"
+  }
+ ],
+ "tips": [
+  {
+   "switches_tool": true,
+   "text": "Switch to VS Code for this refactor.",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": true,
+   "text": "Move this into Cursor instead of the chat.",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": true,
+   "text": "Use a proper editor instead of a chat window.",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": true,
+   "text": "Swap over to Xcode to finish the view.",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": true,
+   "text": "Try an IDE instead — it will be faster.",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": false,
+   "text": "Paste the error into the chat instead of retyping it.",
+   "tip_text": "Paste the error into the chat instead of retyping it."
+  },
+  {
+   "switches_tool": false,
+   "text": "Ask Claude for the failing test first, then the fix.",
+   "tip_text": "Ask Claude for the failing test first, then the fix."
+  },
+  {
+   "switches_tool": false,
+   "text": "Draft the ruling table first, then write the reasoning. Also X.",
+   "tip_text": "Draft the ruling table first, then write the reasoning."
+  },
+  {
+   "switches_tool": false,
+   "text": "Stay focused.",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": false,
+   "text": "Keep going!",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": false,
+   "text": "keep it up, you got this",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": false,
+   "text": "",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": false,
+   "text": "Good job",
+   "tip_text": ""
+  },
+  {
+   "switches_tool": false,
+   "text": "Tell it exactly which file to change instead of describing it.",
+   "tip_text": "Tell it exactly which file to change instead of describing it."
+  }
+ ]
+}

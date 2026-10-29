@@ -1,0 +1,5381 @@
+{
+ "cases": [
+  {
+   "answers": {
+    "activity": {
+     "choice": "making",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.92,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.95,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000000.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.958,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.995,
+    "on_goal": 0.983,
+    "on_goal_raw": 0.96,
+    "probs": {
+     "contact": 0.95,
+     "making": 0.9
+    },
+    "tells": [
+     "contact",
+     "making"
+    ]
+   },
+   "escalate": false,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000000.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": true,
+    "jev": {
+     "confidence": 0.958,
+     "mode": "making",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.995,
+     "on_goal": 0.983,
+     "on_goal_raw": 0.96,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [
+      "contact",
+      "making"
+     ],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "user": "owner"
+   },
+   "name": "pure_on",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.92,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [],
+    "check_p": {
+     "contact": 0.95,
+     "making": 0.9
+    },
+    "check_tells": [
+     "contact",
+     "making"
+    ],
+    "checks_answered": 36,
+    "confidence": 0.958,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "making",
+    "off": 0.0,
+    "on": 0.995,
+    "on_goal": 0.983,
+    "on_goal_raw": 0.96,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.96
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000000.0,
+    "automatable": "",
+    "check_p": {
+     "contact": 0.95,
+     "making": 0.9
+    },
+    "confidence": 0.958,
+    "doing": "working in Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: making 92%, on goal 0.983",
+    "image": true,
+    "judge": "jev",
+    "mode": "making",
+    "note": "",
+    "off": 0.0,
+    "on": 0.995,
+    "on_goal": 0.983,
+    "on_goal_raw": 0.96,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells": [
+     "contact",
+     "making"
+    ],
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "image": true,
+    "text_chars": 420,
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1"
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000000.0,
+    "automatable": "",
+    "check_p": {
+     "contact": 0.95,
+     "making": 0.9
+    },
+    "confidence": 0.958,
+    "doing": "working in Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: making 92%, on goal 0.983",
+    "image": true,
+    "judge": "jev",
+    "mode": "making",
+    "note": "",
+    "off": 0.0,
+    "on": 0.995,
+    "on_goal": 0.983,
+    "on_goal_raw": 0.96,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells": [
+     "contact",
+     "making"
+    ],
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.96
+   },
+   "tells_text": "Leaning on task: contact 0.95, making 0.90. Checks combined: on 0.995, off 0.0; on-goal score alone 0.96."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "consuming",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.92,
+      "making": 0.02,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.95,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.8,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.01,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000001.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.955,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.99,
+    "off_tells": [
+     "entertainment",
+     "feed"
+    ],
+    "on": 0.0,
+    "on_goal": 0.019,
+    "on_goal_raw": 0.04,
+    "probs": {
+     "entertainment": 0.95,
+     "feed": 0.8
+    },
+    "tells": []
+   },
+   "escalate": false,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000001.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.955,
+     "mode": "consuming",
+     "off": 0.99,
+     "off_site": false,
+     "off_tells": [
+      "entertainment",
+      "feed"
+     ],
+     "on": 0.0,
+     "on_goal": 0.019,
+     "on_goal_raw": 0.04,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.04
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/",
+    "user": "owner"
+   },
+   "name": "pure_off",
+   "off_task": true,
+   "parsed": {
+    "activity": {
+     "consuming": 0.92,
+     "making": 0.02,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [
+     "entertainment",
+     "feed"
+    ],
+    "check_p": {
+     "entertainment": 0.95,
+     "feed": 0.8
+    },
+    "check_tells": [],
+    "checks_answered": 36,
+    "confidence": 0.955,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "consuming",
+    "off": 0.99,
+    "on": 0.0,
+    "on_goal": 0.019,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.04
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000001.0,
+    "automatable": "",
+    "check_p": {
+     "entertainment": 0.95,
+     "feed": 0.8
+    },
+    "confidence": 0.955,
+    "doing": "browsing Google Chrome — Instagram",
+    "evidence": "jev: consuming 92%, on goal 0.019",
+    "image": false,
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "",
+    "off": 0.99,
+    "off_tells": [
+     "entertainment",
+     "feed"
+    ],
+    "on": 0.0,
+    "on_goal": 0.019,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.04
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/"
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000001.0,
+    "automatable": "",
+    "check_p": {
+     "entertainment": 0.95,
+     "feed": 0.8
+    },
+    "confidence": 0.955,
+    "doing": "browsing Google Chrome — Instagram",
+    "evidence": "jev: consuming 92%, on goal 0.019",
+    "image": false,
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "",
+    "off": 0.99,
+    "off_tells": [
+     "entertainment",
+     "feed"
+    ],
+    "on": 0.0,
+    "on_goal": 0.019,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.04
+   },
+   "tells_text": "Leaning off task: entertainment 0.95, feed 0.80. Checks combined: on 0.0, off 0.99; on-goal score alone 0.04."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "making",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.92,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.3,
+      "1": 0.2,
+      "2": 0.2,
+      "3": 0.3
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000002.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.09,
+    "confidence_raw": 0.0,
+    "neutral": [],
+    "off": 0.72,
+    "off_tells": [
+     "chat_unrelated"
+    ],
+    "on": 0.9,
+    "on_goal": 0.554,
+    "on_goal_raw": 0.5,
+    "probs": {
+     "chat_unrelated": 0.9,
+     "contact": 0.9
+    },
+    "tells": [
+     "contact"
+    ]
+   },
+   "escalate": true,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000002.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": true,
+    "jev": {
+     "confidence": 0.09,
+     "mode": "making",
+     "off": 0.72,
+     "off_site": false,
+     "off_tells": [
+      "chat_unrelated"
+     ],
+     "on": 0.9,
+     "on_goal": 0.554,
+     "on_goal_raw": 0.5,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [
+      "contact"
+     ],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "user": "owner"
+   },
+   "name": "torn",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.92,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [
+     "chat_unrelated"
+    ],
+    "check_p": {
+     "chat_unrelated": 0.9,
+     "contact": 0.9
+    },
+    "check_tells": [
+     "contact"
+    ],
+    "checks_answered": 36,
+    "confidence": 0.09,
+    "confidence_raw": 0.0,
+    "milestones": [],
+    "mode": "making",
+    "off": 0.72,
+    "on": 0.9,
+    "on_goal": 0.554,
+    "on_goal_raw": 0.5,
+    "p_on_task": 0.5,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.96
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000002.0,
+    "automatable": "",
+    "check_p": {
+     "chat_unrelated": 0.9,
+     "contact": 0.9
+    },
+    "confidence": 0.09,
+    "doing": "working in Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: making 92%, on goal 0.554",
+    "image": true,
+    "judge": "jev",
+    "mode": "making",
+    "note": "",
+    "off": 0.72,
+    "off_tells": [
+     "chat_unrelated"
+    ],
+    "on": 0.9,
+    "on_goal": 0.554,
+    "on_goal_raw": 0.5,
+    "p_on_task": 0.5,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells": [
+     "contact"
+    ],
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "image": true,
+    "text_chars": 420,
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1"
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000002.0,
+    "automatable": "",
+    "check_p": {
+     "chat_unrelated": 0.9,
+     "contact": 0.9
+    },
+    "confidence": 0.09,
+    "doing": "working in Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: making 92%, on goal 0.554",
+    "image": true,
+    "judge": "jev",
+    "mode": "making",
+    "note": "",
+    "off": 0.72,
+    "off_tells": [
+     "chat_unrelated"
+    ],
+    "on": 0.9,
+    "on_goal": 0.554,
+    "on_goal_raw": 0.5,
+    "p_on_task": 0.5,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells": [
+     "contact"
+    ],
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.96
+   },
+   "tells_text": "Leaning on task: contact 0.90. Leaning off task: chat_unrelated 0.90. Checks combined: on 0.9, off 0.72; on-goal score alone 0.5."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "other",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.92,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.03,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.94,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.3333333333333333,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000003.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.46,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.0,
+    "on_goal": 0.439,
+    "on_goal_raw": 0.347,
+    "probs": {},
+    "tells": []
+   },
+   "escalate": true,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Xcode",
+    "at": 1790000003.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.46,
+     "mode": "other",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.0,
+     "on_goal": 0.439,
+     "on_goal_raw": 0.347,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "OnboardingView.swift — Acme",
+    "url": "",
+    "user": "owner"
+   },
+   "name": "faint_maybes",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.92,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [],
+    "check_p": {},
+    "check_tells": [],
+    "checks_answered": 36,
+    "confidence": 0.46,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "other",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.439,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.96
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000003.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.46,
+    "doing": "in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev: other 92%, on goal 0.439",
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.439,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Xcode",
+    "text": "struct OnboardingView",
+    "title": "OnboardingView.swift — Acme",
+    "url": ""
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000003.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.46,
+    "doing": "in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev: other 92%, on goal 0.439",
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.439,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.96
+   },
+   "tells_text": "Checks combined: on 0.0, off 0.0; on-goal score alone 0.347."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "other",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.92,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.7,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.61,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.92,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "goal_q1": {
+     "noul": 0.85,
+     "type": "noul"
+    },
+    "goal_q3": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.1,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000004.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.678,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.488,
+    "off_tells": [
+     "notifications"
+    ],
+    "on": 0.924,
+    "on_goal": 0.447,
+    "on_goal_raw": 0.04,
+    "probs": {
+     "lookup": 0.7,
+     "notifications": 0.61,
+     "search": 0.92
+    },
+    "tells": [
+     "search",
+     "lookup"
+    ]
+   },
+   "escalate": true,
+   "goal_questions": [
+    {
+     "id": "x",
+     "means": "on_task",
+     "text": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+    },
+    {
+     "means": "on-task",
+     "text": "Is it a Loom recording for Dana?"
+    },
+    {
+     "means": "off_task",
+     "text": "Is he watching a YouTube video unrelated to Acme?"
+    },
+    {
+     "text": "no meaning given"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it a Loom recording for Dana?"
+    }
+   ],
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000004.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": true,
+    "jev": {
+     "confidence": 0.678,
+     "mode": "other",
+     "off": 0.488,
+     "off_site": false,
+     "off_tells": [
+      "notifications"
+     ],
+     "on": 0.924,
+     "on_goal": 0.6,
+     "on_goal_raw": 0.04,
+     "related": true,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.1,
+     "stepped": false,
+     "tells": [
+      "q1",
+      "search",
+      "lookup"
+     ],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "user": "owner"
+   },
+   "name": "goal_tell_lift",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.92,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [
+     "notifications"
+    ],
+    "check_p": {
+     "lookup": 0.7,
+     "notifications": 0.61,
+     "search": 0.92
+    },
+    "check_tells": [
+     "search",
+     "lookup"
+    ],
+    "checks_answered": 36,
+    "confidence": 0.678,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "other",
+    "off": 0.488,
+    "on": 0.924,
+    "on_goal": 0.447,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.1,
+    "tells_off": [
+     "q3"
+    ],
+    "tells_on": [
+     "q1"
+    ],
+    "working": 0.96
+   },
+   "related": true,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000004.0,
+    "automatable": "",
+    "check_p": {
+     "lookup": 0.7,
+     "notifications": 0.61,
+     "search": 0.92
+    },
+    "confidence": 0.678,
+    "doing": "in Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: other 92%, on goal 0.447",
+    "image": true,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.488,
+    "off_tells": [
+     "notifications"
+    ],
+    "on": 0.924,
+    "on_goal": 0.447,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.1,
+    "tells": [
+     "search",
+     "lookup"
+    ],
+    "tells_off": [
+     "q3"
+    ],
+    "tells_on": [
+     "q1"
+    ],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "image": true,
+    "text_chars": 420,
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1"
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000004.0,
+    "automatable": "",
+    "check_p": {
+     "lookup": 0.7,
+     "notifications": 0.61,
+     "search": 0.92
+    },
+    "confidence": 0.678,
+    "doing": "in Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: other 92%, on goal 0.447",
+    "goal_tells": [
+     "q1"
+    ],
+    "image": true,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.488,
+    "off_tells": [
+     "notifications"
+    ],
+    "on": 0.924,
+    "on_goal": 0.6,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.1,
+    "tells": [
+     "q1",
+     "search",
+     "lookup"
+    ],
+    "tells_off": [
+     "q3"
+    ],
+    "tells_on": [
+     "q1"
+    ],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.96
+   },
+   "tells_text": "Leaning on task: q1, search 0.92, lookup 0.70. Leaning off task: notifications 0.61. Checks combined: on 0.924, off 0.488; on-goal score alone 0.04."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "other",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.92,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "goal_q1": {
+     "noul": 0.4,
+     "type": "noul"
+    },
+    "goal_q3": {
+     "noul": 0.8,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000005.0,
+   "combined": {
+    "answered": 0,
+    "caps": {},
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "probs": {},
+    "tells": []
+   },
+   "escalate": false,
+   "goal_questions": [
+    {
+     "id": "x",
+     "means": "on_task",
+     "text": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+    },
+    {
+     "means": "on-task",
+     "text": "Is it a Loom recording for Dana?"
+    },
+    {
+     "means": "off_task",
+     "text": "Is he watching a YouTube video unrelated to Acme?"
+    },
+    {
+     "text": "no meaning given"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it a Loom recording for Dana?"
+    }
+   ],
+   "label_row": {
+    "app": "Xcode",
+    "at": 1790000005.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.92,
+     "mode": "other",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [
+      "q3"
+     ],
+     "on": 0.0,
+     "on_goal": 0.2,
+     "on_goal_raw": 0.653,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.9,
+     "stepped": false,
+     "tells": [],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "OnboardingView.swift — Acme",
+    "url": "",
+    "user": "owner"
+   },
+   "name": "off_tell_cap",
+   "off_task": true,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.92,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [],
+    "check_p": {},
+    "check_tells": [],
+    "checks_answered": 0,
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "other",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.9,
+    "tells_off": [
+     "q3"
+    ],
+    "tells_on": [],
+    "working": 0.96
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000005.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev: other 92%, on goal 0.653",
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.9,
+    "tells_off": [
+     "q3"
+    ],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Xcode",
+    "text": "struct OnboardingView",
+    "title": "OnboardingView.swift — Acme",
+    "url": ""
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000005.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev: other 92%, on goal 0.653",
+    "goal_off_tells": [
+     "q3"
+    ],
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.0,
+    "off_tells": [
+     "q3"
+    ],
+    "on": 0.0,
+    "on_goal": 0.2,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.9,
+    "tells_off": [
+     "q3"
+    ],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.96
+   },
+   "tells_text": "Leaning off task: q3. Checks combined: on 0.0, off 0.0; on-goal score alone 0.653."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "studying",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.92
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.3,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000006.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.61,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.3,
+    "off_tells": [],
+    "on": 0.0,
+    "on_goal": 0.471,
+    "on_goal_raw": 0.653,
+    "probs": {},
+    "tells": []
+   },
+   "escalate": true,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000006.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.61,
+     "mode": "studying",
+     "off": 0.3,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.0,
+     "on_goal": 0.471,
+     "on_goal_raw": 0.653,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "Instagram",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/",
+    "user": "owner"
+   },
+   "name": "distraction_under_5s",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.92
+    },
+    "check_off_tells": [],
+    "check_p": {},
+    "check_tells": [],
+    "checks_answered": 36,
+    "confidence": 0.61,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "studying",
+    "off": 0.3,
+    "on": 0.0,
+    "on_goal": 0.471,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.96
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000006.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.61,
+    "doing": "reading in Google Chrome — Instagram",
+    "evidence": "jev: studying 92%, on goal 0.471",
+    "image": false,
+    "judge": "jev",
+    "mode": "studying",
+    "note": "",
+    "off": 0.3,
+    "on": 0.0,
+    "on_goal": 0.471,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/"
+   },
+   "settle": {
+    "site": "Instagram",
+    "site_s": 3.6
+   },
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000006.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.61,
+    "doing": "reading in Google Chrome — Instagram",
+    "evidence": "jev: studying 92%, on goal 0.471",
+    "image": false,
+    "judge": "jev",
+    "mode": "studying",
+    "note": "",
+    "off": 0.3,
+    "on": 0.0,
+    "on_goal": 0.471,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "site": "Instagram",
+    "site_s": 3,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.96
+   },
+   "tells_text": "Checks combined: on 0.0, off 0.3; on-goal score alone 0.653."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "studying",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.92
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.75,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000007.0,
+   "combined": {
+    "answered": 36,
+    "caps": {
+     "smart": 0.4,
+     "working": 0.4
+    },
+    "confidence": 0.46,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [
+     "repeating"
+    ],
+    "on": 0.0,
+    "on_goal": 0.561,
+    "on_goal_raw": 0.653,
+    "probs": {
+     "repeating": 0.75
+    },
+    "tells": []
+   },
+   "escalate": false,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000007.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off": 0.0,
+     "off_site": true,
+     "off_tells": [
+      "repeating"
+     ],
+     "on": 0.0,
+     "on_goal": 0.05,
+     "on_goal_raw": 0.653,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "the LinkedIn feed",
+     "step": 0.0,
+     "stepped": false,
+     "tells": [],
+     "working": 0.05
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/",
+    "user": "owner"
+   },
+   "name": "distraction_over_5s",
+   "off_task": true,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.92
+    },
+    "check_off_tells": [
+     "repeating"
+    ],
+    "check_p": {
+     "repeating": 0.75
+    },
+    "check_tells": [],
+    "checks_answered": 36,
+    "confidence": 0.46,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "studying",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.561,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.4,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.4
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000007.0,
+    "automatable": "",
+    "check_p": {
+     "repeating": 0.75
+    },
+    "confidence": 0.46,
+    "doing": "reading in Google Chrome — Instagram",
+    "evidence": "jev: studying 92%, on goal 0.561",
+    "image": false,
+    "judge": "jev",
+    "mode": "studying",
+    "note": "",
+    "off": 0.0,
+    "off_tells": [
+     "repeating"
+    ],
+    "on": 0.0,
+    "on_goal": 0.561,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.4,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.4
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/"
+   },
+   "settle": {
+    "site": "the LinkedIn feed",
+    "site_s": 5.2
+   },
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000007.0,
+    "automatable": "",
+    "check_p": {
+     "repeating": 0.75
+    },
+    "confidence": 0.9,
+    "doing": "reading in Google Chrome — Instagram",
+    "evidence": "jev: studying 92%, on goal 0.561",
+    "image": false,
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "",
+    "off": 0.0,
+    "off_site": true,
+    "off_tells": [
+     "repeating"
+    ],
+    "on": 0.0,
+    "on_goal": 0.05,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.05,
+    "serves_goal": false,
+    "site": "the LinkedIn feed",
+    "site_s": 5,
+    "smart": 0.4,
+    "step": 0.0,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.05
+   },
+   "tells_text": "Leaning off task: repeating 0.75. Checks combined: on 0.0, off 0.0; on-goal score alone 0.653."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "consuming",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.92,
+      "making": 0.02,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000008.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.91,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.9,
+    "off_tells": [
+     "feed"
+    ],
+    "on": 0.0,
+    "on_goal": 0.046,
+    "on_goal_raw": 0.04,
+    "probs": {
+     "feed": 0.9
+    },
+    "tells": []
+   },
+   "escalate": false,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000008.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": true,
+    "jev": {
+     "confidence": 0.91,
+     "mode": "consuming",
+     "off": 0.9,
+     "off_site": false,
+     "off_tells": [
+      "feed"
+     ],
+     "on": 0.0,
+     "on_goal": 0.6,
+     "on_goal_raw": 0.04,
+     "related": true,
+     "second": "",
+     "serves_goal": true,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.04
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "user": "owner"
+   },
+   "name": "ruling_match",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.92,
+     "making": 0.02,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [
+     "feed"
+    ],
+    "check_p": {
+     "feed": 0.9
+    },
+    "check_tells": [],
+    "checks_answered": 36,
+    "confidence": 0.91,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "consuming",
+    "off": 0.9,
+    "on": 0.0,
+    "on_goal": 0.046,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.04
+   },
+   "related": true,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000008.0,
+    "automatable": "",
+    "check_p": {
+     "feed": 0.9
+    },
+    "confidence": 0.91,
+    "doing": "browsing Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: consuming 92%, on goal 0.046",
+    "image": true,
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "",
+    "off": 0.9,
+    "off_tells": [
+     "feed"
+    ],
+    "on": 0.0,
+    "on_goal": 0.046,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.04
+   },
+   "rubric": null,
+   "ruled": true,
+   "screen": {
+    "app": "Google Chrome",
+    "image": true,
+    "text_chars": 420,
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1"
+   },
+   "settle": {
+    "ruling": {
+     "at": 1789999970.0,
+     "rule": "He said mail.google.com (Re: pilot - Gmail) was for work during this block: treat it as on task.",
+     "site": "mail.google.com",
+     "title": "Re: pilot - Gmail"
+    },
+    "site": "",
+    "site_s": 0
+   },
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000008.0,
+    "automatable": "",
+    "check_p": {
+     "feed": 0.9
+    },
+    "confidence": 0.91,
+    "doing": "browsing Google Chrome — Re: pilot - Gmail",
+    "evidence": "jev: consuming 92%, on goal 0.046",
+    "image": true,
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "",
+    "off": 0.9,
+    "off_tells": [
+     "feed"
+    ],
+    "on": 0.0,
+    "on_goal": 0.6,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "ruled": true,
+    "serves_goal": true,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 420,
+    "url": "https://mail.google.com/mail/u/0/#inbox/1",
+    "working": 0.04
+   },
+   "tells_text": "Leaning off task: feed 0.90. Checks combined: on 0.0, off 0.9; on-goal score alone 0.04."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "other",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.92,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.7,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.0,
+     "type": "noul"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.85,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000009.0,
+   "combined": {
+    "answered": 36,
+    "caps": {
+     "smart": 0.4,
+     "working": 0.4
+    },
+    "confidence": 0.705,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.49,
+    "off_tells": [
+     "hopping"
+    ],
+    "on": 0.0,
+    "on_goal": 0.169,
+    "on_goal_raw": 0.04,
+    "probs": {
+     "hopping": 0.7
+    },
+    "tells": []
+   },
+   "escalate": true,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000009.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.705,
+     "mode": "other",
+     "off": 0.49,
+     "off_site": false,
+     "off_tells": [
+      "hopping"
+     ],
+     "on": 0.0,
+     "on_goal": 0.6,
+     "on_goal_raw": 0.04,
+     "related": true,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.85,
+     "stepped": true,
+     "tells": [],
+     "working": 0.4
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "time in japan now - Google Search",
+    "url": "https://www.google.com/search?q=time+in+japan+now",
+    "user": "owner"
+   },
+   "name": "step_lift",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.92,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [
+     "hopping"
+    ],
+    "check_p": {
+     "hopping": 0.7
+    },
+    "check_tells": [],
+    "checks_answered": 36,
+    "confidence": 0.705,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "other",
+    "off": 0.49,
+    "on": 0.0,
+    "on_goal": 0.169,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.4,
+    "static": false,
+    "step": 0.85,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.4
+   },
+   "related": true,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000009.0,
+    "automatable": "",
+    "check_p": {
+     "hopping": 0.7
+    },
+    "confidence": 0.705,
+    "doing": "in Google Chrome — time in japan now - Google Search",
+    "evidence": "jev: other 92%, on goal 0.169",
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.49,
+    "off_tells": [
+     "hopping"
+    ],
+    "on": 0.0,
+    "on_goal": 0.169,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.4,
+    "step": 0.85,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.google.com/search?q=time+in+japan+now",
+    "working": 0.4
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "title": "time in japan now - Google Search",
+    "url": "https://www.google.com/search?q=time+in+japan+now"
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000009.0,
+    "automatable": "",
+    "check_p": {
+     "hopping": 0.7
+    },
+    "confidence": 0.705,
+    "doing": "in Google Chrome — time in japan now - Google Search",
+    "evidence": "jev: other 92%, on goal 0.169",
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.49,
+    "off_tells": [
+     "hopping"
+    ],
+    "on": 0.0,
+    "on_goal": 0.6,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.4,
+    "step": 0.85,
+    "stepped": true,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.google.com/search?q=time+in+japan+now",
+    "working": 0.4
+   },
+   "tells_text": "Leaning off task: hopping 0.70. Checks combined: on 0.0, off 0.49; on-goal score alone 0.04."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "consuming",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.92,
+      "making": 0.02,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.94,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000010.0,
+   "combined": {
+    "answered": 0,
+    "caps": {},
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.0,
+    "on_goal": 0.04,
+    "on_goal_raw": 0.04,
+    "probs": {},
+    "tells": []
+   },
+   "escalate": false,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Slack",
+    "at": 1790000010.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.92,
+     "mode": "other",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.0,
+     "on_goal": 0.04,
+     "on_goal_raw": 0.04,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.04
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "general",
+    "url": "",
+    "user": "owner"
+   },
+   "name": "away",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.92,
+     "making": 0.02,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [],
+    "check_p": {},
+    "check_tells": [],
+    "checks_answered": 0,
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "consuming",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.04,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.04
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "Slack",
+    "at": 1790000010.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "browsing Slack — general",
+    "evidence": "jev: consuming 92%, on goal 0.04",
+    "image": false,
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.04,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.04
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Slack",
+    "title": "general",
+    "url": ""
+   },
+   "settle": {
+    "away": true
+   },
+   "settled": {
+    "actual_goal": "",
+    "app": "Slack",
+    "at": 1790000010.0,
+    "automatable": "",
+    "away": true,
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "browsing Slack — general",
+    "evidence": "jev: consuming 92%, on goal 0.04",
+    "image": false,
+    "judge": "jev",
+    "mode": "other",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.04,
+    "on_goal_raw": 0.04,
+    "p_on_task": 0.04,
+    "producing": 0.04,
+    "progress": 0.5,
+    "quality": 0.04,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.04
+   },
+   "tells_text": "Checks combined: on 0.0, off 0.0; on-goal score alone 0.04."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "making",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.92,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "chk_ai_agent": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_ai_unrelated": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_chat_unrelated": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_contact": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_continuing": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_data": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_entertainment": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_feed": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_files": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_finder": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_form": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_game": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_hopping": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_lecture": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_lookup": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_making": {
+     "noul": 0.8,
+     "type": "noul"
+    },
+    "chk_meeting": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_new_topic": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_news": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_notifications": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_other_project": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_passive": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_personal_admin": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_planning": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_profiles": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_reference": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_repeating": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_reviewing": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_search": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_settings": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_shopping": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_sub_problem": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_switching": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_testing": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_title": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "chk_waiting": {
+     "noul": 0.02,
+     "type": "noul"
+    },
+    "ms_m1": {
+     "noul": 0.75
+    },
+    "ms_m2": {
+     "noul": 0.4
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.94,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.3333333333333333,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "rub_on_t1": {
+     "noul": 0.9
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000011.0,
+   "combined": {
+    "answered": 36,
+    "caps": {},
+    "confidence": 0.86,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.8,
+    "on_goal": 0.679,
+    "on_goal_raw": 0.347,
+    "probs": {
+     "making": 0.8
+    },
+    "tells": [
+     "making"
+    ]
+   },
+   "escalate": false,
+   "goal_questions": [
+    {
+     "id": "rub_on_t1",
+     "means": "on_task",
+     "text": "a Gmail thread with Dana"
+    },
+    {
+     "id": "rub_on_t2",
+     "means": "on_task",
+     "text": "a Loom for Dana"
+    },
+    {
+     "id": "rub_off_o1",
+     "means": "off_task",
+     "text": "YouTube unrelated to Acme"
+    }
+   ],
+   "label_row": {
+    "app": "Xcode",
+    "at": 1790000011.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.86,
+     "mode": "making",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.8,
+     "on_goal": 0.679,
+     "on_goal_raw": 0.347,
+     "related": true,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [
+      "rub_on_t1",
+      "making"
+     ],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "OnboardingView.swift — Acme",
+    "url": "",
+    "user": "owner"
+   },
+   "name": "rubric_tells_and_milestones",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.92,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [],
+    "check_p": {
+     "making": 0.8
+    },
+    "check_tells": [
+     "making"
+    ],
+    "checks_answered": 36,
+    "confidence": 0.86,
+    "confidence_raw": 0.92,
+    "milestones": [
+     "m1"
+    ],
+    "mode": "making",
+    "off": 0.0,
+    "on": 0.8,
+    "on_goal": 0.679,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.05,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [
+     "rub_on_t1"
+    ],
+    "working": 0.96
+   },
+   "related": true,
+   "row": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000011.0,
+    "automatable": "",
+    "check_p": {
+     "making": 0.8
+    },
+    "confidence": 0.86,
+    "doing": "working in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev: making 92%, on goal 0.679",
+    "image": false,
+    "judge": "jev",
+    "milestones": [
+     "m1"
+    ],
+    "mode": "making",
+    "note": "",
+    "off": 0.0,
+    "on": 0.8,
+    "on_goal": 0.679,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells": [
+     "making"
+    ],
+    "tells_off": [],
+    "tells_on": [
+     "rub_on_t1"
+    ],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.96
+   },
+   "rubric": {
+    "kind": "outreach",
+    "milestones": [
+     {
+      "id": "m1",
+      "text": "Reply to Dana drafted"
+     },
+     {
+      "id": "m2",
+      "text": "Reply sent"
+     }
+    ],
+    "off_tells": [
+     {
+      "id": "o1",
+      "text": "YouTube unrelated to Acme"
+     }
+    ],
+    "on_tells": [
+     {
+      "id": "t1",
+      "text": "a Gmail thread with Dana"
+     },
+     {
+      "id": "t2",
+      "text": "a Loom for Dana"
+     }
+    ]
+   },
+   "ruled": false,
+   "screen": {
+    "app": "Xcode",
+    "text": "struct OnboardingView",
+    "title": "OnboardingView.swift — Acme",
+    "url": ""
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000011.0,
+    "automatable": "",
+    "check_p": {
+     "making": 0.8
+    },
+    "confidence": 0.86,
+    "doing": "working in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev: making 92%, on goal 0.679",
+    "goal_tells": [
+     "rub_on_t1"
+    ],
+    "image": false,
+    "judge": "jev",
+    "milestones": [
+     "m1"
+    ],
+    "mode": "making",
+    "note": "",
+    "off": 0.0,
+    "on": 0.8,
+    "on_goal": 0.679,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": false,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells": [
+     "rub_on_t1",
+     "making"
+    ],
+    "tells_off": [],
+    "tells_on": [
+     "rub_on_t1"
+    ],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.96
+   },
+   "tells_text": "Leaning on task: rub_on_t1, making 0.80. Checks combined: on 0.8, off 0.0; on-goal score alone 0.347."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "napping",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.02,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.92
+     },
+     "type": "choice"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "smart": "junk",
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "score": 0.4,
+     "type": "score"
+    }
+   },
+   "at": 1790000012.0,
+   "combined": {
+    "answered": 0,
+    "caps": {},
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "probs": {},
+    "tells": []
+   },
+   "escalate": false,
+   "goal_questions": null,
+   "label_row": {
+    "app": "",
+    "at": 1790000012.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.92,
+     "mode": "studying",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.0,
+     "on_goal": 0.653,
+     "on_goal_raw": 0.653,
+     "related": false,
+     "second": "",
+     "serves_goal": false,
+     "site": "",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.4
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "",
+    "url": "",
+    "user": "owner"
+   },
+   "name": "odd_shapes",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.02,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.92
+    },
+    "check_off_tells": [],
+    "check_p": {},
+    "check_tells": [],
+    "checks_answered": 0,
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "studying",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": null,
+    "serves_goal": 0.05,
+    "smart": null,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.4
+   },
+   "related": false,
+   "row": {
+    "actual_goal": "",
+    "app": "",
+    "at": 1790000012.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "reading in an app",
+    "evidence": "jev: studying 92%, on goal 0.653",
+    "image": false,
+    "judge": "jev",
+    "mode": "studying",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.4,
+    "serves_goal": false,
+    "smart": null,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.4
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "",
+    "title": "",
+    "url": ""
+   },
+   "settle": {},
+   "settled": {
+    "actual_goal": "",
+    "app": "",
+    "at": 1790000012.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "reading in an app",
+    "evidence": "jev: studying 92%, on goal 0.653",
+    "image": false,
+    "judge": "jev",
+    "mode": "studying",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.653,
+    "on_goal_raw": 0.653,
+    "p_on_task": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.4,
+    "serves_goal": false,
+    "smart": null,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "",
+    "working": 0.4
+   },
+   "tells_text": "Checks combined: on 0.0, off 0.0; on-goal score alone 0.653."
+  },
+  {
+   "answers": {
+    "activity": {
+     "choice": "making",
+     "confidence": 0.9,
+     "probabilities": {
+      "consuming": 0.02,
+      "making": 0.92,
+      "other": 0.02,
+      "static": 0.02,
+      "studying": 0.02
+     },
+     "type": "choice"
+    },
+    "on_goal": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.94,
+      "2": 0.02,
+      "3": 0.02
+     },
+     "score": 0.3333333333333333,
+     "type": "score"
+    },
+    "producing": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    },
+    "progress": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.92,
+      "3": 0.02,
+      "4": 0.02
+     },
+     "score": 0.5,
+     "type": "score"
+    },
+    "quality": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "serves_goal": {
+     "noul": 0.9,
+     "type": "noul"
+    },
+    "smart": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.94,
+      "3": 0.02
+     },
+     "score": 0.6666666666666666,
+     "type": "score"
+    },
+    "step_toward_goal": {
+     "noul": 0.05,
+     "type": "noul"
+    },
+    "working": {
+     "confidence": 0.9,
+     "probabilities": {
+      "0": 0.02,
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.94
+     },
+     "score": 1.0,
+     "type": "score"
+    }
+   },
+   "at": 1790000013.0,
+   "combined": {
+    "answered": 0,
+    "caps": {},
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "neutral": [],
+    "off": 0.0,
+    "off_tells": [],
+    "on": 0.0,
+    "on_goal": 0.347,
+    "on_goal_raw": 0.347,
+    "probs": {},
+    "tells": []
+   },
+   "escalate": true,
+   "goal_questions": null,
+   "label_row": {
+    "app": "Google Chrome",
+    "at": 1790000013.0,
+    "block_id": "b1",
+    "goal": "Send response to Dana",
+    "image_used": false,
+    "jev": {
+     "confidence": 0.92,
+     "mode": "making",
+     "off": 0.0,
+     "off_site": false,
+     "off_tells": [],
+     "on": 0.0,
+     "on_goal": 0.6,
+     "on_goal_raw": 0.347,
+     "related": true,
+     "second": "",
+     "serves_goal": true,
+     "site": "Instagram",
+     "step": 0.05,
+     "stepped": false,
+     "tells": [],
+     "working": 0.96
+    },
+    "label": "on_task",
+    "source": "button",
+    "specific_goal": "Reply sent",
+    "text_digest": "5bb92a8adba67b8f",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/",
+    "user": "owner"
+   },
+   "name": "serves_on_site",
+   "off_task": false,
+   "parsed": {
+    "activity": {
+     "consuming": 0.02,
+     "making": 0.92,
+     "other": 0.02,
+     "static": 0.02,
+     "studying": 0.02
+    },
+    "check_off_tells": [],
+    "check_p": {},
+    "check_tells": [],
+    "checks_answered": 0,
+    "confidence": 0.92,
+    "confidence_raw": 0.92,
+    "milestones": [],
+    "mode": "making",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.347,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": 0.9,
+    "smart": 0.653,
+    "static": false,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "working": 0.96
+   },
+   "related": true,
+   "row": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000013.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "working in Google Chrome — Instagram",
+    "evidence": "jev: making 92%, on goal 0.347",
+    "image": false,
+    "judge": "jev",
+    "mode": "making",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.347,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": true,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.96
+   },
+   "rubric": null,
+   "ruled": false,
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Instagram",
+    "url": "https://www.instagram.com/"
+   },
+   "settle": {
+    "site": "Instagram",
+    "site_s": 30
+   },
+   "settled": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000013.0,
+    "automatable": "",
+    "check_p": {},
+    "confidence": 0.92,
+    "doing": "working in Google Chrome — Instagram",
+    "evidence": "jev: making 92%, on goal 0.347",
+    "image": false,
+    "judge": "jev",
+    "mode": "making",
+    "note": "",
+    "off": 0.0,
+    "on": 0.0,
+    "on_goal": 0.6,
+    "on_goal_raw": 0.347,
+    "p_on_task": 0.04,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "serves_goal": true,
+    "site": "Instagram",
+    "site_s": 30,
+    "smart": 0.653,
+    "step": 0.05,
+    "tells_off": [],
+    "tells_on": [],
+    "text_chars": 0,
+    "url": "https://www.instagram.com/",
+    "working": 0.96
+   },
+   "tells_text": "Checks combined: on 0.0, off 0.0; on-goal score alone 0.347."
+  }
+ ],
+ "extra": {
+  "combine_none_score": {
+   "answered": 1,
+   "caps": {},
+   "confidence": 0.45,
+   "confidence_raw": 0.0,
+   "neutral": [],
+   "off": 0.0,
+   "off_tells": [],
+   "on": 0.9,
+   "on_goal": 0.57,
+   "on_goal_raw": 0.0,
+   "probs": {
+    "making": 0.9
+   },
+   "tells": [
+    "making"
+   ]
+  },
+  "escalate": [
+   {
+    "out": true,
+    "row": {
+     "confidence": 0.59,
+     "on_goal": 0.9
+    }
+   },
+   {
+    "out": true,
+    "row": {
+     "confidence": 0.9,
+     "on_goal": 0.35
+    }
+   },
+   {
+    "out": true,
+    "row": {
+     "confidence": 0.9,
+     "on_goal": 0.64
+    }
+   },
+   {
+    "out": false,
+    "row": {
+     "confidence": 0.6,
+     "on_goal": 0.65
+    }
+   },
+   {
+    "out": false,
+    "row": {
+     "confidence": 0.9,
+     "on_goal": 0.34
+    }
+   },
+   {
+    "out": false,
+    "row": {
+     "confidence": 0.1,
+     "on_goal": 0.5,
+     "ruled": true
+    }
+   },
+   {
+    "out": false,
+    "row": {
+     "confidence": 0.1,
+     "off_site": true,
+     "on_goal": 0.5
+    }
+   }
+  ],
+  "parse_junk": true,
+  "parse_missing_on_goal": null,
+  "tells_text": [
+   {
+    "out": "Leaning on task: a 0.90, b 0.80, c 0.70, d 0.66, e 0.65. Leaning off task: feed 0.71. Checks combined: on 0.95, off 0.5; on-goal score alone 0.4.",
+    "row": {
+     "check_p": {
+      "a": 0.9,
+      "b": 0.8,
+      "c": 0.7,
+      "d": 0.66,
+      "e": 0.65,
+      "f": 0.6,
+      "feed": 0.71
+     },
+     "off": 0.5,
+     "off_tells": [
+      "feed"
+     ],
+     "on": 0.95,
+     "on_goal_raw": 0.4,
+     "tells": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+     ]
+    }
+   },
+   {
+    "out": "",
+    "row": {}
+   },
+   {
+    "out": "Leaning on task: x. Checks combined: on None, off 0.25; on-goal score alone None.",
+    "row": {
+     "off": 0.25,
+     "on": null,
+     "tells": [
+      "x"
+     ]
+    }
+   }
+  ]
+ }
+}

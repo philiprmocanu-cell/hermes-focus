@@ -1,0 +1,248 @@
+{
+ "doc_title": [
+  {
+   "day": "2026-09-21",
+   "expected": "2026-09-21 — Monday"
+  },
+  {
+   "day": "2024-02-29",
+   "expected": "2024-02-29 — Thursday"
+  },
+  {
+   "day": "2026-10-28",
+   "expected": "2026-10-28 — Wednesday"
+  }
+ ],
+ "hm": [
+  {
+   "expected": "0 min",
+   "seconds": 0
+  },
+  {
+   "expected": "0 min",
+   "seconds": 29
+  },
+  {
+   "expected": "0 min",
+   "seconds": 30
+  },
+  {
+   "expected": "2 min",
+   "seconds": 90
+  },
+  {
+   "expected": "1 h",
+   "seconds": 3599
+  },
+  {
+   "expected": "1 h",
+   "seconds": 3600
+  },
+  {
+   "expected": "1 h",
+   "seconds": 3630
+  },
+  {
+   "expected": "2 h 5 min",
+   "seconds": 7500
+  },
+  {
+   "expected": "0 min",
+   "seconds": -5
+  }
+ ],
+ "rank_among": [
+  {
+   "day": "2026-09-21",
+   "expected": {
+    "earlier": 5,
+    "line": "your 3rd best day of the last 6",
+    "of": 6,
+    "rank": 3
+   },
+   "history": {
+    "2026-09-01": 999,
+    "2026-09-10": 800,
+    "2026-09-15": 400,
+    "2026-09-18": 650,
+    "2026-09-19": 300,
+    "2026-09-20": 550,
+    "2026-09-22": 999
+   },
+   "score": 600
+  },
+  {
+   "day": "2026-09-21",
+   "expected": {
+    "earlier": 5,
+    "line": "your best day of the last 6",
+    "of": 6,
+    "rank": 1
+   },
+   "history": {
+    "2026-09-01": 999,
+    "2026-09-10": 800,
+    "2026-09-15": 400,
+    "2026-09-18": 650,
+    "2026-09-19": 300,
+    "2026-09-20": 550,
+    "2026-09-22": 999
+   },
+   "score": 900
+  },
+  {
+   "day": "2026-09-21",
+   "expected": {
+    "earlier": 5,
+    "line": "your weakest day of the last 6",
+    "of": 6,
+    "rank": 6
+   },
+   "history": {
+    "2026-09-01": 999,
+    "2026-09-10": 800,
+    "2026-09-15": 400,
+    "2026-09-18": 650,
+    "2026-09-19": 300,
+    "2026-09-20": 550,
+    "2026-09-22": 999
+   },
+   "score": 100
+  },
+  {
+   "day": "2026-09-21",
+   "expected": {
+    "earlier": 5,
+    "line": "your 3rd best day of the last 6",
+    "of": 6,
+    "rank": 3
+   },
+   "history": {
+    "2026-09-01": 999,
+    "2026-09-10": 800,
+    "2026-09-15": 400,
+    "2026-09-18": 650,
+    "2026-09-19": 300,
+    "2026-09-20": 550,
+    "2026-09-22": 999
+   },
+   "score": 550
+  },
+  {
+   "day": "2026-09-21",
+   "expected": {
+    "earlier": 0,
+    "line": "the first day I've scored, so there is nothing to compare it with yet",
+    "of": 1,
+    "rank": 1
+   },
+   "history": {},
+   "score": 500
+  }
+ ],
+ "time_range": [
+  {
+   "end": 1790001800.0,
+   "expected": "2:18–2:43 pm",
+   "start": 1790000300.0,
+   "tz": "UTC"
+  },
+  {
+   "end": 1790011100.0,
+   "expected": "4:53–5:18 pm",
+   "start": 1790009600.0,
+   "tz": "UTC"
+  },
+  {
+   "end": 1790000000.0,
+   "expected": "2:13–2:13 pm",
+   "start": 0,
+   "tz": "UTC"
+  },
+  {
+   "end": 0,
+   "expected": "",
+   "start": 0,
+   "tz": "UTC"
+  }
+ ],
+ "weekly_clean": {
+  "expected": {
+   "best_hours": "9 to 11 am.",
+   "change": [],
+   "from": "opus",
+   "leaks": [
+    "Reddit"
+   ],
+   "patterns": [
+    "Mornings worked"
+   ],
+   "worst_hours": ""
+  },
+  "raw": {
+   "best_hours": "9 to 11 am",
+   "change": [],
+   "leaks": [
+    "reddit"
+   ],
+   "patterns": [
+    "mornings worked",
+    "",
+    "  "
+   ],
+   "worst_hours": null
+  }
+ },
+ "weekly_fallback": {
+  "days": [
+   {
+    "day": "2026-09-15",
+    "leaks": [
+     [
+      "reddit.com",
+      600
+     ]
+    ],
+    "score": 400,
+    "worked_s": 3600
+   },
+   {
+    "day": "2026-09-16",
+    "leaks": [
+     [
+      "reddit.com",
+      300
+     ],
+     [
+      "x.com",
+      900
+     ]
+    ],
+    "score": 700,
+    "worked_s": 9000
+   },
+   {
+    "day": "2026-09-17",
+    "score": "x"
+   }
+  ],
+  "expected": {
+   "best_hours": "",
+   "change": [
+    "Cut the biggest leak in half: reddit.com",
+    "Start the first block before anything else opens"
+   ],
+   "from": "fallback",
+   "leaks": [
+    "reddit.com — 15 min across the week",
+    "x.com — 15 min across the week"
+   ],
+   "patterns": [
+    "2 days scored, averaging 550 out of 1000",
+    "Best day 2026-09-16 at 700; worst 2026-09-15 at 400",
+    "3 h 30 min of work across the week, 1 h 45 min a day"
+   ],
+   "worst_hours": ""
+  }
+ }
+}

@@ -1,0 +1,3302 @@
+[
+ {
+  "block": {
+   "active_s": 1200,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "automatable": "",
+     "doing": "editing SwiftUI view",
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "automatable": "",
+     "doing": "writing code",
+     "on_goal": 1.0,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 4
+  },
+  "expected": {
+   "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+   "completion": 1.0,
+   "focus_score": 892,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 825,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.925
+    },
+    "mono": {
+     "switches_per_min": 0.16,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.903
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 2,
+     "value": 0.95
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.887
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.85
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 858,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 892: one thing 93% of the time, 0.16 switches a minute; on your goal 95%. Output 825: quality 85%; making or reading for it 92%."
+  },
+  "name": "no_rubric_good_block",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 900,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1425,
+     "title": "Acme rulings"
+    },
+    {
+     "app": "Claude",
+     "seconds": 75
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.3,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.6,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme rulings",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+   "completion": 1.0,
+   "focus_score": 861,
+   "goal_used": "Acme rulings",
+   "nothing_done": false,
+   "output_score": 661,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.8
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Google Docs",
+     "top_share": 0.95,
+     "value": 0.927
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.772
+    },
+    "progress": {
+     "value": 0.8
+    },
+    "quality": {
+     "value": 0.75
+    },
+    "smart": {
+     "value": 0.7
+    }
+   },
+   "reading_counted": false,
+   "score": 761,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 661: got 80% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+  },
+  "name": "worked_example",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 200,
+   "apps": [
+    {
+     "app": "Preview",
+     "seconds": 1400,
+     "title": "HIST 2 guide.pdf"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000120.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000180.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000240.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000300.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000360.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000420.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000480.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000540.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    },
+    {
+     "at": 1790000600.0,
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "seconds": 60,
+     "working": 0.75
+    }
+   ],
+   "goal": "read chapter 4 of the HIST 2 guide and outline the controls",
+   "input_minutes": 0.6,
+   "milestones_reached": [
+    "m1",
+    "m2"
+   ],
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "That was a strong block on read chapter 4 of the HIST 2 guide and outline the controls — do the next one exactly the same way.",
+   "balance": {
+    "focus": 0.9,
+    "output": 0.1
+   },
+   "balance_line": "Judged 90% on focus, 10% on output: a reading block",
+   "completion": 1.0,
+   "distraction_site_s": 0.0,
+   "focus_score": 890,
+   "goal_used": "read chapter 4 of the HIST 2 guide and outline the controls",
+   "kind": "reading",
+   "milestones": {
+    "missed": [],
+    "reached": [
+     "Chapter 4 read to the end.",
+     "The controls are outlined in the notes"
+    ],
+    "total": 2
+   },
+   "nothing_done": false,
+   "on_task_share": 1.0,
+   "output_score": 798,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.9,
+     "reading": 0.9,
+     "screens": 0.75,
+     "typing": 0.178,
+     "value": 0.825
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Preview",
+     "top_share": 1.0,
+     "value": 0.976
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 10,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.9,
+     "reading": 0.9,
+     "screens": 0.75,
+     "typing": 0.178,
+     "value": 0.868
+    },
+    "progress": {
+     "value": 1.0
+    },
+    "quality": {
+     "value": 0.75
+    },
+    "smart": null
+   },
+   "reading_counted": true,
+   "score": 881,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.294,
+     "progress": 0.412,
+     "quality": 0.294
+    }
+   },
+   "why": "Judged 90% on focus, 10% on output: a reading block. Focus 890: one thing 100% of the time, 0.12 switches a minute; on your goal 90%. Output 798: got 100% of the way to the goal; quality 75%; making or reading for it 82%. Milestones: 2 of 2 reached (Chapter 4 read to the end; The controls are outlined in the notes)."
+  },
+  "name": "reading_rubric_both_milestones_reached",
+  "rubric": {
+   "balance": {
+    "focus": 0.9,
+    "output": 0.1
+   },
+   "kind": "reading",
+   "milestones": [
+    {
+     "id": "m1",
+     "text": "Chapter 4 read to the end."
+    },
+    {
+     "id": "m2",
+     "text": "The controls are outlined in the notes"
+    }
+   ]
+  }
+ },
+ {
+  "block": {
+   "active_s": 1300,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000120.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000180.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000240.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000300.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000360.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000420.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000480.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000540.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    },
+    {
+     "at": 1790000600.0,
+     "doing": "fixing the onboarding crash",
+     "mode": "making",
+     "on_goal": 0.95,
+     "progress": 0.9,
+     "quality": 0.85,
+     "seconds": 60,
+     "smart": 0.8,
+     "working": 0.9
+    }
+   ],
+   "goal": "Fix the Acme onboarding crash",
+   "milestones_reached": [
+    "a",
+    "b"
+   ],
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 2
+  },
+  "expected": {
+   "advice": "You got about 67% of the way to \"Fix the Acme onboarding crash\" — start the next block straight on the part that's left.",
+   "balance": {
+    "focus": 0.35,
+    "output": 0.65
+   },
+   "balance_line": "Judged 35% on focus, 65% on output: a building block",
+   "completion": 1.0,
+   "distraction_site_s": 0.0,
+   "focus_score": 902,
+   "goal_used": "Fix the Acme onboarding crash",
+   "kind": "building",
+   "milestones": {
+    "missed": [
+     "The fix is committed"
+    ],
+    "reached": [
+     "The crash no longer reproduces",
+     "A test covers the crash."
+    ],
+    "total": 3
+   },
+   "nothing_done": false,
+   "on_task_share": 1.0,
+   "output_score": 667,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.9,
+     "typing": 1.0,
+     "value": 0.95
+    },
+    "mono": {
+     "switches_per_min": 0.08,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.918
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 10,
+     "value": 0.95
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.9,
+     "typing": 1.0,
+     "value": 0.795
+    },
+    "progress": {
+     "value": 0.667
+    },
+    "quality": {
+     "value": 0.85
+    },
+    "smart": {
+     "value": 0.8
+    }
+   },
+   "reading_counted": false,
+   "score": 749,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Judged 35% on focus, 65% on output: a building block. Focus 902: one thing 93% of the time, 0.08 switches a minute; on your goal 95%. Output 667: got 67% of the way to the goal; quality 85%; working smart 80%; making or reading for it 95%. Milestones: 2 of 3 reached (The crash no longer reproduces; A test covers the crash). Missed: The fix is committed. Output capped at 667: 2 of 3 milestones reached."
+  },
+  "name": "building_rubric_one_of_three_missed",
+  "rubric": {
+   "balance": {
+    "focus": 0.35,
+    "output": 0.65
+   },
+   "kind": "building",
+   "milestones": [
+    {
+     "id": "a",
+     "text": "The crash no longer reproduces"
+    },
+    {
+     "id": "b",
+     "text": "A test covers the crash."
+    },
+    {
+     "id": "c",
+     "text": "The fix is committed"
+    }
+   ]
+  }
+ },
+ {
+  "block": {
+   "active_s": 1500,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1500,
+     "title": "Acme"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000120.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000180.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000240.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000300.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000360.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000420.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000480.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000540.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000600.0,
+     "away_s": 6,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 0
+  },
+  "expected": {
+   "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "balance_line": "Judged 40% on focus, 60% on output: a writing block",
+   "completion": 1.0,
+   "distraction_site_s": 0.0,
+   "focus_score": 1000,
+   "goal_used": "Acme onboarding screen",
+   "kind": "writing",
+   "milestones": {
+    "missed": [],
+    "reached": [],
+    "total": 0
+   },
+   "nothing_done": false,
+   "on_task_share": 0.9,
+   "output_score": 1000,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "Xcode",
+     "top_share": 1.0,
+     "value": 1.0
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 10,
+     "value": 1.0
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "progress": {
+     "value": 1.0
+    },
+    "quality": {
+     "value": 1.0
+    },
+    "smart": {
+     "value": 1.0
+    }
+   },
+   "reading_counted": false,
+   "score": 940,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Judged 40% on focus, 60% on output: a writing block. Focus 1000: one thing 100% of the time, 0.0 switches a minute; on your goal 100%. Output 1000: got 100% of the way to the goal; quality 100%; working smart 100%; making or reading for it 100%. Total capped at 940: on task 90% of the time; 1,000 needs 95% and no distraction site."
+  },
+  "name": "hyperfocus_cap_on_task_share_0_9",
+  "rubric": {
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "kind": "writing",
+   "milestones": []
+  }
+ },
+ {
+  "block": {
+   "active_s": 1500,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1500,
+     "title": "Acme"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000180.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000240.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000300.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000360.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000420.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000480.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000540.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000600.0,
+     "distraction_s": 2,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 0
+  },
+  "expected": {
+   "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "balance_line": "Judged 40% on focus, 60% on output: a writing block",
+   "completion": 1.0,
+   "distraction_site_s": 2.0,
+   "focus_score": 1000,
+   "goal_used": "Acme onboarding screen",
+   "kind": "writing",
+   "milestones": {
+    "missed": [],
+    "reached": [],
+    "total": 0
+   },
+   "nothing_done": false,
+   "on_task_share": 0.997,
+   "output_score": 1000,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "Xcode",
+     "top_share": 1.0,
+     "value": 1.0
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 10,
+     "value": 1.0
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "progress": {
+     "value": 1.0
+    },
+    "quality": {
+     "value": 1.0
+    },
+    "smart": {
+     "value": 1.0
+    }
+   },
+   "reading_counted": false,
+   "score": 940,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Judged 40% on focus, 60% on output: a writing block. Focus 1000: one thing 100% of the time, 0.0 switches a minute; on your goal 100%. Output 1000: got 100% of the way to the goal; quality 100%; working smart 100%; making or reading for it 100%. Total capped at 940: 2 s on a distraction site; 1,000 needs none."
+  },
+  "name": "hyperfocus_cap_distraction_site",
+  "rubric": {
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "kind": "writing",
+   "milestones": []
+  }
+ },
+ {
+  "block": {
+   "active_s": 1500,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1500,
+     "title": "Acme"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "at": 1790000060.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000180.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000240.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000300.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000360.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000420.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000480.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000540.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    },
+    {
+     "at": 1790000600.0,
+     "mode": "making",
+     "on_goal": 1.0,
+     "progress": 1.0,
+     "quality": 1.0,
+     "seconds": 60,
+     "smart": 1.0,
+     "working": 1.0
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "milestones_reached": [
+    "a",
+    "b",
+    "c"
+   ],
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 0
+  },
+  "expected": {
+   "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+   "balance": {
+    "focus": 0.5,
+    "output": 0.5
+   },
+   "balance_line": "Judged 50% on focus, 50% on output: a building block",
+   "completion": 1.0,
+   "distraction_site_s": 0.0,
+   "focus_score": 1000,
+   "goal_used": "Acme onboarding screen",
+   "kind": "building",
+   "milestones": {
+    "missed": [],
+    "reached": [
+     "The crash no longer reproduces",
+     "A test covers the crash.",
+     "The fix is committed"
+    ],
+    "total": 3
+   },
+   "nothing_done": false,
+   "on_task_share": 1.0,
+   "output_score": 1000,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "Xcode",
+     "top_share": 1.0,
+     "value": 1.0
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 10,
+     "value": 1.0
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "progress": {
+     "value": 1.0
+    },
+    "quality": {
+     "value": 1.0
+    },
+    "smart": {
+     "value": 1.0
+    }
+   },
+   "reading_counted": false,
+   "score": 1000,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Judged 50% on focus, 50% on output: a building block. Focus 1000: one thing 100% of the time, 0.0 switches a minute; on your goal 100%. Output 1000: got 100% of the way to the goal; quality 100%; working smart 100%; making or reading for it 100%. Milestones: 3 of 3 reached (The crash no longer reproduces; A test covers the crash; The fix is committed)."
+  },
+  "name": "perfect_1000",
+  "rubric": {
+   "balance": {
+    "focus": 0.5,
+    "output": 0.5
+   },
+   "kind": "building",
+   "milestones": [
+    {
+     "id": "a",
+     "text": "The crash no longer reproduces"
+    },
+    {
+     "id": "b",
+     "text": "A test covers the crash."
+    },
+    {
+     "id": "c",
+     "text": "The fix is committed"
+    }
+   ]
+  }
+ },
+ {
+  "block": {
+   "active_s": 500,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": false,
+   "ended_at": 1790000600.0,
+   "frames": [
+    {
+     "automatable": "",
+     "doing": "editing SwiftUI view",
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "automatable": "",
+     "doing": "writing code",
+     "on_goal": 1.0,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 4
+  },
+  "expected": {
+   "advice": "You stopped after 10 of 25 minutes — try to see the next one through, even if it goes slowly.",
+   "completion": 0.4,
+   "focus_score": 346,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 331,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.925
+    },
+    "mono": {
+     "switches_per_min": 0.4,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.859
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 2,
+     "value": 0.95
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.887
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.85
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 338,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 346: one thing 93% of the time, 0.4 switches a minute; on your goal 95%. Output 331: quality 85%; making or reading for it 92%. Finished 40% of the block."
+  },
+  "name": "ended_early_completion_0_4",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 500,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": false,
+   "ended_at": 1790000600.0,
+   "frames": [
+    {
+     "automatable": "",
+     "doing": "editing SwiftUI view",
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "automatable": "",
+     "doing": "writing code",
+     "on_goal": 1.0,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 4
+  },
+  "expected": {
+   "advice": "You stopped after 10 of 25 minutes — try to see the next one through, even if it goes slowly.",
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "balance_line": "Judged 40% on focus, 60% on output: a writing block",
+   "completion": 0.4,
+   "distraction_site_s": 0.0,
+   "focus_score": 346,
+   "goal_used": "Acme onboarding screen",
+   "kind": "writing",
+   "milestones": {
+    "missed": [],
+    "reached": [],
+    "total": 0
+   },
+   "nothing_done": false,
+   "on_task_share": 1.0,
+   "output_score": 331,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.925
+    },
+    "mono": {
+     "switches_per_min": 0.4,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.859
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 2,
+     "value": 0.95
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.887
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.85
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 337,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Judged 40% on focus, 60% on output: a writing block. Focus 346: one thing 93% of the time, 0.4 switches a minute; on your goal 95%. Output 331: quality 85%; making or reading for it 92%. Finished 40% of the block."
+  },
+  "name": "ended_early_with_rubric",
+  "rubric": {
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "kind": "writing",
+   "milestones": []
+  }
+ },
+ {
+  "block": {
+   "active_s": 0,
+   "apps": [
+    {
+     "app": "Finder",
+     "seconds": 1500
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "mode": "other",
+     "on_goal": 0.1,
+     "quality": 0.05,
+     "working": 0.05
+    },
+    {
+     "mode": "other",
+     "on_goal": 0.1,
+     "quality": 0.05,
+     "working": 0.05
+    },
+    {
+     "mode": "other",
+     "on_goal": 0.1,
+     "quality": 0.05,
+     "working": 0.05
+    },
+    {
+     "mode": "other",
+     "on_goal": 0.1,
+     "quality": 0.05,
+     "working": 0.05
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 0
+  },
+  "expected": {
+   "advice": "Nothing got made or read this block — next time, open the work and write the first line before anything else.",
+   "completion": 1.0,
+   "focus_score": 1,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": true,
+   "output_score": 1,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.0,
+     "reading": 0.0,
+     "screens": 0.05,
+     "typing": 0.0,
+     "value": 0.025
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "Finder",
+     "top_share": 1.0,
+     "value": 1.0
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.1
+    },
+    "output": {
+     "hands_on": 0.0,
+     "reading": 0.0,
+     "screens": 0.05,
+     "typing": 0.0,
+     "value": 0.035
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.05
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 1,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 1, output 1: the screens and the keyboard both showed nothing made and nothing read."
+  },
+  "name": "nothing_made_nothing_read",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 1200,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 700,
+     "title": "Acme"
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 800,
+     "url": "https://www.youtube.com/watch"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "distraction_s": 800,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "on_goal": 0.2,
+     "url": "https://www.youtube.com/watch",
+     "working": 0.2
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 40
+  },
+  "expected": {
+   "advice": "The biggest pull away was youtube.com (13 minutes) — close it before the next block starts.",
+   "completion": 1.0,
+   "focus_score": 112,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 184,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.2,
+     "typing": 1.0,
+     "value": 0.6
+    },
+    "mono": {
+     "switches_per_min": 1.6,
+     "top": "youtube.com",
+     "top_share": 0.533,
+     "value": 0.363
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 1,
+     "value": 0.2
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.2,
+     "typing": 1.0,
+     "value": 0.346
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.2
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 148,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 112: one thing 53% of the time, 1.6 switches a minute; on your goal 20%. Output 184: quality 20%; making or reading for it 60%."
+  },
+  "name": "distraction_time",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 900,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1200,
+     "title": "Acme onboarding notes"
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 300,
+     "url": "https://www.youtube.com/w"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "distraction_s": 0,
+     "on_goal": 0.9,
+     "seconds": 60,
+     "working": 0.8
+    },
+    {
+     "distraction_s": 15,
+     "on_goal": 0.9,
+     "seconds": 60,
+     "working": 0.6
+    },
+    {
+     "distraction_s": 60,
+     "on_goal": 0.2,
+     "seconds": 60,
+     "url": "https://www.youtube.com/w",
+     "working": 0.1
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 10
+  },
+  "expected": {
+   "advice": "You lost 5 minutes to youtube.com — close it before the next block starts.",
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "balance_line": "Judged 40% on focus, 60% on output: a writing block",
+   "completion": 1.0,
+   "distraction_site_s": 75.0,
+   "focus_score": 557,
+   "goal_used": "Acme onboarding screen",
+   "kind": "writing",
+   "milestones": {
+    "missed": [],
+    "reached": [],
+    "total": 0
+   },
+   "nothing_done": false,
+   "on_task_share": 0.583,
+   "output_score": 408,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.5,
+     "typing": 0.8,
+     "value": 0.65
+    },
+    "mono": {
+     "switches_per_min": 0.4,
+     "top": "Google Docs",
+     "top_share": 0.8,
+     "value": 0.736
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 3,
+     "value": 0.667
+    },
+    "output": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.5,
+     "typing": 0.8,
+     "value": 0.57
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.5
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 468,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Judged 40% on focus, 60% on output: a writing block. Focus 557: one thing 80% of the time, 0.4 switches a minute; on your goal 67%. Output 408: quality 50%; making or reading for it 65%."
+  },
+  "name": "distraction_minutes_with_rubric",
+  "rubric": {
+   "balance": {
+    "focus": 0.4,
+    "output": 0.6
+   },
+   "kind": "writing",
+   "milestones": []
+  }
+ },
+ {
+  "block": {
+   "active_s": 1200,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "app": "Claude",
+     "at": 1790000000.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Calendar",
+     "at": 1790000060.0,
+     "mode": "other",
+     "on_goal": 0.05,
+     "quality": 0.1,
+     "working": 0.1
+    },
+    {
+     "app": "Claude",
+     "at": 1790000120.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "quality": 0.8,
+     "working": 0.8
+    },
+    {
+     "app": "Finder",
+     "doing": "an image on the desktop",
+     "judged": {
+      "on_goal": 0.1,
+      "quality": 0.1,
+      "working": 0.1
+     },
+     "on_goal": 0.5,
+     "pending": true,
+     "quality": 0.5,
+     "working": 0.5
+    },
+    {
+     "app": "Claude",
+     "at": 1790000300.0,
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.7,
+     "quality": 0.8,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 4
+  },
+  "expected": {
+   "advice": "You got about 70% of the way to \"Acme onboarding screen\" — start the next block straight on the part that's left.",
+   "completion": 1.0,
+   "focus_score": 847,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 678,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 1.0,
+     "value": 0.9
+    },
+    "mono": {
+     "switches_per_min": 0.16,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.903
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 3,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 1.0,
+     "value": 0.784
+    },
+    "progress": {
+     "value": 0.7
+    },
+    "quality": {
+     "value": 0.8
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 762,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.294,
+     "progress": 0.412,
+     "quality": 0.294
+    }
+   },
+   "why": "Focus 847: one thing 93% of the time, 0.16 switches a minute; on your goal 90%. Output 678: got 70% of the way to the goal; quality 80%; making or reading for it 90%."
+  },
+  "name": "frames_marked_pending_and_a_detour",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 1200,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "attention": 0.0,
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "eye": {
+    "away": 0.0,
+    "blank": 0.9,
+    "on_screen": 0.1,
+    "quality": "good",
+    "reading": 0.0,
+    "samples": 1500
+   },
+   "face_present": 0.0,
+   "frames": [
+    {
+     "automatable": "",
+     "doing": "editing SwiftUI view",
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "automatable": "",
+     "doing": "writing code",
+     "on_goal": 1.0,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "looking": 0.2,
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 4
+  },
+  "expected": {
+   "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+   "completion": 1.0,
+   "focus_score": 892,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 825,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.925
+    },
+    "mono": {
+     "switches_per_min": 0.16,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.903
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 2,
+     "value": 0.95
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.887
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.85
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 858,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 892: one thing 93% of the time, 0.16 switches a minute; on your goal 95%. Output 825: quality 85%; making or reading for it 92%."
+  },
+  "name": "old_stored_block_with_camera_fields",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 1400,
+   "apps": [
+    {
+     "app": "Claude",
+     "seconds": 1500
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [],
+   "goal": "Finish Acme app rulings",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 0
+  },
+  "expected": {
+   "advice": "That was a strong block on Finish Acme app rulings — do the next one exactly the same way.",
+   "completion": 1.0,
+   "focus_score": 750,
+   "goal_used": "Finish Acme app rulings",
+   "nothing_done": false,
+   "output_score": 750,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": null,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "Claude",
+     "top_share": 1.0,
+     "value": 1.0
+    },
+    "on_goal": null,
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": null,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "progress": null,
+    "quality": null,
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 750,
+   "weights_used": {
+    "focus": {
+     "mono": 1.0
+    },
+    "output": {
+     "engaged": 1.0
+    }
+   },
+   "why": "Focus 750: one thing 100% of the time, 0.0 switches a minute; your screen wasn't read, so whether it was on your goal was left out (this score is incomplete). Output 750: making or reading for it 100%. Focus capped at 750: your screen was never read, so the work itself wasn't seen."
+  },
+  "name": "unseen_screen_never_read",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 120,
+   "apps": [
+    {
+     "app": "Google Chrome",
+     "seconds": 1500,
+     "url": "https://youtube.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "on_goal": 0.7,
+     "quality": 0.3,
+     "working": 0.25
+    },
+    {
+     "on_goal": 0.7,
+     "quality": 0.3,
+     "working": 0.25
+    },
+    {
+     "on_goal": 0.7,
+     "quality": 0.3,
+     "working": 0.25
+    },
+    {
+     "on_goal": 0.7,
+     "quality": 0.3,
+     "working": 0.25
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 2
+  },
+  "expected": {
+   "advice": "You lost 25 minutes to youtube.com — close it before the next block starts.",
+   "completion": 1.0,
+   "focus_score": 703,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 97,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.107,
+     "reading": 0.0,
+     "screens": 0.25,
+     "typing": 0.107,
+     "value": 0.178
+    },
+    "mono": {
+     "switches_per_min": 0.08,
+     "top": "youtube.com",
+     "top_share": 1.0,
+     "value": 0.984
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.7
+    },
+    "output": {
+     "hands_on": 0.107,
+     "reading": 0.0,
+     "screens": 0.25,
+     "typing": 0.107,
+     "value": 0.231
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.3
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 400,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 703: one thing 100% of the time, 0.08 switches a minute; on your goal 70%. Output 97: quality 30%; making or reading for it 18%."
+  },
+  "name": "consuming_cap",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 1500,
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1500,
+     "title": "Acme"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "on_goal": 1,
+     "quality": 1,
+     "working": 1
+    }
+   ],
+   "goal": "stuff",
+   "inferred_goal": "fixing the Acme login bug",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 0
+  },
+  "expected": {
+   "advice": "That was a strong block on fixing the Acme login bug — do the next one exactly the same way.",
+   "completion": 1.0,
+   "focus_score": 1000,
+   "goal_used": "fixing the Acme login bug",
+   "nothing_done": false,
+   "output_score": 1000,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "Xcode",
+     "top_share": 1.0,
+     "value": 1.0
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 1,
+     "value": 1.0
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 1.0,
+     "typing": 1.0,
+     "value": 1.0
+    },
+    "progress": null,
+    "quality": {
+     "value": 1.0
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 1000,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 1000: one thing 100% of the time, 0.0 switches a minute; on your goal 100%. Output 1000: quality 100%; making or reading for it 100%."
+  },
+  "name": "goal_inferred_from_screen",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 20,
+   "apps": [
+    {
+     "app": "Preview",
+     "seconds": 1400,
+     "title": "HIST 2 guide.pdf"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    },
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    },
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    },
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    }
+   ],
+   "goal": "read chapter 4 of the HIST 2 guide and outline the controls",
+   "input_minutes": 0.05,
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "You were mostly reading and watching rather than making something — start the next block by writing or building straight away.",
+   "completion": 1.0,
+   "focus_score": 890,
+   "goal_used": "read chapter 4 of the HIST 2 guide and outline the controls",
+   "nothing_done": false,
+   "output_score": 560,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.54,
+     "reading": 0.54,
+     "screens": 0.75,
+     "typing": 0.018,
+     "value": 0.645
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Preview",
+     "top_share": 1.0,
+     "value": 0.976
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.54,
+     "reading": 0.54,
+     "screens": 0.75,
+     "typing": 0.018,
+     "value": 0.696
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.75
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 725,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 890: one thing 100% of the time, 0.12 switches a minute; on your goal 90%. Output 560: quality 75%; making or reading for it 64%."
+  },
+  "name": "reading_not_verified_by_input",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 200,
+   "apps": [
+    {
+     "app": "Preview",
+     "seconds": 1400,
+     "title": "HIST 2 guide.pdf"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    },
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    },
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    },
+    {
+     "doing": "reading HIST 2 guide chapter 4",
+     "mode": "studying",
+     "on_goal": 0.9,
+     "quality": 0.75,
+     "working": 0.75
+    }
+   ],
+   "goal": "read chapter 4 of the HIST 2 guide and outline the controls",
+   "input_minutes": 0.6,
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "That was a strong block on read chapter 4 of the HIST 2 guide and outline the controls — do the next one exactly the same way.",
+   "completion": 1.0,
+   "focus_score": 890,
+   "goal_used": "read chapter 4 of the HIST 2 guide and outline the controls",
+   "nothing_done": false,
+   "output_score": 681,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.9,
+     "reading": 0.9,
+     "screens": 0.75,
+     "typing": 0.178,
+     "value": 0.825
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Preview",
+     "top_share": 1.0,
+     "value": 0.976
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.9,
+     "reading": 0.9,
+     "screens": 0.75,
+     "typing": 0.178,
+     "value": 0.787
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.75
+    },
+    "smart": null
+   },
+   "reading_counted": true,
+   "score": 786,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 890: one thing 100% of the time, 0.12 switches a minute; on your goal 90%. Output 681: quality 75%; making or reading for it 82%."
+  },
+  "name": "reading_verified",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 900,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1425,
+     "title": "Acme rulings"
+    },
+    {
+     "app": "Claude",
+     "seconds": 75
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.3,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.6,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme rulings",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+   "completion": 1.0,
+   "focus_score": 861,
+   "goal_used": "Acme rulings",
+   "nothing_done": false,
+   "output_score": 661,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.8
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Google Docs",
+     "top_share": 0.95,
+     "value": 0.927
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.772
+    },
+    "progress": {
+     "value": 0.8
+    },
+    "quality": {
+     "value": 0.75
+    },
+    "smart": {
+     "value": 0.7
+    }
+   },
+   "reading_counted": false,
+   "score": 761,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 661: got 80% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+  },
+  "name": "rubric_fallback_counts_as_none",
+  "rubric": {
+   "balance": {
+    "focus": 0.9,
+    "output": 0.1
+   },
+   "fallback": true,
+   "kind": "reading",
+   "milestones": [
+    {
+     "id": "m1",
+     "text": "Chapter 4 read to the end."
+    },
+    {
+     "id": "m2",
+     "text": "The controls are outlined in the notes"
+    }
+   ]
+  }
+ },
+ {
+  "block": {
+   "active_s": 900,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1425,
+     "title": "Acme rulings"
+    },
+    {
+     "app": "Claude",
+     "seconds": 75
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.3,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.6,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme rulings",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+   "balance": {
+    "focus": 0.5,
+    "output": 0.5
+   },
+   "balance_line": "Judged 50% on focus, 50% on output: a planning block",
+   "completion": 1.0,
+   "distraction_site_s": 0.0,
+   "focus_score": 861,
+   "goal_used": "Acme rulings",
+   "kind": "planning",
+   "milestones": {
+    "missed": [],
+    "reached": [],
+    "total": 0
+   },
+   "nothing_done": false,
+   "on_task_share": 1.0,
+   "output_score": 661,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.8
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Google Docs",
+     "top_share": 0.95,
+     "value": 0.927
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.772
+    },
+    "progress": {
+     "value": 0.8
+    },
+    "quality": {
+     "value": 0.75
+    },
+    "smart": {
+     "value": 0.7
+    }
+   },
+   "reading_counted": false,
+   "score": 761,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Judged 50% on focus, 50% on output: a planning block. Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 661: got 80% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+  },
+  "name": "rubric_balance_focus_zero_reads_as_half",
+  "rubric": {
+   "balance": {
+    "focus": 0.0,
+    "output": 1.0
+   },
+   "kind": "planning"
+  }
+ },
+ {
+  "block": {
+   "active_s": 1200,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1200,
+     "title": "Acme notes"
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 300,
+     "url": "https://discord.com/channels/1/2"
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "automatable": "Have AI format the bibliography",
+     "on_goal": 0.8,
+     "working": 0.6
+    },
+    {
+     "on_goal": 0.3,
+     "serves_goal": true,
+     "url": "https://discord.com/channels/1/2",
+     "working": 0.5
+    }
+   ],
+   "goal": "Acme onboarding",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 4
+  },
+  "expected": {
+   "advice": "This could be done for you: Have AI format the bibliography. Worth handing to an AI next time.",
+   "completion": 1.0,
+   "focus_score": 479,
+   "goal_used": "Acme onboarding",
+   "nothing_done": false,
+   "output_score": 506,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.55,
+     "typing": 1.0,
+     "value": 0.775
+    },
+    "mono": {
+     "switches_per_min": 0.16,
+     "top": "Google Docs",
+     "top_share": 0.8,
+     "value": 0.774
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 2,
+     "value": 0.55
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.55,
+     "typing": 1.0,
+     "value": 0.653
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.55
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 492,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 479: one thing 80% of the time, 0.16 switches a minute; on your goal 55%. Output 506: quality 55%; making or reading for it 78%."
+  },
+  "name": "automatable_and_serving_site",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 900,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1425,
+     "title": "Acme rulings"
+    },
+    {
+     "app": "Claude",
+     "seconds": 75
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.2,
+     "quality": 0.4,
+     "smart": 0.7,
+     "working": 0.4
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.2,
+     "quality": 0.4,
+     "smart": 0.7,
+     "working": 0.4
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.2,
+     "quality": 0.4,
+     "smart": 0.7,
+     "working": 0.4
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.2,
+     "quality": 0.4,
+     "smart": 0.7,
+     "working": 0.4
+    }
+   ],
+   "goal": "Acme rulings",
+   "planned_s": 1500,
+   "specific_goal": "Draft rulings 1-5",
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "You got about 20% of the way to \"Draft rulings 1-5\" — start the next block straight on the part that's left.",
+   "completion": 1.0,
+   "focus_score": 861,
+   "goal_used": "Acme rulings",
+   "nothing_done": false,
+   "output_score": 211,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.4,
+     "typing": 0.8,
+     "value": 0.6
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Google Docs",
+     "top_share": 0.95,
+     "value": 0.927
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.4,
+     "typing": 0.8,
+     "value": 0.378
+    },
+    "progress": {
+     "value": 0.2
+    },
+    "quality": {
+     "value": 0.4
+    },
+    "smart": {
+     "value": 0.7
+    }
+   },
+   "reading_counted": false,
+   "score": 536,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 211: got 20% of the way to the goal; quality 40%; working smart 70%; making or reading for it 60%."
+  },
+  "name": "little_progress_named",
+  "rubric": null
+ },
+ {
+  "block": {
+   "apps": [
+    null,
+    3,
+    {
+     "seconds": "a"
+    }
+   ],
+   "attention": "?",
+   "frames": "x"
+  },
+  "expected": {
+   "advice": "You stopped after 0 of 25 minutes — try to see the next one through, even if it goes slowly.",
+   "completion": 0.0,
+   "focus_score": 1,
+   "goal_used": "",
+   "nothing_done": false,
+   "output_score": 1,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.0,
+     "reading": 0.0,
+     "screens": null,
+     "typing": 0.0,
+     "value": 0.0
+    },
+    "mono": {
+     "switches_per_min": 0.0,
+     "top": "",
+     "top_share": 0.5,
+     "value": 0.5
+    },
+    "on_goal": null,
+    "output": {
+     "hands_on": 0.0,
+     "reading": 0.0,
+     "screens": null,
+     "typing": 0.0,
+     "value": 0.02
+    },
+    "progress": null,
+    "quality": null,
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 1,
+   "weights_used": {
+    "focus": {
+     "mono": 1.0
+    },
+    "output": {
+     "engaged": 1.0
+    }
+   },
+   "why": "Focus 1: one thing 50% of the time, 0.0 switches a minute; your screen wasn't read, so whether it was on your goal was left out (this score is incomplete). Output 1: making or reading for it 0%. Finished 0% of the block."
+  },
+  "name": "garbage_input",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": "700",
+   "apps": [
+    {
+     "app": "Xcode",
+     "seconds": 1400,
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    {
+     "app": "Google Chrome",
+     "seconds": 100,
+     "title": "SwiftUI docs",
+     "url": "https://developer.apple.com/x"
+    }
+   ],
+   "block_id": "b1",
+   "completed": false,
+   "ended_at": "2026-09-21T09:15:00+00:00",
+   "frames": [
+    {
+     "automatable": "",
+     "doing": "editing SwiftUI view",
+     "on_goal": 0.9,
+     "working": 0.9
+    },
+    {
+     "automatable": "",
+     "doing": "writing code",
+     "on_goal": 1.0,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme onboarding screen",
+   "planned_s": "1500",
+   "started_at": "2026-09-21T09:00:00Z",
+   "switches": "6"
+  },
+  "expected": {
+   "advice": "You stopped after 15 of 25 minutes — try to see the next one through, even if it goes slowly.",
+   "completion": 0.6,
+   "focus_score": 519,
+   "goal_used": "Acme onboarding screen",
+   "nothing_done": false,
+   "output_score": 495,
+   "parts": {
+    "engaged": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.925
+    },
+    "mono": {
+     "switches_per_min": 0.4,
+     "top": "Xcode",
+     "top_share": 0.933,
+     "value": 0.859
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 2,
+     "value": 0.95
+    },
+    "output": {
+     "hands_on": 1.0,
+     "reading": 0.0,
+     "screens": 0.85,
+     "typing": 1.0,
+     "value": 0.887
+    },
+    "progress": null,
+    "quality": {
+     "value": 0.85
+    },
+    "smart": null
+   },
+   "reading_counted": false,
+   "score": 507,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.5,
+     "quality": 0.5
+    }
+   },
+   "why": "Focus 519: one thing 93% of the time, 0.4 switches a minute; on your goal 95%. Output 495: quality 85%; making or reading for it 92%. Finished 60% of the block."
+  },
+  "name": "iso_times_and_string_numbers",
+  "rubric": null
+ },
+ {
+  "block": {
+   "active_s": 900,
+   "apps": [
+    {
+     "app": "Google Docs",
+     "seconds": 1425,
+     "title": "Acme rulings"
+    },
+    {
+     "app": "Claude",
+     "seconds": 75
+    }
+   ],
+   "block_id": "b1",
+   "completed": true,
+   "ended_at": 1790001500.0,
+   "frames": [
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.3,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.6,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    },
+    {
+     "mode": "making",
+     "on_goal": 0.9,
+     "progress": 0.8,
+     "quality": 0.75,
+     "smart": 0.7,
+     "working": 0.8
+    }
+   ],
+   "goal": "Acme rulings",
+   "planned_s": 1500,
+   "started_at": 1790000000.0,
+   "switches": 3
+  },
+  "expected": {
+   "advice": "You got about 0% of the way to \"Acme rulings\" — start the next block straight on the part that's left.",
+   "balance": {
+    "focus": 0.35,
+    "output": 0.65
+   },
+   "balance_line": "Judged 35% on focus, 65% on output: a building block",
+   "completion": 1.0,
+   "distraction_site_s": 0.0,
+   "focus_score": 861,
+   "goal_used": "Acme rulings",
+   "kind": "building",
+   "milestones": {
+    "missed": [
+     "The crash no longer reproduces",
+     "A test covers the crash.",
+     "The fix is committed"
+    ],
+    "reached": [],
+    "total": 3
+   },
+   "nothing_done": false,
+   "on_task_share": 1.0,
+   "output_score": 1,
+   "parts": {
+    "engaged": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.8
+    },
+    "mono": {
+     "switches_per_min": 0.12,
+     "top": "Google Docs",
+     "top_share": 0.95,
+     "value": 0.927
+    },
+    "on_goal": {
+     "from": "screenshots",
+     "n": 4,
+     "value": 0.9
+    },
+    "output": {
+     "hands_on": 0.8,
+     "reading": 0.0,
+     "screens": 0.8,
+     "typing": 0.8,
+     "value": 0.212
+    },
+    "progress": {
+     "value": 0.0
+    },
+    "quality": {
+     "value": 0.75
+    },
+    "smart": {
+     "value": 0.7
+    }
+   },
+   "reading_counted": false,
+   "score": 302,
+   "weights_used": {
+    "focus": {
+     "mono": 0.4,
+     "on_goal": 0.6
+    },
+    "output": {
+     "engaged": 0.25,
+     "progress": 0.35,
+     "quality": 0.25,
+     "smart": 0.15
+    }
+   },
+   "why": "Judged 35% on focus, 65% on output: a building block. Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 1: got 0% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%. Milestones: 0 of 3 reached. Missed: The crash no longer reproduces; A test covers the crash; The fix is committed. Output capped at 1: 0 of 3 milestones reached."
+  },
+  "name": "ms_rubric_no_milestones_reached",
+  "rubric": {
+   "balance": {
+    "focus": 0.35,
+    "output": 0.65
+   },
+   "kind": "building",
+   "milestones": [
+    {
+     "id": "a",
+     "text": "The crash no longer reproduces"
+    },
+    {
+     "id": "b",
+     "text": "A test covers the crash."
+    },
+    {
+     "id": "c",
+     "text": "The fix is committed"
+    }
+   ]
+  }
+ }
+]

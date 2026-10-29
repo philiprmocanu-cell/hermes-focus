@@ -1,0 +1,174 @@
+{
+ "name": "note_applied",
+ "text": "{\"kind\": \"reading\", \"balance\": {\"focus\": 0.9, \"output\": 0.1}, \"milestones\": [{\"id\": \"m1\", \"text\": \"Finished section 3\"}], \"on_tells\": [{\"id\": \"t1\", \"text\": \"Is he typing in the HIST 2 reaction paper document?\"}, {\"id\": \"t2\", \"text\": \"Is he reading the assigned HIST 2 article?\"}, {\"id\": \"t3\", \"text\": \"Is he asking an AI about the paper's argument?\"}, {\"id\": \"t4\", \"text\": \"Is the Canvas assignment page for the paper open?\"}, {\"id\": \"t5\", \"text\": \"Is he searching for a source on the paper's topic?\"}, {\"id\": \"t6\", \"text\": \"Is he outlining the paper's sections?\"}], \"off_tells\": [{\"id\": \"x1\", \"text\": \"Is he watching a video unrelated to the paper?\"}, {\"id\": \"x2\", \"text\": \"Is he on another course's assignment?\"}, {\"id\": \"x3\", \"text\": \"Is he messaging about something else?\"}], \"smart\": [\"Ask the AI for an outline in one line, then write in your own words.\"]}",
+ "note": "  this block is\nreading only  ",
+ "labels": [],
+ "prompt_input": {
+  "goal": "HIST 2 paper",
+  "specific": "Draft the intro and outline.",
+  "understood": "Writing the HIST 2 reaction paper",
+  "related": [
+   [
+    "sites",
+    [
+     "Canvas"
+    ]
+   ]
+  ],
+  "past_rubric_md": "",
+  "rulings": [],
+  "note": "  this block is\nreading only  ",
+  "block_min": 25,
+  "current_md": "CURRENT"
+ },
+ "rubric": {
+  "kind": "reading",
+  "balance": {
+   "focus": 0.9,
+   "output": 0.1
+  },
+  "milestones": [
+   {
+    "id": "m1",
+    "text": "Finished section 3"
+   }
+  ],
+  "on_tells": [
+   {
+    "id": "t1",
+    "text": "Is he typing in the HIST 2 reaction paper document?"
+   },
+   {
+    "id": "t2",
+    "text": "Is he reading the assigned HIST 2 article?"
+   },
+   {
+    "id": "t3",
+    "text": "Is he asking an AI about the paper's argument?"
+   },
+   {
+    "id": "t4",
+    "text": "Is the Canvas assignment page for the paper open?"
+   },
+   {
+    "id": "t5",
+    "text": "Is he searching for a source on the paper's topic?"
+   },
+   {
+    "id": "t6",
+    "text": "Is he outlining the paper's sections?"
+   }
+  ],
+  "off_tells": [
+   {
+    "id": "x1",
+    "text": "Is he watching a video unrelated to the paper?"
+   },
+   {
+    "id": "x2",
+    "text": "Is he on another course's assignment?"
+   },
+   {
+    "id": "x3",
+    "text": "Is he messaging about something else?"
+   }
+  ],
+  "smart": [
+   "Ask the AI for an outline in one line, then write in your own words."
+  ],
+  "fallback": false,
+  "note": "this block is reading only",
+  "md": "## Rubric — reading\n\n**Judged 90% on focus, 10% on output: a reading block.**\n\n### Milestones (output is judged against these)\n1. Finished section 3\n\n### On task looks like\n- Is he typing in the HIST 2 reaction paper document?\n- Is he reading the assigned HIST 2 article?\n- Is he asking an AI about the paper's argument?\n- Is the Canvas assignment page for the paper open?\n- Is he searching for a source on the paper's topic?\n- Is he outlining the paper's sections?\n\n### Off task looks like\n- Is he watching a video unrelated to the paper?\n- Is he on another course's assignment?\n- Is he messaging about something else?\n\n### Working smart here\n- Ask the AI for an outline in one line, then write in your own words.\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.\n\n_Your fix: this block is reading only_"
+ },
+ "md": "## Rubric — reading\n\n**Judged 90% on focus, 10% on output: a reading block.**\n\n### Milestones (output is judged against these)\n1. Finished section 3\n\n### On task looks like\n- Is he typing in the HIST 2 reaction paper document?\n- Is he reading the assigned HIST 2 article?\n- Is he asking an AI about the paper's argument?\n- Is the Canvas assignment page for the paper open?\n- Is he searching for a source on the paper's topic?\n- Is he outlining the paper's sections?\n\n### Off task looks like\n- Is he watching a video unrelated to the paper?\n- Is he on another course's assignment?\n- Is he messaging about something else?\n\n### Working smart here\n- Ask the AI for an outline in one line, then write in your own words.\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.\n\n_Your fix: this block is reading only_",
+ "questions": {
+  "rub_on_t1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he typing in the HIST 2 reaction paper document? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he reading the assigned HIST 2 article? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he asking an AI about the paper's argument? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t4": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the Canvas assignment page for the paper open? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t5": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he searching for a source on the paper's topic? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t6": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he outlining the paper's sections? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he watching a video unrelated to the paper? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he on another course's assignment? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he messaging about something else? Yes only when the screen right now plainly shows it."
+  },
+  "ms_m1": {
+   "type": "noul",
+   "instructions": "Is milestone \"Finished section 3\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  }
+ },
+ "goal_questions": [
+  {
+   "id": "rub_on_t1",
+   "text": "Is he typing in the HIST 2 reaction paper document?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t2",
+   "text": "Is he reading the assigned HIST 2 article?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t3",
+   "text": "Is he asking an AI about the paper's argument?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t4",
+   "text": "Is the Canvas assignment page for the paper open?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t5",
+   "text": "Is he searching for a source on the paper's topic?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t6",
+   "text": "Is he outlining the paper's sections?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_off_x1",
+   "text": "Is he watching a video unrelated to the paper?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x2",
+   "text": "Is he on another course's assignment?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x3",
+   "text": "Is he messaging about something else?",
+   "means": "off_task"
+  }
+ ],
+ "prompt": "Goal he typed: HIST 2 paper\n\nSpecific goal for this block: Draft the intro and outline.\n\nWhat it means: Writing the HIST 2 reaction paper\n\nWhat the work involves: sites: Canvas\n\nThe block is 25 minutes long.\n\nThe rubric he is looking at now:\nCURRENT\n\nHis fix, typed before starting — follow it exactly, it overrides the anchors: this block is reading only\n\nWrite the rubric as strict JSON."
+}

@@ -1,0 +1,1804 @@
+{
+ "ACTIVITY": {
+  "consuming": {
+   "examples": [
+    "Instagram",
+    "YouTube Shorts",
+    "Reddit front page",
+    "a shopping cart"
+   ],
+   "what": "feeds, social media, entertainment video, news, shopping, memes, chat unrelated to work"
+  },
+  "making": {
+   "examples": [
+    "Xcode with a diff",
+    "Claude chat asking for a fix",
+    "Google Doc being typed into",
+    "a Gmail reply being drafted"
+   ],
+   "what": "writing, coding, editing, solving, building, or directing an AI chat to build or fix something (a Claude or ChatGPT chat with code or a concrete ask is making); writing an email or message that the goal needs"
+  },
+  "other": {
+   "not_for": "anything that is plainly work or plainly a distraction",
+   "what": "settings, Finder, a file picker, a terminal with no output, a blank window, an app switching moment"
+  },
+  "static": {
+   "not_for": "reading material inside its allowance, or a page being scrolled or typed into",
+   "what": "no keyboard, mouse or scroll for longer than his idle allowance (since_last_second.no_input_too_long) — he has likely stepped away"
+  },
+  "studying": {
+   "examples": [
+    "a PDF chapter",
+    "zyBooks",
+    "developer documentation",
+    "Canvas course page"
+   ],
+   "what": "reading or studying material — a paper, docs, a textbook or ebook, a course page, a tutorial, a long AI answer, search results being read for the work"
+  }
+ },
+ "CHECK_IDS": [
+  "contact",
+  "search",
+  "ai_agent",
+  "reference",
+  "making",
+  "title",
+  "testing",
+  "lookup",
+  "planning",
+  "meeting",
+  "waiting",
+  "sub_problem",
+  "form",
+  "lecture",
+  "files",
+  "continuing",
+  "reviewing",
+  "data",
+  "feed",
+  "entertainment",
+  "shopping",
+  "chat_unrelated",
+  "news",
+  "game",
+  "hopping",
+  "new_topic",
+  "personal_admin",
+  "notifications",
+  "profiles",
+  "other_project",
+  "ai_unrelated",
+  "passive",
+  "repeating",
+  "settings",
+  "finder",
+  "switching"
+ ],
+ "CHECK_QUESTIONS": {
+  "chk_ai_agent": {
+   "instructions": "Is an AI chat or coding agent working on the task's project (its prompt, code or output is about it)?",
+   "type": "noul"
+  },
+  "chk_ai_unrelated": {
+   "instructions": "Is an AI chat on screen about a topic unrelated to the task?",
+   "type": "noul"
+  },
+  "chk_chat_unrelated": {
+   "instructions": "Is he in a chat, DM or email thread unrelated to the task?",
+   "type": "noul"
+  },
+  "chk_contact": {
+   "instructions": "Is he writing to, replying to or reading a message from someone about the task (any email, chat or DM)?",
+   "type": "noul"
+  },
+  "chk_continuing": {
+   "instructions": "Is this the same task work the story shows he was doing a minute ago, carried on?",
+   "type": "noul"
+  },
+  "chk_data": {
+   "instructions": "Is he reading data the task is about (a dashboard, a log, a spreadsheet, results)?",
+   "type": "noul"
+  },
+  "chk_entertainment": {
+   "instructions": "Is he watching entertainment unrelated to the task (a show, a stream, clips, memes)?",
+   "type": "noul"
+  },
+  "chk_feed": {
+   "instructions": "Is he scrolling a feed (social, video, news or forum front page) rather than reading one thing?",
+   "type": "noul"
+  },
+  "chk_files": {
+   "instructions": "Is he opening, saving, moving or sharing a file that belongs to the task?",
+   "type": "noul"
+  },
+  "chk_finder": {
+   "instructions": "Is it Finder, the desktop, a file picker or a downloads list?",
+   "type": "noul"
+  },
+  "chk_form": {
+   "instructions": "Is he filling in a form, portal or account page the task needs (a submission, an upload, a sign-up)?",
+   "type": "noul"
+  },
+  "chk_game": {
+   "instructions": "Is he playing a game or on a game site?",
+   "type": "noul"
+  },
+  "chk_hopping": {
+   "instructions": "Is he hopping between unrelated pages or apps without settling on one (see the story)?",
+   "type": "noul"
+  },
+  "chk_lecture": {
+   "instructions": "Is he watching a lecture, tutorial or demo on the task's own topic?",
+   "type": "noul"
+  },
+  "chk_lookup": {
+   "instructions": "Is he looking up a tool, part, price, setting or how-to that the task needs?",
+   "type": "noul"
+  },
+  "chk_making": {
+   "instructions": "Is he writing or editing the document, code, design or message that IS the task?",
+   "type": "noul"
+  },
+  "chk_meeting": {
+   "instructions": "Is he on a call or in a meeting about the task, or reading its agenda or notes?",
+   "type": "noul"
+  },
+  "chk_new_topic": {
+   "instructions": "Has he moved on to a new topic unrelated to both the goal and the story so far?",
+   "type": "noul"
+  },
+  "chk_news": {
+   "instructions": "Is he reading news, an article or a forum thread unrelated to the task?",
+   "type": "noul"
+  },
+  "chk_notifications": {
+   "instructions": "Is he checking notifications, likes, followers, views or stats unrelated to the task?",
+   "type": "noul"
+  },
+  "chk_other_project": {
+   "instructions": "Is he doing real work, but on a DIFFERENT project than this goal?",
+   "type": "noul"
+  },
+  "chk_passive": {
+   "instructions": "Is the screen passive: nothing to read, nothing typed or scrolled, nothing for the task playing?",
+   "type": "noul"
+  },
+  "chk_personal_admin": {
+   "instructions": "Is he on personal admin unrelated to the task (banking, travel, bills, appointments, deliveries)?",
+   "type": "noul"
+  },
+  "chk_planning": {
+   "instructions": "Is he planning, outlining or taking notes for the task (a to-do list, outline, notes, whiteboard)?",
+   "type": "noul"
+  },
+  "chk_profiles": {
+   "instructions": "Is he looking through someone's profile or photos for no reason the task gives?",
+   "type": "noul"
+  },
+  "chk_reference": {
+   "instructions": "Is he reading reference or study material on the task's topic (docs, a textbook, a paper, an article)?",
+   "type": "noul"
+  },
+  "chk_repeating": {
+   "instructions": "Is he redoing the same thing again (retyping, re-running the same step, re-reading the same page)?",
+   "type": "noul"
+  },
+  "chk_reviewing": {
+   "instructions": "Is he reviewing someone else's work for the task (a pull request, comments, suggested edits)?",
+   "type": "noul"
+  },
+  "chk_search": {
+   "instructions": "Is he searching for words that serve the task or what he was doing the last few minutes?",
+   "type": "noul"
+  },
+  "chk_settings": {
+   "instructions": "Is it a settings pane, preferences window or system dialog?",
+   "type": "noul"
+  },
+  "chk_shopping": {
+   "instructions": "Is he shopping or browsing products unrelated to the task?",
+   "type": "noul"
+  },
+  "chk_sub_problem": {
+   "instructions": "Is this a sub-problem the task led to, going by the story (an error, a broken tool, a setup step)?",
+   "type": "noul"
+  },
+  "chk_switching": {
+   "instructions": "Is this an app-switch moment: a blank, loading or half-drawn window?",
+   "type": "noul"
+  },
+  "chk_testing": {
+   "instructions": "Is he reviewing, running or testing the task's output (a preview, simulator, build, terminal running it)?",
+   "type": "noul"
+  },
+  "chk_title": {
+   "instructions": "Does the window, tab or document title name the task, its project, its file or a person it involves?",
+   "type": "noul"
+  },
+  "chk_waiting": {
+   "instructions": "Is he waiting on a build, upload or agent for the task with nothing unrelated open?",
+   "type": "noul"
+  }
+ },
+ "GENERAL_CHECKS": [
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "contact",
+   "means": "on_task",
+   "text": "Is he writing to, replying to or reading a message from someone about the task (any email, chat or DM)?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "search",
+   "means": "on_task",
+   "text": "Is he searching for words that serve the task or what he was doing the last few minutes?",
+   "weight": 0.9
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "ai_agent",
+   "means": "on_task",
+   "text": "Is an AI chat or coding agent working on the task's project (its prompt, code or output is about it)?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "reference",
+   "means": "on_task",
+   "text": "Is he reading reference or study material on the task's topic (docs, a textbook, a paper, an article)?",
+   "weight": 0.9
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "making",
+   "means": "on_task",
+   "text": "Is he writing or editing the document, code, design or message that IS the task?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "title",
+   "means": "on_task",
+   "text": "Does the window, tab or document title name the task, its project, its file or a person it involves?",
+   "weight": 0.6
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "testing",
+   "means": "on_task",
+   "text": "Is he reviewing, running or testing the task's output (a preview, simulator, build, terminal running it)?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "lookup",
+   "means": "on_task",
+   "text": "Is he looking up a tool, part, price, setting or how-to that the task needs?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "planning",
+   "means": "on_task",
+   "text": "Is he planning, outlining or taking notes for the task (a to-do list, outline, notes, whiteboard)?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "meeting",
+   "means": "on_task",
+   "text": "Is he on a call or in a meeting about the task, or reading its agenda or notes?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "waiting",
+   "means": "on_task",
+   "text": "Is he waiting on a build, upload or agent for the task with nothing unrelated open?",
+   "weight": 0.6
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "sub_problem",
+   "means": "on_task",
+   "text": "Is this a sub-problem the task led to, going by the story (an error, a broken tool, a setup step)?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "form",
+   "means": "on_task",
+   "text": "Is he filling in a form, portal or account page the task needs (a submission, an upload, a sign-up)?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "lecture",
+   "means": "on_task",
+   "text": "Is he watching a lecture, tutorial or demo on the task's own topic?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "files",
+   "means": "on_task",
+   "text": "Is he opening, saving, moving or sharing a file that belongs to the task?",
+   "weight": 0.6
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "continuing",
+   "means": "on_task",
+   "text": "Is this the same task work the story shows he was doing a minute ago, carried on?",
+   "weight": 0.7
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "reviewing",
+   "means": "on_task",
+   "text": "Is he reviewing someone else's work for the task (a pull request, comments, suggested edits)?",
+   "weight": 0.9
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "data",
+   "means": "on_task",
+   "text": "Is he reading data the task is about (a dashboard, a log, a spreadsheet, results)?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "feed",
+   "means": "off_task",
+   "text": "Is he scrolling a feed (social, video, news or forum front page) rather than reading one thing?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "entertainment",
+   "means": "off_task",
+   "text": "Is he watching entertainment unrelated to the task (a show, a stream, clips, memes)?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "shopping",
+   "means": "off_task",
+   "text": "Is he shopping or browsing products unrelated to the task?",
+   "weight": 0.9
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "chat_unrelated",
+   "means": "off_task",
+   "text": "Is he in a chat, DM or email thread unrelated to the task?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "news",
+   "means": "off_task",
+   "text": "Is he reading news, an article or a forum thread unrelated to the task?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "game",
+   "means": "off_task",
+   "text": "Is he playing a game or on a game site?",
+   "weight": 1.0
+  },
+  {
+   "feeds": [
+    "on_goal",
+    "working",
+    "smart"
+   ],
+   "id": "hopping",
+   "means": "off_task",
+   "text": "Is he hopping between unrelated pages or apps without settling on one (see the story)?",
+   "weight": 0.7
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "new_topic",
+   "means": "off_task",
+   "text": "Has he moved on to a new topic unrelated to both the goal and the story so far?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "personal_admin",
+   "means": "off_task",
+   "text": "Is he on personal admin unrelated to the task (banking, travel, bills, appointments, deliveries)?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "notifications",
+   "means": "off_task",
+   "text": "Is he checking notifications, likes, followers, views or stats unrelated to the task?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "profiles",
+   "means": "off_task",
+   "text": "Is he looking through someone's profile or photos for no reason the task gives?",
+   "weight": 0.7
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "other_project",
+   "means": "off_task",
+   "text": "Is he doing real work, but on a DIFFERENT project than this goal?",
+   "weight": 0.7
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "ai_unrelated",
+   "means": "off_task",
+   "text": "Is an AI chat on screen about a topic unrelated to the task?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "passive",
+   "means": "off_task",
+   "text": "Is the screen passive: nothing to read, nothing typed or scrolled, nothing for the task playing?",
+   "weight": 0.5
+  },
+  {
+   "feeds": [
+    "working",
+    "smart"
+   ],
+   "id": "repeating",
+   "means": "off_task",
+   "text": "Is he redoing the same thing again (retyping, re-running the same step, re-reading the same page)?",
+   "weight": 0.8
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "settings",
+   "means": "neutral",
+   "text": "Is it a settings pane, preferences window or system dialog?",
+   "weight": 0.5
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "finder",
+   "means": "neutral",
+   "text": "Is it Finder, the desktop, a file picker or a downloads list?",
+   "weight": 0.5
+  },
+  {
+   "feeds": [
+    "on_goal"
+   ],
+   "id": "switching",
+   "means": "neutral",
+   "text": "Is this an app-switch moment: a blank, loading or half-drawn window?",
+   "weight": 0.5
+  }
+ ],
+ "QUESTIONS": {
+  "activity": {
+   "criteria": {
+    "consuming": {
+     "examples": [
+      "Instagram",
+      "YouTube Shorts",
+      "Reddit front page",
+      "a shopping cart"
+     ],
+     "what": "feeds, social media, entertainment video, news, shopping, memes, chat unrelated to work"
+    },
+    "making": {
+     "examples": [
+      "Xcode with a diff",
+      "Claude chat asking for a fix",
+      "Google Doc being typed into",
+      "a Gmail reply being drafted"
+     ],
+     "what": "writing, coding, editing, solving, building, or directing an AI chat to build or fix something (a Claude or ChatGPT chat with code or a concrete ask is making); writing an email or message that the goal needs"
+    },
+    "other": {
+     "not_for": "anything that is plainly work or plainly a distraction",
+     "what": "settings, Finder, a file picker, a terminal with no output, a blank window, an app switching moment"
+    },
+    "static": {
+     "not_for": "reading material inside its allowance, or a page being scrolled or typed into",
+     "what": "no keyboard, mouse or scroll for longer than his idle allowance (since_last_second.no_input_too_long) — he has likely stepped away"
+    },
+    "studying": {
+     "examples": [
+      "a PDF chapter",
+      "zyBooks",
+      "developer documentation",
+      "Canvas course page"
+     ],
+     "what": "reading or studying material — a paper, docs, a textbook or ebook, a course page, a tutorial, a long AI answer, search results being read for the work"
+    }
+   },
+   "instructions": "What is he doing on this screen right now? Read `screen_now.screenshot` when it is present: it is the screen itself. Judge the content, not the app name.",
+   "type": "choice"
+  },
+  "on_goal": {
+   "criteria": [
+    "unrelated",
+    "adjacent",
+    "supporting",
+    "directly"
+   ],
+   "instructions": "How clearly does this screen serve THIS block's goal (the specific goal if given), read together with `story_so_far` and `goal.related`? Read `screen_now.screenshot` when it is present: it is the screen itself. Supporting or directly: the material the goal needs; a lookup or a search whose words serve the goal or what he was just doing; an email or chat thread with a person, company or project the goal names; an AI chat working on the goal's project. Unrelated only when nothing on the screen connects to the goal.",
+   "type": "score"
+  },
+  "producing": {
+   "criteria": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "instructions": "IGNORE the stated goal. Is he actively making or doing real work on WHATEVER is on screen — creating, editing, coding, writing, debugging, purposeful research? Real work on a different project is still high.",
+   "type": "score"
+  },
+  "progress": {
+   "criteria": [
+    "none",
+    "started",
+    "halfway",
+    "mostly",
+    "done"
+   ],
+   "instructions": "How far toward ACHIEVING the specific goal has he got in this block, judging from the screen and the progress so far? Never below the progress so far unless the work was undone.",
+   "type": "score"
+  },
+  "quality": {
+   "criteria": [
+    "poor",
+    "ok",
+    "good",
+    "excellent"
+   ],
+   "instructions": "Is this GOOD work toward the goal: clear, direct text or prompts that serve it, the right specific material read in a focused way? Judge like a strict coach measuring him against the most productive people alive. Rambling, retyping, aimless hopping or unrelated content is poor.",
+   "type": "score"
+  },
+  "serves_goal": {
+   "instructions": "The screen is on a site or app usually treated as a distraction (Instagram, LinkedIn, X, Reddit, YouTube, Discord, a chat app) but he is messaging or reading something tied to THIS task: a DM with someone the goal names (`goal.related.people`) or a teammate about this work, a thread answering the exact problem, a tutorial on the goal's own topic, a product page for a part or tool the goal's project needs. A feed, a profile, a video or a product unrelated to the goal is NOT.",
+   "type": "noul"
+  },
+  "smart": {
+   "criteria": [
+    "no",
+    "somewhat",
+    "mostly",
+    "yes"
+   ],
+   "instructions": "Is he working SMART, not just hard: an efficient approach, clear direct prompts, using AI and tools well, reusing instead of retyping? Judge like a strict coach measuring him against the most productive people alive; never reward merely having the right app open.",
+   "type": "score"
+  },
+  "step_toward_goal": {
+   "instructions": "Given what he was just doing (`story_so_far`, `recent_verdicts_oldest_first`) and what the goal involves (`goal.related`), is this screen a STEP toward the goal — a quick lookup, a sub-problem of it, a search whose words serve it (`screen_now.search_words`), contacting or reading a message from someone the goal names? A feed, entertainment, or a new unrelated topic is not.",
+   "type": "noul"
+  },
+  "working": {
+   "criteria": [
+    "none",
+    "low",
+    "medium",
+    "high"
+   ],
+   "instructions": "How purposeful and productive is this moment toward the goal? Making or targeted reading of a specific source = high; aimless browsing, hopping between pages = low; entertainment = none.",
+   "type": "score"
+  }
+ },
+ "STANDING_RULES": [
+  "Reading or studying material relevant to the goal is work, not a failure.",
+  "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+  "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+  "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+  "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+  "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+  "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+  "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+  "Finder, the desktop or a file picker for a moment: other, not consuming.",
+  "his_rulings_this_block are his own corrections during this block: they override your reading.",
+  "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+ ],
+ "checks_listing": [
+  {
+   "id": "contact",
+   "means": "on_task",
+   "text": "Is he writing to, replying to or reading a message from someone about the task (any email, chat or DM)?"
+  },
+  {
+   "id": "search",
+   "means": "on_task",
+   "text": "Is he searching for words that serve the task or what he was doing the last few minutes?"
+  },
+  {
+   "id": "ai_agent",
+   "means": "on_task",
+   "text": "Is an AI chat or coding agent working on the task's project (its prompt, code or output is about it)?"
+  },
+  {
+   "id": "reference",
+   "means": "on_task",
+   "text": "Is he reading reference or study material on the task's topic (docs, a textbook, a paper, an article)?"
+  },
+  {
+   "id": "making",
+   "means": "on_task",
+   "text": "Is he writing or editing the document, code, design or message that IS the task?"
+  },
+  {
+   "id": "title",
+   "means": "on_task",
+   "text": "Does the window, tab or document title name the task, its project, its file or a person it involves?"
+  },
+  {
+   "id": "testing",
+   "means": "on_task",
+   "text": "Is he reviewing, running or testing the task's output (a preview, simulator, build, terminal running it)?"
+  },
+  {
+   "id": "lookup",
+   "means": "on_task",
+   "text": "Is he looking up a tool, part, price, setting or how-to that the task needs?"
+  },
+  {
+   "id": "planning",
+   "means": "on_task",
+   "text": "Is he planning, outlining or taking notes for the task (a to-do list, outline, notes, whiteboard)?"
+  },
+  {
+   "id": "meeting",
+   "means": "on_task",
+   "text": "Is he on a call or in a meeting about the task, or reading its agenda or notes?"
+  },
+  {
+   "id": "waiting",
+   "means": "on_task",
+   "text": "Is he waiting on a build, upload or agent for the task with nothing unrelated open?"
+  },
+  {
+   "id": "sub_problem",
+   "means": "on_task",
+   "text": "Is this a sub-problem the task led to, going by the story (an error, a broken tool, a setup step)?"
+  },
+  {
+   "id": "form",
+   "means": "on_task",
+   "text": "Is he filling in a form, portal or account page the task needs (a submission, an upload, a sign-up)?"
+  },
+  {
+   "id": "lecture",
+   "means": "on_task",
+   "text": "Is he watching a lecture, tutorial or demo on the task's own topic?"
+  },
+  {
+   "id": "files",
+   "means": "on_task",
+   "text": "Is he opening, saving, moving or sharing a file that belongs to the task?"
+  },
+  {
+   "id": "continuing",
+   "means": "on_task",
+   "text": "Is this the same task work the story shows he was doing a minute ago, carried on?"
+  },
+  {
+   "id": "reviewing",
+   "means": "on_task",
+   "text": "Is he reviewing someone else's work for the task (a pull request, comments, suggested edits)?"
+  },
+  {
+   "id": "data",
+   "means": "on_task",
+   "text": "Is he reading data the task is about (a dashboard, a log, a spreadsheet, results)?"
+  },
+  {
+   "id": "feed",
+   "means": "off_task",
+   "text": "Is he scrolling a feed (social, video, news or forum front page) rather than reading one thing?"
+  },
+  {
+   "id": "entertainment",
+   "means": "off_task",
+   "text": "Is he watching entertainment unrelated to the task (a show, a stream, clips, memes)?"
+  },
+  {
+   "id": "shopping",
+   "means": "off_task",
+   "text": "Is he shopping or browsing products unrelated to the task?"
+  },
+  {
+   "id": "chat_unrelated",
+   "means": "off_task",
+   "text": "Is he in a chat, DM or email thread unrelated to the task?"
+  },
+  {
+   "id": "news",
+   "means": "off_task",
+   "text": "Is he reading news, an article or a forum thread unrelated to the task?"
+  },
+  {
+   "id": "game",
+   "means": "off_task",
+   "text": "Is he playing a game or on a game site?"
+  },
+  {
+   "id": "hopping",
+   "means": "off_task",
+   "text": "Is he hopping between unrelated pages or apps without settling on one (see the story)?"
+  },
+  {
+   "id": "new_topic",
+   "means": "off_task",
+   "text": "Has he moved on to a new topic unrelated to both the goal and the story so far?"
+  },
+  {
+   "id": "personal_admin",
+   "means": "off_task",
+   "text": "Is he on personal admin unrelated to the task (banking, travel, bills, appointments, deliveries)?"
+  },
+  {
+   "id": "notifications",
+   "means": "off_task",
+   "text": "Is he checking notifications, likes, followers, views or stats unrelated to the task?"
+  },
+  {
+   "id": "profiles",
+   "means": "off_task",
+   "text": "Is he looking through someone's profile or photos for no reason the task gives?"
+  },
+  {
+   "id": "other_project",
+   "means": "off_task",
+   "text": "Is he doing real work, but on a DIFFERENT project than this goal?"
+  },
+  {
+   "id": "ai_unrelated",
+   "means": "off_task",
+   "text": "Is an AI chat on screen about a topic unrelated to the task?"
+  },
+  {
+   "id": "passive",
+   "means": "off_task",
+   "text": "Is the screen passive: nothing to read, nothing typed or scrolled, nothing for the task playing?"
+  },
+  {
+   "id": "repeating",
+   "means": "off_task",
+   "text": "Is he redoing the same thing again (retyping, re-running the same step, re-reading the same page)?"
+  },
+  {
+   "id": "settings",
+   "means": "neutral",
+   "text": "Is it a settings pane, preferences window or system dialog?"
+  },
+  {
+   "id": "finder",
+   "means": "neutral",
+   "text": "Is it Finder, the desktop, a file picker or a downloads list?"
+  },
+  {
+   "id": "switching",
+   "means": "neutral",
+   "text": "Is this an app-switch moment: a blank, loading or half-drawn window?"
+  }
+ ],
+ "constants": {
+  "CHECK_BLEND": 0.6,
+  "CHECK_CAP": 0.7,
+  "CHECK_CAP_TO": 0.4,
+  "CHECK_FLOOR": 0.1,
+  "CHECK_MAX_CHARS": 110,
+  "CHECK_PREFIX": "chk_",
+  "CHECK_TELL": 0.6,
+  "DISTRACTION_ON_GOAL": 0.05,
+  "DISTRACTION_S": 5,
+  "ESCALATE_CONFIDENCE": 0.6,
+  "ESCALATE_HIGH": 0.65,
+  "ESCALATE_LOW": 0.35,
+  "GOAL_OFF_ON_GOAL": 0.2,
+  "GOAL_Q_MAX": 8,
+  "GOAL_Q_MAX_CHARS": 160,
+  "GOAL_Q_PREFIX": "goal_",
+  "GOAL_Q_RUBRIC_MAX": 26,
+  "GOAL_TELL": 0.7,
+  "HEARTBEAT_S": 5,
+  "IDLE_S": 120,
+  "IMAGE_FRESH_S": 6,
+  "LONG_TEXT": 3000,
+  "MAX_TEXT_CHARS": 6000,
+  "MINUTE_MIN_ROWS": 20,
+  "MINUTE_S": 60,
+  "MODEL": "jev-latest",
+  "NUDGE_GRACE_S": 30,
+  "OFF_TASK_CONFIDENCE": 0.7,
+  "OFF_TASK_GAP_S": 12,
+  "OFF_TASK_ON_GOAL": 0.3,
+  "OFF_TASK_S": 20,
+  "PROGRESS_CONFIDENCE": 0.6,
+  "READING_IDLE_S": 360,
+  "RECENT_ROWS": 12,
+  "RELATED": 0.5,
+  "STEP": 0.6,
+  "STEP_ON_GOAL": 0.6,
+  "STORY_MAX_CHARS": 360,
+  "STORY_MIN_S": 3,
+  "STORY_WINDOW_S": 600,
+  "TELLS_SHOWN": 5,
+  "TODAY_MAX_CHARS": 400
+ },
+ "goal_answers": {
+  "answers": {
+   "goal_q1": {
+    "noul": 0.7
+   },
+   "goal_q2": {
+    "noul": 0.69
+   },
+   "goal_q3": {
+    "noul": "0.95"
+   },
+   "rub_on_t1": {
+    "noul": 1
+   }
+  },
+  "out": [
+   [
+    "q1"
+   ],
+   [
+    "q3"
+   ]
+  ]
+ },
+ "questions_for_empty": {
+  "out": {
+   "activity": {
+    "criteria": {
+     "consuming": {
+      "examples": [
+       "Instagram",
+       "YouTube Shorts",
+       "Reddit front page",
+       "a shopping cart"
+      ],
+      "what": "feeds, social media, entertainment video, news, shopping, memes, chat unrelated to work"
+     },
+     "making": {
+      "examples": [
+       "Xcode with a diff",
+       "Claude chat asking for a fix",
+       "Google Doc being typed into",
+       "a Gmail reply being drafted"
+      ],
+      "what": "writing, coding, editing, solving, building, or directing an AI chat to build or fix something (a Claude or ChatGPT chat with code or a concrete ask is making); writing an email or message that the goal needs"
+     },
+     "other": {
+      "not_for": "anything that is plainly work or plainly a distraction",
+      "what": "settings, Finder, a file picker, a terminal with no output, a blank window, an app switching moment"
+     },
+     "static": {
+      "not_for": "reading material inside its allowance, or a page being scrolled or typed into",
+      "what": "no keyboard, mouse or scroll for longer than his idle allowance (since_last_second.no_input_too_long) — he has likely stepped away"
+     },
+     "studying": {
+      "examples": [
+       "a PDF chapter",
+       "zyBooks",
+       "developer documentation",
+       "Canvas course page"
+      ],
+      "what": "reading or studying material — a paper, docs, a textbook or ebook, a course page, a tutorial, a long AI answer, search results being read for the work"
+     }
+    },
+    "instructions": "What is he doing on this screen right now? Read `screen_now.screenshot` when it is present: it is the screen itself. Judge the content, not the app name.",
+    "type": "choice"
+   },
+   "chk_ai_agent": {
+    "instructions": "Is an AI chat or coding agent working on the task's project (its prompt, code or output is about it)?",
+    "type": "noul"
+   },
+   "chk_ai_unrelated": {
+    "instructions": "Is an AI chat on screen about a topic unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_chat_unrelated": {
+    "instructions": "Is he in a chat, DM or email thread unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_contact": {
+    "instructions": "Is he writing to, replying to or reading a message from someone about the task (any email, chat or DM)?",
+    "type": "noul"
+   },
+   "chk_continuing": {
+    "instructions": "Is this the same task work the story shows he was doing a minute ago, carried on?",
+    "type": "noul"
+   },
+   "chk_data": {
+    "instructions": "Is he reading data the task is about (a dashboard, a log, a spreadsheet, results)?",
+    "type": "noul"
+   },
+   "chk_entertainment": {
+    "instructions": "Is he watching entertainment unrelated to the task (a show, a stream, clips, memes)?",
+    "type": "noul"
+   },
+   "chk_feed": {
+    "instructions": "Is he scrolling a feed (social, video, news or forum front page) rather than reading one thing?",
+    "type": "noul"
+   },
+   "chk_files": {
+    "instructions": "Is he opening, saving, moving or sharing a file that belongs to the task?",
+    "type": "noul"
+   },
+   "chk_finder": {
+    "instructions": "Is it Finder, the desktop, a file picker or a downloads list?",
+    "type": "noul"
+   },
+   "chk_form": {
+    "instructions": "Is he filling in a form, portal or account page the task needs (a submission, an upload, a sign-up)?",
+    "type": "noul"
+   },
+   "chk_game": {
+    "instructions": "Is he playing a game or on a game site?",
+    "type": "noul"
+   },
+   "chk_hopping": {
+    "instructions": "Is he hopping between unrelated pages or apps without settling on one (see the story)?",
+    "type": "noul"
+   },
+   "chk_lecture": {
+    "instructions": "Is he watching a lecture, tutorial or demo on the task's own topic?",
+    "type": "noul"
+   },
+   "chk_lookup": {
+    "instructions": "Is he looking up a tool, part, price, setting or how-to that the task needs?",
+    "type": "noul"
+   },
+   "chk_making": {
+    "instructions": "Is he writing or editing the document, code, design or message that IS the task?",
+    "type": "noul"
+   },
+   "chk_meeting": {
+    "instructions": "Is he on a call or in a meeting about the task, or reading its agenda or notes?",
+    "type": "noul"
+   },
+   "chk_new_topic": {
+    "instructions": "Has he moved on to a new topic unrelated to both the goal and the story so far?",
+    "type": "noul"
+   },
+   "chk_news": {
+    "instructions": "Is he reading news, an article or a forum thread unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_notifications": {
+    "instructions": "Is he checking notifications, likes, followers, views or stats unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_other_project": {
+    "instructions": "Is he doing real work, but on a DIFFERENT project than this goal?",
+    "type": "noul"
+   },
+   "chk_passive": {
+    "instructions": "Is the screen passive: nothing to read, nothing typed or scrolled, nothing for the task playing?",
+    "type": "noul"
+   },
+   "chk_personal_admin": {
+    "instructions": "Is he on personal admin unrelated to the task (banking, travel, bills, appointments, deliveries)?",
+    "type": "noul"
+   },
+   "chk_planning": {
+    "instructions": "Is he planning, outlining or taking notes for the task (a to-do list, outline, notes, whiteboard)?",
+    "type": "noul"
+   },
+   "chk_profiles": {
+    "instructions": "Is he looking through someone's profile or photos for no reason the task gives?",
+    "type": "noul"
+   },
+   "chk_reference": {
+    "instructions": "Is he reading reference or study material on the task's topic (docs, a textbook, a paper, an article)?",
+    "type": "noul"
+   },
+   "chk_repeating": {
+    "instructions": "Is he redoing the same thing again (retyping, re-running the same step, re-reading the same page)?",
+    "type": "noul"
+   },
+   "chk_reviewing": {
+    "instructions": "Is he reviewing someone else's work for the task (a pull request, comments, suggested edits)?",
+    "type": "noul"
+   },
+   "chk_search": {
+    "instructions": "Is he searching for words that serve the task or what he was doing the last few minutes?",
+    "type": "noul"
+   },
+   "chk_settings": {
+    "instructions": "Is it a settings pane, preferences window or system dialog?",
+    "type": "noul"
+   },
+   "chk_shopping": {
+    "instructions": "Is he shopping or browsing products unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_sub_problem": {
+    "instructions": "Is this a sub-problem the task led to, going by the story (an error, a broken tool, a setup step)?",
+    "type": "noul"
+   },
+   "chk_switching": {
+    "instructions": "Is this an app-switch moment: a blank, loading or half-drawn window?",
+    "type": "noul"
+   },
+   "chk_testing": {
+    "instructions": "Is he reviewing, running or testing the task's output (a preview, simulator, build, terminal running it)?",
+    "type": "noul"
+   },
+   "chk_title": {
+    "instructions": "Does the window, tab or document title name the task, its project, its file or a person it involves?",
+    "type": "noul"
+   },
+   "chk_waiting": {
+    "instructions": "Is he waiting on a build, upload or agent for the task with nothing unrelated open?",
+    "type": "noul"
+   },
+   "on_goal": {
+    "criteria": [
+     "unrelated",
+     "adjacent",
+     "supporting",
+     "directly"
+    ],
+    "instructions": "How clearly does this screen serve THIS block's goal (the specific goal if given), read together with `story_so_far` and `goal.related`? Read `screen_now.screenshot` when it is present: it is the screen itself. Supporting or directly: the material the goal needs; a lookup or a search whose words serve the goal or what he was just doing; an email or chat thread with a person, company or project the goal names; an AI chat working on the goal's project. Unrelated only when nothing on the screen connects to the goal.",
+    "type": "score"
+   },
+   "producing": {
+    "criteria": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "instructions": "IGNORE the stated goal. Is he actively making or doing real work on WHATEVER is on screen — creating, editing, coding, writing, debugging, purposeful research? Real work on a different project is still high.",
+    "type": "score"
+   },
+   "progress": {
+    "criteria": [
+     "none",
+     "started",
+     "halfway",
+     "mostly",
+     "done"
+    ],
+    "instructions": "How far toward ACHIEVING the specific goal has he got in this block, judging from the screen and the progress so far? Never below the progress so far unless the work was undone.",
+    "type": "score"
+   },
+   "quality": {
+    "criteria": [
+     "poor",
+     "ok",
+     "good",
+     "excellent"
+    ],
+    "instructions": "Is this GOOD work toward the goal: clear, direct text or prompts that serve it, the right specific material read in a focused way? Judge like a strict coach measuring him against the most productive people alive. Rambling, retyping, aimless hopping or unrelated content is poor.",
+    "type": "score"
+   },
+   "serves_goal": {
+    "instructions": "The screen is on a site or app usually treated as a distraction (Instagram, LinkedIn, X, Reddit, YouTube, Discord, a chat app) but he is messaging or reading something tied to THIS task: a DM with someone the goal names (`goal.related.people`) or a teammate about this work, a thread answering the exact problem, a tutorial on the goal's own topic, a product page for a part or tool the goal's project needs. A feed, a profile, a video or a product unrelated to the goal is NOT.",
+    "type": "noul"
+   },
+   "smart": {
+    "criteria": [
+     "no",
+     "somewhat",
+     "mostly",
+     "yes"
+    ],
+    "instructions": "Is he working SMART, not just hard: an efficient approach, clear direct prompts, using AI and tools well, reusing instead of retyping? Judge like a strict coach measuring him against the most productive people alive; never reward merely having the right app open.",
+    "type": "score"
+   },
+   "step_toward_goal": {
+    "instructions": "Given what he was just doing (`story_so_far`, `recent_verdicts_oldest_first`) and what the goal involves (`goal.related`), is this screen a STEP toward the goal — a quick lookup, a sub-problem of it, a search whose words serve it (`screen_now.search_words`), contacting or reading a message from someone the goal names? A feed, entertainment, or a new unrelated topic is not.",
+    "type": "noul"
+   },
+   "working": {
+    "criteria": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "instructions": "How purposeful and productive is this moment toward the goal? Making or targeted reading of a specific source = high; aimless browsing, hopping between pages = low; entertainment = none.",
+    "type": "score"
+   }
+  },
+  "tokens": 2329
+ },
+ "questions_for_gq": {
+  "goal_questions": [
+   {
+    "id": "x",
+    "means": "on_task",
+    "text": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+   },
+   {
+    "means": "on-task",
+    "text": "Is it a Loom recording for Dana?"
+   },
+   {
+    "means": "off_task",
+    "text": "Is he watching a YouTube video unrelated to Acme?"
+   },
+   {
+    "text": "no meaning given"
+   },
+   {
+    "means": "on_task",
+    "text": "Is it a Loom recording for Dana?"
+   }
+  ],
+  "out": {
+   "activity": {
+    "criteria": {
+     "consuming": {
+      "examples": [
+       "Instagram",
+       "YouTube Shorts",
+       "Reddit front page",
+       "a shopping cart"
+      ],
+      "what": "feeds, social media, entertainment video, news, shopping, memes, chat unrelated to work"
+     },
+     "making": {
+      "examples": [
+       "Xcode with a diff",
+       "Claude chat asking for a fix",
+       "Google Doc being typed into",
+       "a Gmail reply being drafted"
+      ],
+      "what": "writing, coding, editing, solving, building, or directing an AI chat to build or fix something (a Claude or ChatGPT chat with code or a concrete ask is making); writing an email or message that the goal needs"
+     },
+     "other": {
+      "not_for": "anything that is plainly work or plainly a distraction",
+      "what": "settings, Finder, a file picker, a terminal with no output, a blank window, an app switching moment"
+     },
+     "static": {
+      "not_for": "reading material inside its allowance, or a page being scrolled or typed into",
+      "what": "no keyboard, mouse or scroll for longer than his idle allowance (since_last_second.no_input_too_long) — he has likely stepped away"
+     },
+     "studying": {
+      "examples": [
+       "a PDF chapter",
+       "zyBooks",
+       "developer documentation",
+       "Canvas course page"
+      ],
+      "what": "reading or studying material — a paper, docs, a textbook or ebook, a course page, a tutorial, a long AI answer, search results being read for the work"
+     }
+    },
+    "instructions": "What is he doing on this screen right now? Read `screen_now.screenshot` when it is present: it is the screen itself. Judge the content, not the app name.",
+    "type": "choice"
+   },
+   "chk_ai_agent": {
+    "instructions": "Is an AI chat or coding agent working on the task's project (its prompt, code or output is about it)?",
+    "type": "noul"
+   },
+   "chk_ai_unrelated": {
+    "instructions": "Is an AI chat on screen about a topic unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_chat_unrelated": {
+    "instructions": "Is he in a chat, DM or email thread unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_contact": {
+    "instructions": "Is he writing to, replying to or reading a message from someone about the task (any email, chat or DM)?",
+    "type": "noul"
+   },
+   "chk_continuing": {
+    "instructions": "Is this the same task work the story shows he was doing a minute ago, carried on?",
+    "type": "noul"
+   },
+   "chk_data": {
+    "instructions": "Is he reading data the task is about (a dashboard, a log, a spreadsheet, results)?",
+    "type": "noul"
+   },
+   "chk_entertainment": {
+    "instructions": "Is he watching entertainment unrelated to the task (a show, a stream, clips, memes)?",
+    "type": "noul"
+   },
+   "chk_feed": {
+    "instructions": "Is he scrolling a feed (social, video, news or forum front page) rather than reading one thing?",
+    "type": "noul"
+   },
+   "chk_files": {
+    "instructions": "Is he opening, saving, moving or sharing a file that belongs to the task?",
+    "type": "noul"
+   },
+   "chk_finder": {
+    "instructions": "Is it Finder, the desktop, a file picker or a downloads list?",
+    "type": "noul"
+   },
+   "chk_form": {
+    "instructions": "Is he filling in a form, portal or account page the task needs (a submission, an upload, a sign-up)?",
+    "type": "noul"
+   },
+   "chk_game": {
+    "instructions": "Is he playing a game or on a game site?",
+    "type": "noul"
+   },
+   "chk_hopping": {
+    "instructions": "Is he hopping between unrelated pages or apps without settling on one (see the story)?",
+    "type": "noul"
+   },
+   "chk_lecture": {
+    "instructions": "Is he watching a lecture, tutorial or demo on the task's own topic?",
+    "type": "noul"
+   },
+   "chk_lookup": {
+    "instructions": "Is he looking up a tool, part, price, setting or how-to that the task needs?",
+    "type": "noul"
+   },
+   "chk_making": {
+    "instructions": "Is he writing or editing the document, code, design or message that IS the task?",
+    "type": "noul"
+   },
+   "chk_meeting": {
+    "instructions": "Is he on a call or in a meeting about the task, or reading its agenda or notes?",
+    "type": "noul"
+   },
+   "chk_new_topic": {
+    "instructions": "Has he moved on to a new topic unrelated to both the goal and the story so far?",
+    "type": "noul"
+   },
+   "chk_news": {
+    "instructions": "Is he reading news, an article or a forum thread unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_notifications": {
+    "instructions": "Is he checking notifications, likes, followers, views or stats unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_other_project": {
+    "instructions": "Is he doing real work, but on a DIFFERENT project than this goal?",
+    "type": "noul"
+   },
+   "chk_passive": {
+    "instructions": "Is the screen passive: nothing to read, nothing typed or scrolled, nothing for the task playing?",
+    "type": "noul"
+   },
+   "chk_personal_admin": {
+    "instructions": "Is he on personal admin unrelated to the task (banking, travel, bills, appointments, deliveries)?",
+    "type": "noul"
+   },
+   "chk_planning": {
+    "instructions": "Is he planning, outlining or taking notes for the task (a to-do list, outline, notes, whiteboard)?",
+    "type": "noul"
+   },
+   "chk_profiles": {
+    "instructions": "Is he looking through someone's profile or photos for no reason the task gives?",
+    "type": "noul"
+   },
+   "chk_reference": {
+    "instructions": "Is he reading reference or study material on the task's topic (docs, a textbook, a paper, an article)?",
+    "type": "noul"
+   },
+   "chk_repeating": {
+    "instructions": "Is he redoing the same thing again (retyping, re-running the same step, re-reading the same page)?",
+    "type": "noul"
+   },
+   "chk_reviewing": {
+    "instructions": "Is he reviewing someone else's work for the task (a pull request, comments, suggested edits)?",
+    "type": "noul"
+   },
+   "chk_search": {
+    "instructions": "Is he searching for words that serve the task or what he was doing the last few minutes?",
+    "type": "noul"
+   },
+   "chk_settings": {
+    "instructions": "Is it a settings pane, preferences window or system dialog?",
+    "type": "noul"
+   },
+   "chk_shopping": {
+    "instructions": "Is he shopping or browsing products unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_sub_problem": {
+    "instructions": "Is this a sub-problem the task led to, going by the story (an error, a broken tool, a setup step)?",
+    "type": "noul"
+   },
+   "chk_switching": {
+    "instructions": "Is this an app-switch moment: a blank, loading or half-drawn window?",
+    "type": "noul"
+   },
+   "chk_testing": {
+    "instructions": "Is he reviewing, running or testing the task's output (a preview, simulator, build, terminal running it)?",
+    "type": "noul"
+   },
+   "chk_title": {
+    "instructions": "Does the window, tab or document title name the task, its project, its file or a person it involves?",
+    "type": "noul"
+   },
+   "chk_waiting": {
+    "instructions": "Is he waiting on a build, upload or agent for the task with nothing unrelated open?",
+    "type": "noul"
+   },
+   "goal_q1": {
+    "instructions": "This goal's own check (`goal.checks`): Is the screen a Gmail thread with Dana or anyone at Acme about the response? Yes only when the screen right now plainly shows it.",
+    "type": "noul"
+   },
+   "goal_q2": {
+    "instructions": "This goal's own check (`goal.checks`): Is it a Loom recording for Dana? Yes only when the screen right now plainly shows it.",
+    "type": "noul"
+   },
+   "goal_q3": {
+    "instructions": "This goal's own check (`goal.checks`): Is he watching a YouTube video unrelated to Acme? Yes only when the screen right now plainly shows it.",
+    "type": "noul"
+   },
+   "on_goal": {
+    "criteria": [
+     "unrelated",
+     "adjacent",
+     "supporting",
+     "directly"
+    ],
+    "instructions": "How clearly does this screen serve THIS block's goal (the specific goal if given), read together with `story_so_far` and `goal.related`? Read `screen_now.screenshot` when it is present: it is the screen itself. Supporting or directly: the material the goal needs; a lookup or a search whose words serve the goal or what he was just doing; an email or chat thread with a person, company or project the goal names; an AI chat working on the goal's project. Unrelated only when nothing on the screen connects to the goal.",
+    "type": "score"
+   },
+   "producing": {
+    "criteria": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "instructions": "IGNORE the stated goal. Is he actively making or doing real work on WHATEVER is on screen — creating, editing, coding, writing, debugging, purposeful research? Real work on a different project is still high.",
+    "type": "score"
+   },
+   "progress": {
+    "criteria": [
+     "none",
+     "started",
+     "halfway",
+     "mostly",
+     "done"
+    ],
+    "instructions": "How far toward ACHIEVING the specific goal has he got in this block, judging from the screen and the progress so far? Never below the progress so far unless the work was undone.",
+    "type": "score"
+   },
+   "quality": {
+    "criteria": [
+     "poor",
+     "ok",
+     "good",
+     "excellent"
+    ],
+    "instructions": "Is this GOOD work toward the goal: clear, direct text or prompts that serve it, the right specific material read in a focused way? Judge like a strict coach measuring him against the most productive people alive. Rambling, retyping, aimless hopping or unrelated content is poor.",
+    "type": "score"
+   },
+   "serves_goal": {
+    "instructions": "The screen is on a site or app usually treated as a distraction (Instagram, LinkedIn, X, Reddit, YouTube, Discord, a chat app) but he is messaging or reading something tied to THIS task: a DM with someone the goal names (`goal.related.people`) or a teammate about this work, a thread answering the exact problem, a tutorial on the goal's own topic, a product page for a part or tool the goal's project needs. A feed, a profile, a video or a product unrelated to the goal is NOT.",
+    "type": "noul"
+   },
+   "smart": {
+    "criteria": [
+     "no",
+     "somewhat",
+     "mostly",
+     "yes"
+    ],
+    "instructions": "Is he working SMART, not just hard: an efficient approach, clear direct prompts, using AI and tools well, reusing instead of retyping? Judge like a strict coach measuring him against the most productive people alive; never reward merely having the right app open.",
+    "type": "score"
+   },
+   "step_toward_goal": {
+    "instructions": "Given what he was just doing (`story_so_far`, `recent_verdicts_oldest_first`) and what the goal involves (`goal.related`), is this screen a STEP toward the goal — a quick lookup, a sub-problem of it, a search whose words serve it (`screen_now.search_words`), contacting or reading a message from someone the goal names? A feed, entertainment, or a new unrelated topic is not.",
+    "type": "noul"
+   },
+   "working": {
+    "criteria": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "instructions": "How purposeful and productive is this moment toward the goal? Making or targeted reading of a specific source = high; aimless browsing, hopping between pages = low; entertainment = none.",
+    "type": "score"
+   }
+  },
+  "tokens": 2470
+ },
+ "questions_for_rubric": {
+  "goal_questions": [
+   {
+    "id": "rub_on_t1",
+    "means": "on_task",
+    "text": "a Gmail thread with Dana"
+   },
+   {
+    "id": "rub_on_t2",
+    "means": "on_task",
+    "text": "a Loom for Dana"
+   },
+   {
+    "id": "rub_off_o1",
+    "means": "off_task",
+    "text": "YouTube unrelated to Acme"
+   }
+  ],
+  "out": {
+   "activity": {
+    "criteria": {
+     "consuming": {
+      "examples": [
+       "Instagram",
+       "YouTube Shorts",
+       "Reddit front page",
+       "a shopping cart"
+      ],
+      "what": "feeds, social media, entertainment video, news, shopping, memes, chat unrelated to work"
+     },
+     "making": {
+      "examples": [
+       "Xcode with a diff",
+       "Claude chat asking for a fix",
+       "Google Doc being typed into",
+       "a Gmail reply being drafted"
+      ],
+      "what": "writing, coding, editing, solving, building, or directing an AI chat to build or fix something (a Claude or ChatGPT chat with code or a concrete ask is making); writing an email or message that the goal needs"
+     },
+     "other": {
+      "not_for": "anything that is plainly work or plainly a distraction",
+      "what": "settings, Finder, a file picker, a terminal with no output, a blank window, an app switching moment"
+     },
+     "static": {
+      "not_for": "reading material inside its allowance, or a page being scrolled or typed into",
+      "what": "no keyboard, mouse or scroll for longer than his idle allowance (since_last_second.no_input_too_long) — he has likely stepped away"
+     },
+     "studying": {
+      "examples": [
+       "a PDF chapter",
+       "zyBooks",
+       "developer documentation",
+       "Canvas course page"
+      ],
+      "what": "reading or studying material — a paper, docs, a textbook or ebook, a course page, a tutorial, a long AI answer, search results being read for the work"
+     }
+    },
+    "instructions": "What is he doing on this screen right now? Read `screen_now.screenshot` when it is present: it is the screen itself. Judge the content, not the app name.",
+    "type": "choice"
+   },
+   "chk_ai_agent": {
+    "instructions": "Is an AI chat or coding agent working on the task's project (its prompt, code or output is about it)?",
+    "type": "noul"
+   },
+   "chk_ai_unrelated": {
+    "instructions": "Is an AI chat on screen about a topic unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_chat_unrelated": {
+    "instructions": "Is he in a chat, DM or email thread unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_contact": {
+    "instructions": "Is he writing to, replying to or reading a message from someone about the task (any email, chat or DM)?",
+    "type": "noul"
+   },
+   "chk_continuing": {
+    "instructions": "Is this the same task work the story shows he was doing a minute ago, carried on?",
+    "type": "noul"
+   },
+   "chk_data": {
+    "instructions": "Is he reading data the task is about (a dashboard, a log, a spreadsheet, results)?",
+    "type": "noul"
+   },
+   "chk_entertainment": {
+    "instructions": "Is he watching entertainment unrelated to the task (a show, a stream, clips, memes)?",
+    "type": "noul"
+   },
+   "chk_feed": {
+    "instructions": "Is he scrolling a feed (social, video, news or forum front page) rather than reading one thing?",
+    "type": "noul"
+   },
+   "chk_files": {
+    "instructions": "Is he opening, saving, moving or sharing a file that belongs to the task?",
+    "type": "noul"
+   },
+   "chk_finder": {
+    "instructions": "Is it Finder, the desktop, a file picker or a downloads list?",
+    "type": "noul"
+   },
+   "chk_form": {
+    "instructions": "Is he filling in a form, portal or account page the task needs (a submission, an upload, a sign-up)?",
+    "type": "noul"
+   },
+   "chk_game": {
+    "instructions": "Is he playing a game or on a game site?",
+    "type": "noul"
+   },
+   "chk_hopping": {
+    "instructions": "Is he hopping between unrelated pages or apps without settling on one (see the story)?",
+    "type": "noul"
+   },
+   "chk_lecture": {
+    "instructions": "Is he watching a lecture, tutorial or demo on the task's own topic?",
+    "type": "noul"
+   },
+   "chk_lookup": {
+    "instructions": "Is he looking up a tool, part, price, setting or how-to that the task needs?",
+    "type": "noul"
+   },
+   "chk_making": {
+    "instructions": "Is he writing or editing the document, code, design or message that IS the task?",
+    "type": "noul"
+   },
+   "chk_meeting": {
+    "instructions": "Is he on a call or in a meeting about the task, or reading its agenda or notes?",
+    "type": "noul"
+   },
+   "chk_new_topic": {
+    "instructions": "Has he moved on to a new topic unrelated to both the goal and the story so far?",
+    "type": "noul"
+   },
+   "chk_news": {
+    "instructions": "Is he reading news, an article or a forum thread unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_notifications": {
+    "instructions": "Is he checking notifications, likes, followers, views or stats unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_other_project": {
+    "instructions": "Is he doing real work, but on a DIFFERENT project than this goal?",
+    "type": "noul"
+   },
+   "chk_passive": {
+    "instructions": "Is the screen passive: nothing to read, nothing typed or scrolled, nothing for the task playing?",
+    "type": "noul"
+   },
+   "chk_personal_admin": {
+    "instructions": "Is he on personal admin unrelated to the task (banking, travel, bills, appointments, deliveries)?",
+    "type": "noul"
+   },
+   "chk_planning": {
+    "instructions": "Is he planning, outlining or taking notes for the task (a to-do list, outline, notes, whiteboard)?",
+    "type": "noul"
+   },
+   "chk_profiles": {
+    "instructions": "Is he looking through someone's profile or photos for no reason the task gives?",
+    "type": "noul"
+   },
+   "chk_reference": {
+    "instructions": "Is he reading reference or study material on the task's topic (docs, a textbook, a paper, an article)?",
+    "type": "noul"
+   },
+   "chk_repeating": {
+    "instructions": "Is he redoing the same thing again (retyping, re-running the same step, re-reading the same page)?",
+    "type": "noul"
+   },
+   "chk_reviewing": {
+    "instructions": "Is he reviewing someone else's work for the task (a pull request, comments, suggested edits)?",
+    "type": "noul"
+   },
+   "chk_search": {
+    "instructions": "Is he searching for words that serve the task or what he was doing the last few minutes?",
+    "type": "noul"
+   },
+   "chk_settings": {
+    "instructions": "Is it a settings pane, preferences window or system dialog?",
+    "type": "noul"
+   },
+   "chk_shopping": {
+    "instructions": "Is he shopping or browsing products unrelated to the task?",
+    "type": "noul"
+   },
+   "chk_sub_problem": {
+    "instructions": "Is this a sub-problem the task led to, going by the story (an error, a broken tool, a setup step)?",
+    "type": "noul"
+   },
+   "chk_switching": {
+    "instructions": "Is this an app-switch moment: a blank, loading or half-drawn window?",
+    "type": "noul"
+   },
+   "chk_testing": {
+    "instructions": "Is he reviewing, running or testing the task's output (a preview, simulator, build, terminal running it)?",
+    "type": "noul"
+   },
+   "chk_title": {
+    "instructions": "Does the window, tab or document title name the task, its project, its file or a person it involves?",
+    "type": "noul"
+   },
+   "chk_waiting": {
+    "instructions": "Is he waiting on a build, upload or agent for the task with nothing unrelated open?",
+    "type": "noul"
+   },
+   "ms_m1": {
+    "instructions": "Is milestone \"Reply to Dana drafted\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done.",
+    "type": "noul"
+   },
+   "ms_m2": {
+    "instructions": "Is milestone \"Reply sent\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done.",
+    "type": "noul"
+   },
+   "on_goal": {
+    "criteria": [
+     "unrelated",
+     "adjacent",
+     "supporting",
+     "directly"
+    ],
+    "instructions": "How clearly does this screen serve THIS block's goal (the specific goal if given), read together with `story_so_far` and `goal.related`? Read `screen_now.screenshot` when it is present: it is the screen itself. Supporting or directly: the material the goal needs; a lookup or a search whose words serve the goal or what he was just doing; an email or chat thread with a person, company or project the goal names; an AI chat working on the goal's project. Unrelated only when nothing on the screen connects to the goal.",
+    "type": "score"
+   },
+   "producing": {
+    "criteria": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "instructions": "IGNORE the stated goal. Is he actively making or doing real work on WHATEVER is on screen — creating, editing, coding, writing, debugging, purposeful research? Real work on a different project is still high.",
+    "type": "score"
+   },
+   "progress": {
+    "criteria": [
+     "none",
+     "started",
+     "halfway",
+     "mostly",
+     "done"
+    ],
+    "instructions": "How far toward ACHIEVING the specific goal has he got in this block, judging from the screen and the progress so far? Never below the progress so far unless the work was undone.",
+    "type": "score"
+   },
+   "quality": {
+    "criteria": [
+     "poor",
+     "ok",
+     "good",
+     "excellent"
+    ],
+    "instructions": "Is this GOOD work toward the goal: clear, direct text or prompts that serve it, the right specific material read in a focused way? Judge like a strict coach measuring him against the most productive people alive. Rambling, retyping, aimless hopping or unrelated content is poor.",
+    "type": "score"
+   },
+   "rub_off_o1": {
+    "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): YouTube unrelated to Acme Yes only when the screen right now plainly shows it.",
+    "type": "noul"
+   },
+   "rub_on_t1": {
+    "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): a Gmail thread with Dana Yes only when the screen right now plainly shows it.",
+    "type": "noul"
+   },
+   "rub_on_t2": {
+    "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): a Loom for Dana Yes only when the screen right now plainly shows it.",
+    "type": "noul"
+   },
+   "serves_goal": {
+    "instructions": "The screen is on a site or app usually treated as a distraction (Instagram, LinkedIn, X, Reddit, YouTube, Discord, a chat app) but he is messaging or reading something tied to THIS task: a DM with someone the goal names (`goal.related.people`) or a teammate about this work, a thread answering the exact problem, a tutorial on the goal's own topic, a product page for a part or tool the goal's project needs. A feed, a profile, a video or a product unrelated to the goal is NOT.",
+    "type": "noul"
+   },
+   "smart": {
+    "criteria": [
+     "no",
+     "somewhat",
+     "mostly",
+     "yes"
+    ],
+    "instructions": "Is he working SMART, not just hard: an efficient approach, clear direct prompts, using AI and tools well, reusing instead of retyping? Judge like a strict coach measuring him against the most productive people alive; never reward merely having the right app open.",
+    "type": "score"
+   },
+   "step_toward_goal": {
+    "instructions": "Given what he was just doing (`story_so_far`, `recent_verdicts_oldest_first`) and what the goal involves (`goal.related`), is this screen a STEP toward the goal — a quick lookup, a sub-problem of it, a search whose words serve it (`screen_now.search_words`), contacting or reading a message from someone the goal names? A feed, entertainment, or a new unrelated topic is not.",
+    "type": "noul"
+   },
+   "working": {
+    "criteria": [
+     "none",
+     "low",
+     "medium",
+     "high"
+    ],
+    "instructions": "How purposeful and productive is this moment toward the goal? Making or targeted reading of a specific source = high; aimless browsing, hopping between pages = low; entertainment = none.",
+    "type": "score"
+   }
+  },
+  "rubric": {
+   "kind": "outreach",
+   "milestones": [
+    {
+     "id": "m1",
+     "text": "Reply to Dana drafted"
+    },
+    {
+     "id": "m2",
+     "text": "Reply sent"
+    }
+   ],
+   "off_tells": [
+    {
+     "id": "o1",
+     "text": "YouTube unrelated to Acme"
+    }
+   ],
+   "on_tells": [
+    {
+     "id": "t1",
+     "text": "a Gmail thread with Dana"
+    },
+    {
+     "id": "t2",
+     "text": "a Loom for Dana"
+    }
+   ]
+  },
+  "tokens": 2560
+ }
+}

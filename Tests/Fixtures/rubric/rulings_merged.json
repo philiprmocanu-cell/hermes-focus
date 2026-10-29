@@ -1,0 +1,295 @@
+{
+ "name": "rulings_merged",
+ "text": "{\"kind\": \"writing\", \"balance\": {\"focus\": 0.4, \"output\": 0.6}, \"milestones\": [{\"id\": \"m1\", \"text\": \"The intro paragraph is written in the essay doc\"}, {\"id\": \"m2\", \"text\": \"The outline has three body sections\"}, {\"id\": \"m3\", \"text\": \"The conclusion is drafted\"}], \"on_tells\": [{\"id\": \"t1\", \"text\": \"Is he typing in the HIST 2 reaction paper document?\"}, {\"id\": \"t2\", \"text\": \"Is he reading the assigned HIST 2 article?\"}, {\"id\": \"t3\", \"text\": \"Is he asking an AI about the paper's argument?\"}, {\"id\": \"t4\", \"text\": \"Is the Canvas assignment page for the paper open?\"}, {\"id\": \"t5\", \"text\": \"Is he searching for a source on the paper's topic?\"}, {\"id\": \"t6\", \"text\": \"Is he outlining the paper's sections?\"}], \"off_tells\": [{\"id\": \"x1\", \"text\": \"Is he watching a video unrelated to the paper?\"}, {\"id\": \"x2\", \"text\": \"Is he on another course's assignment?\"}, {\"id\": \"x3\", \"text\": \"Is he messaging about something else?\"}], \"smart\": [\"Ask the AI for an outline in one line, then write in your own words.\"]}",
+ "note": "",
+ "labels": [
+  {
+   "at": 5,
+   "label": "on_task",
+   "app": "Safari",
+   "title": "HIST 2 overview - Wikipedia"
+  },
+  {
+   "at": 6,
+   "label": "off_task",
+   "app": "YouTube",
+   "title": "cats"
+  },
+  {
+   "at": 7,
+   "label": "on_task",
+   "app": "Claude",
+   "title": ""
+  },
+  {
+   "at": 8,
+   "label": "on_task",
+   "app": "Claude",
+   "title": ""
+  },
+  {
+   "at": 2,
+   "label": "on_task",
+   "url": "https://canvas.example.edu/courses/1"
+  },
+  {
+   "at": 1,
+   "label": "on_task",
+   "app": "Pages",
+   "title": "HIST 2 paper"
+  },
+  {
+   "at": 0,
+   "label": "on_task",
+   "app": "Preview",
+   "title": "article.pdf"
+  }
+ ],
+ "prompt_input": {
+  "goal": "HIST 2 paper",
+  "specific": "Draft the paper",
+  "understood": "Writing the paper",
+  "related": [
+   [
+    "sites",
+    [
+     "Canvas"
+    ]
+   ]
+  ],
+  "past_rubric_md": "",
+  "rulings": [
+   "Safari — HIST 2 overview - Wikipedia",
+   "YouTube — cats",
+   "Claude",
+   "Claude",
+   "",
+   "Pages — HIST 2 paper",
+   "Preview — article.pdf"
+  ],
+  "note": "",
+  "block_min": 25,
+  "current_md": ""
+ },
+ "rubric": {
+  "kind": "writing",
+  "balance": {
+   "focus": 0.4,
+   "output": 0.6
+  },
+  "milestones": [
+   {
+    "id": "m1",
+    "text": "The intro paragraph is written in the essay doc"
+   },
+   {
+    "id": "m2",
+    "text": "The outline has three body sections"
+   },
+   {
+    "id": "m3",
+    "text": "The conclusion is drafted"
+   }
+  ],
+  "on_tells": [
+   {
+    "id": "t1",
+    "text": "Is he typing in the HIST 2 reaction paper document?"
+   },
+   {
+    "id": "t2",
+    "text": "Is he reading the assigned HIST 2 article?"
+   },
+   {
+    "id": "t3",
+    "text": "Is he asking an AI about the paper's argument?"
+   },
+   {
+    "id": "t4",
+    "text": "Is the Canvas assignment page for the paper open?"
+   },
+   {
+    "id": "t5",
+    "text": "Is he searching for a source on the paper's topic?"
+   },
+   {
+    "id": "t6",
+    "text": "Is he outlining the paper's sections?"
+   },
+   {
+    "id": "ruling1",
+    "text": "Is the screen Claude, which he marked as on task for this goal before?",
+    "from": "ruling"
+   },
+   {
+    "id": "ruling2",
+    "text": "Is the screen Safari — HIST 2 overview - Wikipedia, which he marked as on task for this goal before?",
+    "from": "ruling"
+   },
+   {
+    "id": "ruling3",
+    "text": "Is the screen https://canvas.example.edu/courses/1, which he marked as on task for this goal before?",
+    "from": "ruling"
+   },
+   {
+    "id": "ruling4",
+    "text": "Is the screen Pages — HIST 2 paper, which he marked as on task for this goal before?",
+    "from": "ruling"
+   }
+  ],
+  "off_tells": [
+   {
+    "id": "x1",
+    "text": "Is he watching a video unrelated to the paper?"
+   },
+   {
+    "id": "x2",
+    "text": "Is he on another course's assignment?"
+   },
+   {
+    "id": "x3",
+    "text": "Is he messaging about something else?"
+   }
+  ],
+  "smart": [
+   "Ask the AI for an outline in one line, then write in your own words."
+  ],
+  "fallback": false,
+  "md": "## Rubric — writing\n\n**Judged 40% on focus, 60% on output: a writing block.**\n\n### Milestones (output is judged against these)\n1. The intro paragraph is written in the essay doc\n2. The outline has three body sections\n3. The conclusion is drafted\n\n### On task looks like\n- Is he typing in the HIST 2 reaction paper document?\n- Is he reading the assigned HIST 2 article?\n- Is he asking an AI about the paper's argument?\n- Is the Canvas assignment page for the paper open?\n- Is he searching for a source on the paper's topic?\n- Is he outlining the paper's sections?\n- Is the screen Claude, which he marked as on task for this goal before?\n- Is the screen Safari — HIST 2 overview - Wikipedia, which he marked as on task for this goal before?\n- Is the screen https://canvas.example.edu/courses/1, which he marked as on task for this goal before?\n- Is the screen Pages — HIST 2 paper, which he marked as on task for this goal before?\n\n### Off task looks like\n- Is he watching a video unrelated to the paper?\n- Is he on another course's assignment?\n- Is he messaging about something else?\n\n### Working smart here\n- Ask the AI for an outline in one line, then write in your own words.\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site."
+ },
+ "md": "## Rubric — writing\n\n**Judged 40% on focus, 60% on output: a writing block.**\n\n### Milestones (output is judged against these)\n1. The intro paragraph is written in the essay doc\n2. The outline has three body sections\n3. The conclusion is drafted\n\n### On task looks like\n- Is he typing in the HIST 2 reaction paper document?\n- Is he reading the assigned HIST 2 article?\n- Is he asking an AI about the paper's argument?\n- Is the Canvas assignment page for the paper open?\n- Is he searching for a source on the paper's topic?\n- Is he outlining the paper's sections?\n- Is the screen Claude, which he marked as on task for this goal before?\n- Is the screen Safari — HIST 2 overview - Wikipedia, which he marked as on task for this goal before?\n- Is the screen https://canvas.example.edu/courses/1, which he marked as on task for this goal before?\n- Is the screen Pages — HIST 2 paper, which he marked as on task for this goal before?\n\n### Off task looks like\n- Is he watching a video unrelated to the paper?\n- Is he on another course's assignment?\n- Is he messaging about something else?\n\n### Working smart here\n- Ask the AI for an outline in one line, then write in your own words.\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.",
+ "questions": {
+  "rub_on_t1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he typing in the HIST 2 reaction paper document? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he reading the assigned HIST 2 article? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he asking an AI about the paper's argument? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t4": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the Canvas assignment page for the paper open? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t5": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he searching for a source on the paper's topic? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t6": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he outlining the paper's sections? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_ruling1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the screen Claude, which he marked as on task for this goal before? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_ruling2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the screen Safari — HIST 2 overview - Wikipedia, which he marked as on task for this goal before? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_ruling3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the screen https://canvas.example.edu/courses/1, which he marked as on task for this goal before? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_ruling4": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the screen Pages — HIST 2 paper, which he marked as on task for this goal before? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he watching a video unrelated to the paper? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he on another course's assignment? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he messaging about something else? Yes only when the screen right now plainly shows it."
+  },
+  "ms_m1": {
+   "type": "noul",
+   "instructions": "Is milestone \"The intro paragraph is written in the essay doc\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  },
+  "ms_m2": {
+   "type": "noul",
+   "instructions": "Is milestone \"The outline has three body sections\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  },
+  "ms_m3": {
+   "type": "noul",
+   "instructions": "Is milestone \"The conclusion is drafted\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  }
+ },
+ "goal_questions": [
+  {
+   "id": "rub_on_t1",
+   "text": "Is he typing in the HIST 2 reaction paper document?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t2",
+   "text": "Is he reading the assigned HIST 2 article?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t3",
+   "text": "Is he asking an AI about the paper's argument?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t4",
+   "text": "Is the Canvas assignment page for the paper open?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t5",
+   "text": "Is he searching for a source on the paper's topic?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t6",
+   "text": "Is he outlining the paper's sections?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_ruling1",
+   "text": "Is the screen Claude, which he marked as on task for this goal before?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_ruling2",
+   "text": "Is the screen Safari — HIST 2 overview - Wikipedia, which he marked as on task for this goal before?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_ruling3",
+   "text": "Is the screen https://canvas.example.edu/courses/1, which he marked as on task for this goal before?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_ruling4",
+   "text": "Is the screen Pages — HIST 2 paper, which he marked as on task for this goal before?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_off_x1",
+   "text": "Is he watching a video unrelated to the paper?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x2",
+   "text": "Is he on another course's assignment?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x3",
+   "text": "Is he messaging about something else?",
+   "means": "off_task"
+  }
+ ],
+ "prompt": "Goal he typed: HIST 2 paper\n\nSpecific goal for this block: Draft the paper\n\nWhat it means: Writing the paper\n\nWhat the work involves: sites: Canvas\n\nThe block is 25 minutes long.\n\nScreens he marked as on task for this goal before:\n- Safari — HIST 2 overview - Wikipedia\n- YouTube — cats\n- Claude\n- Claude\n- Pages — HIST 2 paper\n- Preview — article.pdf\n\nWrite the rubric as strict JSON."
+}

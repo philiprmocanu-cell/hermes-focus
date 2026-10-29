@@ -1,0 +1,4701 @@
+{
+ "frames": [
+  {
+   "at": 1790000060.0,
+   "name": "forty_making",
+   "out": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000060.0,
+    "automatable": "",
+    "away_s": 0,
+    "confidence": 0.92,
+    "distraction_s": 0,
+    "doing": "working in Xcode — OnboardingView.swift — Acme",
+    "evidence": "jev minute: on goal 0.96, working 0.96",
+    "judge": "jev",
+    "mode": "making",
+    "note": "40 seconds judged, 100% making",
+    "on_goal": 0.96,
+    "producing": 0.96,
+    "progress": 0.5,
+    "quality": 0.653,
+    "seconds": 40,
+    "serves_goal": false,
+    "smart": 0.653,
+    "url": "",
+    "working": 0.96
+   },
+   "rows": [
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000000.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000001.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000002.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000003.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000004.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000005.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000006.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000007.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000008.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000009.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000010.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000011.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000012.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000013.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000014.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000015.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000016.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000017.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000018.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000019.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000020.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000021.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000022.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000023.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000024.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000025.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000026.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000027.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000028.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000029.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000030.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000031.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000032.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000033.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000034.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000035.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000036.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000037.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000038.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000039.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    }
+   ],
+   "screen": {
+    "app": "Xcode",
+    "text": "struct OnboardingView",
+    "title": "OnboardingView.swift — Acme",
+    "url": ""
+   }
+  },
+  {
+   "at": 1790000060.0,
+   "name": "distraction_and_away",
+   "out": {
+    "actual_goal": "",
+    "app": "Google Chrome",
+    "at": 1790000060.0,
+    "automatable": "",
+    "away_s": 10,
+    "confidence": 0.9,
+    "distraction_s": 30,
+    "doing": "browsing Google Chrome",
+    "evidence": "jev minute: on goal 0.05, working None",
+    "judge": "jev",
+    "mode": "consuming",
+    "note": "40 seconds judged, 100% consuming, 30 s on a distraction site, 10 s away",
+    "on_goal": 0.05,
+    "producing": null,
+    "progress": null,
+    "quality": null,
+    "seconds": 40,
+    "serves_goal": false,
+    "smart": null,
+    "url": "https://instagram.com/",
+    "working": null
+   },
+   "rows": [
+    {
+     "app": "Google Chrome",
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000025.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000026.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000027.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000028.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Google Chrome",
+     "at": 1790000029.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.05,
+     "url": "https://instagram.com/"
+    },
+    {
+     "app": "Slack",
+     "at": 1790000030.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000031.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000032.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000033.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000034.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000035.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000036.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000037.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000038.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    },
+    {
+     "app": "Slack",
+     "at": 1790000039.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "url": ""
+    }
+   ],
+   "screen": {
+    "url": ""
+   }
+  },
+  {
+   "at": 1790000060.0,
+   "name": "too_few",
+   "out": null,
+   "rows": [
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000000.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000001.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000002.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.5,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000003.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.05,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    },
+    {
+     "actual_goal": "",
+     "app": "Xcode",
+     "at": 1790000004.0,
+     "automatable": "",
+     "check_p": {},
+     "confidence": 0.92,
+     "doing": "working in Xcode — OnboardingView.swift — Acme",
+     "evidence": "jev: making 92%, on goal 0.96",
+     "image": false,
+     "judge": "jev",
+     "mode": "making",
+     "note": "",
+     "off": 0.0,
+     "on": 0.0,
+     "on_goal": 0.96,
+     "on_goal_raw": 0.96,
+     "p_on_task": 0.96,
+     "producing": 0.96,
+     "progress": 0.275,
+     "quality": 0.653,
+     "serves_goal": false,
+     "smart": 0.653,
+     "step": 0.05,
+     "tells_off": [],
+     "tells_on": [],
+     "text_chars": 0,
+     "url": "",
+     "working": 0.96
+    }
+   ],
+   "screen": {
+    "app": "Xcode",
+    "text": "struct OnboardingView",
+    "title": "OnboardingView.swift — Acme",
+    "url": ""
+   }
+  },
+  {
+   "at": 1790000060.0,
+   "name": "ties_first_seen",
+   "out": {
+    "actual_goal": "",
+    "app": "Xcode",
+    "at": 1790000060.0,
+    "automatable": "",
+    "away_s": 0,
+    "confidence": 0.7,
+    "distraction_s": 0,
+    "doing": "working in Xcode — Win",
+    "evidence": "jev minute: on goal 0.05, working None",
+    "judge": "jev",
+    "mode": "making",
+    "note": "20 seconds judged, 50% making",
+    "on_goal": 0.05,
+    "producing": null,
+    "progress": 0.5,
+    "quality": 1.0,
+    "seconds": 20,
+    "serves_goal": true,
+    "smart": null,
+    "url": "a",
+    "working": null
+   },
+   "rows": [
+    {
+     "app": "Xcode",
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Xcode",
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "making",
+     "on_goal": 0.05,
+     "progress": 0.5,
+     "quality": true,
+     "serves_goal": true,
+     "url": "a",
+     "working": null
+    },
+    {
+     "app": "Preview",
+     "at": 1790000010.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000011.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000012.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000013.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000014.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000015.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000016.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000017.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000018.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "app": "Preview",
+     "at": 1790000019.0,
+     "confidence": 0.5,
+     "mode": "studying",
+     "on_goal": 0.05,
+     "progress": 0.9,
+     "url": "b"
+    },
+    {
+     "on_goal": null
+    }
+   ],
+   "screen": {
+    "title": "Win",
+    "url": "z"
+   }
+  }
+ ],
+ "sequences": [
+  {
+   "block_started": 1789999940.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "continuous_19s",
+   "now": 1790000019.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 1789999940.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "continuous_20s",
+   "now": 1790000020.0,
+   "nudge_due": true,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 1789999940.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "broken_by_step",
+   "now": 1790000024.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "other",
+     "on_goal": 0.05,
+     "step": 0.9
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 1789999940.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "broken_by_second_opinion",
+   "now": 1790000024.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05,
+     "second": "yes"
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 1789999940.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "eight_of_ten",
+   "now": 1790000010.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.9
+    }
+   ]
+  },
+  {
+   "block_started": 1790000005.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "grace_period",
+   "now": 1790000025.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000025.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000026.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000027.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000028.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000029.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 1789999940.0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "after_grace",
+   "now": 1790000029.0,
+   "nudge_due": true,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000025.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000026.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000027.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000028.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000029.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 1789999400.0,
+   "gap_s": 240,
+   "last_nudge_at": 1789999900.0,
+   "name": "recent_nudge",
+   "now": 1790000029.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000025.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000026.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000027.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000028.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000029.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "gap_breaks",
+   "now": 1790000029.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000025.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000026.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000027.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000028.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000029.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "heartbeats_every_5s",
+   "now": 1790000025.0,
+   "nudge_due": true,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000025.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "stale_last_row",
+   "now": 1790000040.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000021.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000022.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000023.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000024.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "unsorted_and_junk",
+   "now": 1790000020.0,
+   "nudge_due": true,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    },
+    {
+     "on_goal": 0.0
+    },
+    {
+     "at": null
+    }
+   ]
+  },
+  {
+   "block_started": 0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "off_site_and_away",
+   "now": 1790000021.0,
+   "nudge_due": false,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "off_task_run": false,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000021.0,
+     "away": true,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "on_goal": 0.05
+    }
+   ]
+  },
+  {
+   "block_started": 0,
+   "gap_s": 240,
+   "last_nudge_at": 0,
+   "name": "off_site_only",
+   "now": 1790000020.0,
+   "nudge_due": true,
+   "off_task": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "off_task_run": true,
+   "related": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "rows": [
+    {
+     "at": 1790000000.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000001.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000002.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000003.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000004.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000005.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000006.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000007.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000008.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000009.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000010.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000011.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000012.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000013.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000014.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000015.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000016.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000017.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000018.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000019.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    },
+    {
+     "at": 1790000020.0,
+     "confidence": 0.9,
+     "mode": "consuming",
+     "off_site": true,
+     "on_goal": 0.9
+    }
+   ]
+  }
+ ],
+ "throttle": [
+  {
+   "changed": true,
+   "last": 1790000000.0,
+   "now": 1790000001.0,
+   "out": true
+  },
+  {
+   "changed": false,
+   "last": 1790000000.0,
+   "now": 1790000001.0,
+   "out": false
+  },
+  {
+   "changed": false,
+   "last": 1790000000.0,
+   "now": 1790000005.0,
+   "out": true
+  },
+  {
+   "changed": false,
+   "last": 0,
+   "now": 1790000000.0,
+   "out": true
+  }
+ ]
+}

@@ -1,0 +1,1299 @@
+{
+ "cases": [
+  {
+   "args": {
+    "change": {
+     "app_switched": true,
+     "idle_s": 1.7,
+     "scrolled": false,
+     "seconds_on_this_screen": 4.9,
+     "text_changed_share": 0.234,
+     "typed": true
+    },
+    "goal": "Send response to Dana",
+    "goal_questions": [
+     {
+      "id": "x",
+      "means": "on_task",
+      "text": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+     },
+     {
+      "means": "on-task",
+      "text": "Is it a Loom recording for Dana?"
+     },
+     {
+      "means": "off_task",
+      "text": "Is he watching a YouTube video unrelated to Acme?"
+     },
+     {
+      "text": "no meaning given"
+     },
+     {
+      "means": "on_task",
+      "text": "Is it a Loom recording for Dana?"
+     }
+    ],
+    "image_ref": "",
+    "milestones": null,
+    "profile": "",
+    "progress_so_far": 0.333333,
+    "recent": [
+     {
+      "ago": 3,
+      "mode": "making",
+      "on_goal": 0.9,
+      "stepped": true,
+      "working": 0.8
+     },
+     {
+      "ago": 2,
+      "mode": "studying",
+      "on_goal": 0.7,
+      "working": 0.6
+     },
+     {
+      "ago": 1,
+      "mode": "consuming",
+      "off_site": true,
+      "on_goal": 0.05,
+      "serves_goal": true,
+      "working": 0.0
+     }
+    ],
+    "related": {
+     "junk": 1,
+     "people": [
+      "Dana",
+      "dana",
+      "  Robin  "
+     ],
+     "sites": "Gmail",
+     "terms": [
+      "pilot",
+      "",
+      null,
+      "loom"
+     ]
+    },
+    "rules": null,
+    "rulings": [
+     "He said loom.com was for work during this block: treat it as on task.",
+     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    ],
+    "screen": {
+     "app": "Google Chrome",
+     "text": "Loom   pricing\n\tBusiness  $15 per creator Loom   pricing\n\tBusiness  $15 per creator Loom   pricing\n\tBusiness  $15 per creator ",
+     "title": "loom pricing - Google Search",
+     "url": "https://www.google.com/search?q=loom+pricing&rlz=1"
+    },
+    "site": "",
+    "site_s": 0,
+    "specific": "Reply to Dana sent",
+    "story": "Last 10 min, oldest first: mail.google.com — Re: pilot (making, 4 min)",
+    "today": "Today's plan: Acme onboarding.",
+    "understood": "Answer Dana's pilot email"
+   },
+   "name": "chrome_search_page",
+   "out": {
+    "goal": {
+     "checks": [
+      {
+       "id": "goal_q1",
+       "if_yes": "on task",
+       "question": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+      },
+      {
+       "id": "goal_q2",
+       "if_yes": "on task",
+       "question": "Is it a Loom recording for Dana?"
+      },
+      {
+       "id": "goal_q3",
+       "if_yes": "off task",
+       "question": "Is he watching a YouTube video unrelated to Acme?"
+      }
+     ],
+     "meaning": "Answer Dana's pilot email",
+     "named": "Send response to Dana",
+     "progress_so_far": 0.33,
+     "related": {
+      "people": [
+       "Dana",
+       "Robin"
+      ],
+      "sites": [
+       "Gmail"
+      ],
+      "terms": [
+       "pilot",
+       "loom"
+      ]
+     },
+     "specific": "Reply to Dana sent"
+    },
+    "his_rulings_this_block": [
+     "He said loom.com was for work during this block: treat it as on task.",
+     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    ],
+    "recent_verdicts_oldest_first": [
+     {
+      "activity": "making",
+      "on_goal": 0.9,
+      "seconds_ago": 3,
+      "tied_to_task": true,
+      "working": 0.8
+     },
+     {
+      "activity": "studying",
+      "on_goal": 0.7,
+      "seconds_ago": 2,
+      "tied_to_task": false,
+      "working": 0.6
+     },
+     {
+      "activity": "consuming",
+      "on_goal": 0.05,
+      "seconds_ago": 1,
+      "tied_to_task": false,
+      "working": 0.0
+     }
+    ],
+    "screen_now": {
+     "app": "Google Chrome",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "loom pricing",
+     "text_is_thin": false,
+     "url": "https://www.google.com/search?q=loom+pricing&rlz=1",
+     "visible_text": "Loom pricing Business $15 per creator Loom pricing Business $15 per creator Loom pricing Business $15 per creator",
+     "window_title": "loom pricing - Google Search"
+    },
+    "since_last_second": {
+     "app_switched": true,
+     "idle_allowance_s": 120,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 4,
+     "seconds_since_any_input": 1,
+     "share_of_text_that_changed": 0.23,
+     "typed": true
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": "Last 10 min, oldest first: mail.google.com — Re: pilot (making, 4 min)",
+    "today": "Today's plan: Acme onboarding."
+   },
+   "without_image": {
+    "goal": {
+     "checks": [
+      {
+       "id": "goal_q1",
+       "if_yes": "on task",
+       "question": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+      },
+      {
+       "id": "goal_q2",
+       "if_yes": "on task",
+       "question": "Is it a Loom recording for Dana?"
+      },
+      {
+       "id": "goal_q3",
+       "if_yes": "off task",
+       "question": "Is he watching a YouTube video unrelated to Acme?"
+      }
+     ],
+     "meaning": "Answer Dana's pilot email",
+     "named": "Send response to Dana",
+     "progress_so_far": 0.33,
+     "related": {
+      "people": [
+       "Dana",
+       "Robin"
+      ],
+      "sites": [
+       "Gmail"
+      ],
+      "terms": [
+       "pilot",
+       "loom"
+      ]
+     },
+     "specific": "Reply to Dana sent"
+    },
+    "his_rulings_this_block": [
+     "He said loom.com was for work during this block: treat it as on task.",
+     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    ],
+    "recent_verdicts_oldest_first": [
+     {
+      "activity": "making",
+      "on_goal": 0.9,
+      "seconds_ago": 3,
+      "tied_to_task": true,
+      "working": 0.8
+     },
+     {
+      "activity": "studying",
+      "on_goal": 0.7,
+      "seconds_ago": 2,
+      "tied_to_task": false,
+      "working": 0.6
+     },
+     {
+      "activity": "consuming",
+      "on_goal": 0.05,
+      "seconds_ago": 1,
+      "tied_to_task": false,
+      "working": 0.0
+     }
+    ],
+    "screen_now": {
+     "app": "Google Chrome",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "loom pricing",
+     "text_is_thin": false,
+     "url": "https://www.google.com/search?q=loom+pricing&rlz=1",
+     "visible_text": "Loom pricing Business $15 per creator Loom pricing Business $15 per creator Loom pricing Business $15 per creator",
+     "window_title": "loom pricing - Google Search"
+    },
+    "since_last_second": {
+     "app_switched": true,
+     "idle_allowance_s": 120,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 4,
+     "seconds_since_any_input": 1,
+     "share_of_text_that_changed": 0.23,
+     "typed": true
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": "Last 10 min, oldest first: mail.google.com — Re: pilot (making, 4 min)",
+    "today": "Today's plan: Acme onboarding."
+   }
+  },
+  {
+   "args": {
+    "change": {
+     "idle_s": 12,
+     "seconds_on_this_screen": 30,
+     "text_changed_share": 1.7
+    },
+    "goal": "Acme onboarding",
+    "goal_questions": [
+     {
+      "id": "rub_on_t1",
+      "means": "on_task",
+      "text": "a Gmail thread with Dana"
+     },
+     {
+      "id": "rub_on_t2",
+      "means": "on_task",
+      "text": "a Loom for Dana"
+     },
+     {
+      "id": "rub_off_o1",
+      "means": "off_task",
+      "text": "YouTube unrelated to Acme"
+     }
+    ],
+    "image_ref": "shot-1790000000",
+    "milestones": [
+     {
+      "id": "m1",
+      "text": "Reply to Dana drafted"
+     },
+     {
+      "id": "m2",
+      "text": "Reply sent"
+     }
+    ],
+    "profile": "Founder of Acme.",
+    "progress_so_far": 0.5,
+    "recent": [
+     {
+      "ago": 20,
+      "mode": "making",
+      "on_goal": 0.5,
+      "working": 0.5
+     },
+     {
+      "ago": 19,
+      "mode": "making",
+      "on_goal": 0.51,
+      "working": 0.5
+     },
+     {
+      "ago": 18,
+      "mode": "making",
+      "on_goal": 0.52,
+      "working": 0.5
+     },
+     {
+      "ago": 17,
+      "mode": "making",
+      "on_goal": 0.53,
+      "working": 0.5
+     },
+     {
+      "ago": 16,
+      "mode": "making",
+      "on_goal": 0.54,
+      "working": 0.5
+     },
+     {
+      "ago": 15,
+      "mode": "making",
+      "on_goal": 0.55,
+      "working": 0.5
+     },
+     {
+      "ago": 14,
+      "mode": "making",
+      "on_goal": 0.56,
+      "working": 0.5
+     },
+     {
+      "ago": 13,
+      "mode": "making",
+      "on_goal": 0.5700000000000001,
+      "working": 0.5
+     },
+     {
+      "ago": 12,
+      "mode": "making",
+      "on_goal": 0.58,
+      "working": 0.5
+     },
+     {
+      "ago": 11,
+      "mode": "making",
+      "on_goal": 0.59,
+      "working": 0.5
+     },
+     {
+      "ago": 10,
+      "mode": "making",
+      "on_goal": 0.6,
+      "working": 0.5
+     },
+     {
+      "ago": 9,
+      "mode": "making",
+      "on_goal": 0.61,
+      "working": 0.5
+     },
+     {
+      "ago": 8,
+      "mode": "making",
+      "on_goal": 0.62,
+      "working": 0.5
+     },
+     {
+      "ago": 7,
+      "mode": "making",
+      "on_goal": 0.63,
+      "working": 0.5
+     },
+     {
+      "ago": 6,
+      "mode": "making",
+      "on_goal": 0.64,
+      "working": 0.5
+     },
+     {
+      "ago": 5,
+      "mode": "making",
+      "on_goal": 0.65,
+      "working": 0.5
+     }
+    ],
+    "related": {
+     "projects": [
+      "Acme"
+     ]
+    },
+    "rules": [
+     "Only one rule."
+    ],
+    "rulings": null,
+    "screen": {
+     "app": "Claude",
+     "text": "Fix the crash",
+     "title": "Claude",
+     "url": ""
+    },
+    "site": "",
+    "site_s": 0,
+    "specific": "Fix the onboarding crash",
+    "story": "",
+    "today": "",
+    "understood": ""
+   },
+   "name": "claude_app_with_image",
+   "out": {
+    "about_him": "Founder of Acme.",
+    "goal": {
+     "checks": [
+      {
+       "id": "rub_on_t1",
+       "if_yes": "on task",
+       "question": "a Gmail thread with Dana"
+      },
+      {
+       "id": "rub_on_t2",
+       "if_yes": "on task",
+       "question": "a Loom for Dana"
+      },
+      {
+       "id": "rub_off_o1",
+       "if_yes": "off task",
+       "question": "YouTube unrelated to Acme"
+      }
+     ],
+     "meaning": "",
+     "milestones": [
+      {
+       "id": "ms_m1",
+       "milestone": "Reply to Dana drafted"
+      },
+      {
+       "id": "ms_m2",
+       "milestone": "Reply sent"
+      }
+     ],
+     "named": "Acme onboarding",
+     "progress_so_far": 0.5,
+     "related": {
+      "projects": [
+       "Acme"
+      ]
+     },
+     "specific": "Fix the onboarding crash"
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [
+     {
+      "activity": "making",
+      "on_goal": 0.54,
+      "seconds_ago": 16,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.55,
+      "seconds_ago": 15,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.56,
+      "seconds_ago": 14,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.5700000000000001,
+      "seconds_ago": 13,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.58,
+      "seconds_ago": 12,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.59,
+      "seconds_ago": 11,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.6,
+      "seconds_ago": 10,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.61,
+      "seconds_ago": 9,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.62,
+      "seconds_ago": 8,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.63,
+      "seconds_ago": 7,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.64,
+      "seconds_ago": 6,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.65,
+      "seconds_ago": 5,
+      "tied_to_task": false,
+      "working": 0.5
+     }
+    ],
+    "screen_now": {
+     "app": "Claude",
+     "picture_app": false,
+     "reading_material": false,
+     "screenshot": "shot-1790000000",
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "",
+     "visible_text": "Fix the crash",
+     "window_title": "Claude"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 120,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 30,
+     "seconds_since_any_input": 12,
+     "share_of_text_that_changed": 1.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Only one rule."
+    ],
+    "story_so_far": ""
+   },
+   "without_image": {
+    "about_him": "Founder of Acme.",
+    "goal": {
+     "checks": [
+      {
+       "id": "rub_on_t1",
+       "if_yes": "on task",
+       "question": "a Gmail thread with Dana"
+      },
+      {
+       "id": "rub_on_t2",
+       "if_yes": "on task",
+       "question": "a Loom for Dana"
+      },
+      {
+       "id": "rub_off_o1",
+       "if_yes": "off task",
+       "question": "YouTube unrelated to Acme"
+      }
+     ],
+     "meaning": "",
+     "milestones": [
+      {
+       "id": "ms_m1",
+       "milestone": "Reply to Dana drafted"
+      },
+      {
+       "id": "ms_m2",
+       "milestone": "Reply sent"
+      }
+     ],
+     "named": "Acme onboarding",
+     "progress_so_far": 0.5,
+     "related": {
+      "projects": [
+       "Acme"
+      ]
+     },
+     "specific": "Fix the onboarding crash"
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [
+     {
+      "activity": "making",
+      "on_goal": 0.54,
+      "seconds_ago": 16,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.55,
+      "seconds_ago": 15,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.56,
+      "seconds_ago": 14,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.5700000000000001,
+      "seconds_ago": 13,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.58,
+      "seconds_ago": 12,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.59,
+      "seconds_ago": 11,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.6,
+      "seconds_ago": 10,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.61,
+      "seconds_ago": 9,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.62,
+      "seconds_ago": 8,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.63,
+      "seconds_ago": 7,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.64,
+      "seconds_ago": 6,
+      "tied_to_task": false,
+      "working": 0.5
+     },
+     {
+      "activity": "making",
+      "on_goal": 0.65,
+      "seconds_ago": 5,
+      "tied_to_task": false,
+      "working": 0.5
+     }
+    ],
+    "screen_now": {
+     "app": "Claude",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "",
+     "visible_text": "Fix the crash",
+     "window_title": "Claude"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 120,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 30,
+     "seconds_since_any_input": 12,
+     "share_of_text_that_changed": 1.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Only one rule."
+    ],
+    "story_so_far": ""
+   }
+  },
+  {
+   "args": {
+    "change": {
+     "idle_s": 200,
+     "scrolled": 1,
+     "typed": 0
+    },
+    "goal": "Read the HIST 1 paper",
+    "goal_questions": null,
+    "image_ref": "",
+    "milestones": null,
+    "profile": "",
+    "progress_so_far": -0.2,
+    "recent": [],
+    "related": null,
+    "rules": null,
+    "rulings": [],
+    "screen": {
+     "app": "Preview",
+     "text": "Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. ",
+     "title": "soc1.pdf — page 4",
+     "url": ""
+    },
+    "site": "",
+    "site_s": 0,
+    "specific": "",
+    "story": "",
+    "today": "",
+    "understood": ""
+   },
+   "name": "pdf_reading",
+   "out": {
+    "goal": {
+     "meaning": "",
+     "named": "Read the HIST 1 paper",
+     "progress_so_far": 0.0,
+     "related": {},
+     "specific": ""
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [],
+    "screen_now": {
+     "app": "Preview",
+     "picture_app": true,
+     "reading_material": true,
+     "search_words": "",
+     "text_is_thin": false,
+     "url": "",
+     "visible_text": "Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract.",
+     "window_title": "soc1.pdf — page 4"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 360,
+     "no_input_too_long": false,
+     "scrolled": true,
+     "seconds_on_this_screen": 0,
+     "seconds_since_any_input": 200,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   },
+   "without_image": {
+    "goal": {
+     "meaning": "",
+     "named": "Read the HIST 1 paper",
+     "progress_so_far": 0.0,
+     "related": {},
+     "specific": ""
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [],
+    "screen_now": {
+     "app": "Preview",
+     "picture_app": true,
+     "reading_material": true,
+     "search_words": "",
+     "text_is_thin": false,
+     "url": "",
+     "visible_text": "Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract. Abstract.",
+     "window_title": "soc1.pdf — page 4"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 360,
+     "no_input_too_long": false,
+     "scrolled": true,
+     "seconds_on_this_screen": 0,
+     "seconds_since_any_input": 200,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   }
+  },
+  {
+   "args": {
+    "change": {
+     "app_switched": true,
+     "idle_s": 0,
+     "seconds_on_this_screen": 7
+    },
+    "goal": "Write the essay",
+    "goal_questions": null,
+    "image_ref": "shot-ig",
+    "milestones": null,
+    "profile": "",
+    "progress_so_far": 0.1,
+    "recent": [
+     {
+      "ago": 1,
+      "mode": "studying",
+      "on_goal": 0.8,
+      "working": 0.7
+     }
+    ],
+    "related": {},
+    "rules": null,
+    "rulings": null,
+    "screen": {
+     "app": "Google Chrome",
+     "text": "Reels",
+     "title": "Instagram",
+     "url": "https://www.instagram.com/"
+    },
+    "site": "Instagram",
+    "site_s": 7.8,
+    "specific": "Draft section 2",
+    "story": "",
+    "today": "",
+    "understood": ""
+   },
+   "name": "instagram_feed",
+   "out": {
+    "goal": {
+     "meaning": "",
+     "named": "Write the essay",
+     "progress_so_far": 0.1,
+     "related": {},
+     "specific": "Draft section 2"
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [
+     {
+      "activity": "studying",
+      "on_goal": 0.8,
+      "seconds_ago": 1,
+      "tied_to_task": false,
+      "working": 0.7
+     }
+    ],
+    "screen_now": {
+     "app": "Google Chrome",
+     "distraction_site": {
+      "seconds_in_front": 7,
+      "site": "Instagram"
+     },
+     "picture_app": true,
+     "reading_material": false,
+     "screenshot": "shot-ig",
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "https://www.instagram.com/",
+     "visible_text": "Reels",
+     "window_title": "Instagram"
+    },
+    "since_last_second": {
+     "app_switched": true,
+     "idle_allowance_s": 360,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 7,
+     "seconds_since_any_input": 0,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   },
+   "without_image": {
+    "goal": {
+     "meaning": "",
+     "named": "Write the essay",
+     "progress_so_far": 0.1,
+     "related": {},
+     "specific": "Draft section 2"
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [
+     {
+      "activity": "studying",
+      "on_goal": 0.8,
+      "seconds_ago": 1,
+      "tied_to_task": false,
+      "working": 0.7
+     }
+    ],
+    "screen_now": {
+     "app": "Google Chrome",
+     "distraction_site": {
+      "seconds_in_front": 7,
+      "site": "Instagram"
+     },
+     "picture_app": true,
+     "reading_material": false,
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "https://www.instagram.com/",
+     "visible_text": "Reels",
+     "window_title": "Instagram"
+    },
+    "since_last_second": {
+     "app_switched": true,
+     "idle_allowance_s": 360,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 7,
+     "seconds_since_any_input": 0,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   }
+  },
+  {
+   "args": {
+    "change": {},
+    "goal": "Acme onboarding",
+    "goal_questions": [],
+    "image_ref": "",
+    "milestones": [
+     {
+      "id": "m1"
+     },
+     "junk"
+    ],
+    "profile": "",
+    "progress_so_far": 1.5,
+    "recent": [],
+    "related": null,
+    "rules": null,
+    "rulings": null,
+    "screen": {
+     "app": "Xcode",
+     "text": "struct OnboardingView",
+     "title": "OnboardingView.swift — Acme",
+     "url": ""
+    },
+    "site": "",
+    "site_s": 0,
+    "specific": "",
+    "story": "",
+    "today": "",
+    "understood": ""
+   },
+   "name": "xcode",
+   "out": {
+    "goal": {
+     "meaning": "",
+     "named": "Acme onboarding",
+     "progress_so_far": 1.0,
+     "related": {},
+     "specific": ""
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [],
+    "screen_now": {
+     "app": "Xcode",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "",
+     "visible_text": "struct OnboardingView",
+     "window_title": "OnboardingView.swift — Acme"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 120,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 0,
+     "seconds_since_any_input": 0,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   },
+   "without_image": {
+    "goal": {
+     "meaning": "",
+     "named": "Acme onboarding",
+     "progress_so_far": 1.0,
+     "related": {},
+     "specific": ""
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [],
+    "screen_now": {
+     "app": "Xcode",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "",
+     "visible_text": "struct OnboardingView",
+     "window_title": "OnboardingView.swift — Acme"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 120,
+     "no_input_too_long": false,
+     "scrolled": false,
+     "seconds_on_this_screen": 0,
+     "seconds_since_any_input": 0,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   }
+  },
+  {
+   "args": {
+    "change": {
+     "idle_s": 130.6
+    },
+    "goal": "Answer the team",
+    "goal_questions": null,
+    "image_ref": "",
+    "milestones": null,
+    "profile": "",
+    "progress_so_far": 0,
+    "recent": [],
+    "related": null,
+    "rules": null,
+    "rulings": null,
+    "screen": {
+     "app": "Slack",
+     "text": "",
+     "title": "general",
+     "url": ""
+    },
+    "site": "",
+    "site_s": 0,
+    "specific": "",
+    "story": "",
+    "today": "",
+    "understood": ""
+   },
+   "name": "idle_slack",
+   "out": {
+    "goal": {
+     "meaning": "",
+     "named": "Answer the team",
+     "progress_so_far": 0.0,
+     "related": {},
+     "specific": ""
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [],
+    "screen_now": {
+     "app": "Slack",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "",
+     "visible_text": "",
+     "window_title": "general"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 120,
+     "no_input_too_long": true,
+     "scrolled": false,
+     "seconds_on_this_screen": 0,
+     "seconds_since_any_input": 130,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   },
+   "without_image": {
+    "goal": {
+     "meaning": "",
+     "named": "Answer the team",
+     "progress_so_far": 0.0,
+     "related": {},
+     "specific": ""
+    },
+    "his_rulings_this_block": [],
+    "recent_verdicts_oldest_first": [],
+    "screen_now": {
+     "app": "Slack",
+     "picture_app": false,
+     "reading_material": false,
+     "search_words": "",
+     "text_is_thin": true,
+     "url": "",
+     "visible_text": "",
+     "window_title": "general"
+    },
+    "since_last_second": {
+     "app_switched": false,
+     "idle_allowance_s": 120,
+     "no_input_too_long": true,
+     "scrolled": false,
+     "seconds_on_this_screen": 0,
+     "seconds_since_any_input": 130,
+     "share_of_text_that_changed": 0.0,
+     "typed": false
+    },
+    "standing_rules": [
+     "Reading or studying material relevant to the goal is work, not a failure.",
+     "A Claude chat (desktop or claude.ai) directing code or writing for the goal's project IS his work: making. The Claude desktop app shows almost no text — judge it from the screenshot and the story.",
+     "Xcode, the iOS Simulator or a terminal running an agent on the goal's app: making.",
+     "Email or chat with a person, company or project the goal names (goal.related) is on task: reading or writing that thread IS the work.",
+     "A web search is judged by its WORDS (screen_now.search_words) against the goal, goal.related and story_so_far, never by being a search page: 'time in japan now' while writing to a partner in Japan is a step toward the goal.",
+     "A YouTube tutorial or lecture on the goal's own topic: studying, serves the goal.",
+     "Instagram, TikTok, YouTube Shorts or home feed, Reddit front page, X feed, LinkedIn feed, shopping: consuming, unrelated — unless he is messaging or reading something tied to the task.",
+     "No input for a while on reading material (a PDF, an ebook, zyBooks, docs, Canvas, a long article, a long Claude reply) is reading, not away, until idle_allowance_s.",
+     "Finder, the desktop or a file picker for a moment: other, not consuming.",
+     "his_rulings_this_block are his own corrections during this block: they override your reading.",
+     "The chk_ questions are general checks: 'the task' is this block's goal (goal.specific when given). Answer each from the screen, title, URL, story_so_far and screenshot; yes only when it plainly shows."
+    ],
+    "story_so_far": ""
+   }
+  }
+ ],
+ "image_asset": {
+  "jpeg_b64": "QUJD",
+  "out": {
+   "shot-x": {
+    "data_base64": "QUJD",
+    "format": "jpg",
+    "type": "image"
+   }
+  },
+  "ref": "shot-x"
+ },
+ "image_header": [
+  "TypeSafe-Danger-Zone-Images",
+  "true"
+ ],
+ "model": "jev-latest"
+}

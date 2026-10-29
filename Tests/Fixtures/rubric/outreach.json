@@ -1,0 +1,174 @@
+{
+ "name": "outreach",
+ "text": "Here is the rubric you asked for:\n{\"kind\": \"outreach\", \"balance\": {\"output\": 0.5}, \"milestones\": [{\"id\": \"m1\", \"text\": \"The reply to Dana is sent in Gmail\"}, {\"id\": \"m2\", \"text\": \"Three investors are emailed about the pod\"}], \"on_tells\": [{\"id\": \"t1\", \"text\": \"Is he writing the reply to Dana?\"}, {\"id\": \"t2\", \"text\": \"Is he reading Dana's last email?\"}, {\"id\": \"t3\", \"text\": \"Is he writing to an investor about the Acme pod?\"}, {\"id\": \"t4\", \"text\": \"Is he looking up an investor's firm?\"}, {\"id\": \"t5\", \"text\": \"Is the pod pitch deck open?\"}, {\"id\": \"t6\", \"text\": \"Is he checking the investor list sheet?\"}], \"off_tells\": [{\"id\": \"x1\", \"text\": \"Is he reading unrelated email threads?\"}, {\"id\": \"x2\", \"text\": \"Is he on social media?\"}, {\"id\": \"x3\", \"text\": \"Is he working on app code instead of writing?\"}], \"smart\": [\"Draft once with AI, then edit in your voice.\"]}\nGood luck!",
+ "note": "",
+ "labels": [],
+ "prompt_input": {
+  "goal": "  reply   to Dana ",
+  "specific": "",
+  "understood": "",
+  "related": [],
+  "past_rubric_md": "",
+  "rulings": [],
+  "note": "",
+  "block_min": 25,
+  "current_md": ""
+ },
+ "rubric": {
+  "kind": "outreach",
+  "balance": {
+   "focus": 0.5,
+   "output": 0.5
+  },
+  "milestones": [
+   {
+    "id": "m1",
+    "text": "The reply to Dana is sent in Gmail"
+   },
+   {
+    "id": "m2",
+    "text": "Three investors are emailed about the pod"
+   }
+  ],
+  "on_tells": [
+   {
+    "id": "t1",
+    "text": "Is he writing the reply to Dana?"
+   },
+   {
+    "id": "t2",
+    "text": "Is he reading Dana's last email?"
+   },
+   {
+    "id": "t3",
+    "text": "Is he writing to an investor about the Acme pod?"
+   },
+   {
+    "id": "t4",
+    "text": "Is he looking up an investor's firm?"
+   },
+   {
+    "id": "t5",
+    "text": "Is the pod pitch deck open?"
+   },
+   {
+    "id": "t6",
+    "text": "Is he checking the investor list sheet?"
+   }
+  ],
+  "off_tells": [
+   {
+    "id": "x1",
+    "text": "Is he reading unrelated email threads?"
+   },
+   {
+    "id": "x2",
+    "text": "Is he on social media?"
+   },
+   {
+    "id": "x3",
+    "text": "Is he working on app code instead of writing?"
+   }
+  ],
+  "smart": [
+   "Draft once with AI, then edit in your voice."
+  ],
+  "fallback": false,
+  "md": "## Rubric — outreach\n\n**Judged 50% on focus, 50% on output: an outreach block.**\n\n### Milestones (output is judged against these)\n1. The reply to Dana is sent in Gmail\n2. Three investors are emailed about the pod\n\n### On task looks like\n- Is he writing the reply to Dana?\n- Is he reading Dana's last email?\n- Is he writing to an investor about the Acme pod?\n- Is he looking up an investor's firm?\n- Is the pod pitch deck open?\n- Is he checking the investor list sheet?\n\n### Off task looks like\n- Is he reading unrelated email threads?\n- Is he on social media?\n- Is he working on app code instead of writing?\n\n### Working smart here\n- Draft once with AI, then edit in your voice.\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site."
+ },
+ "md": "## Rubric — outreach\n\n**Judged 50% on focus, 50% on output: an outreach block.**\n\n### Milestones (output is judged against these)\n1. The reply to Dana is sent in Gmail\n2. Three investors are emailed about the pod\n\n### On task looks like\n- Is he writing the reply to Dana?\n- Is he reading Dana's last email?\n- Is he writing to an investor about the Acme pod?\n- Is he looking up an investor's firm?\n- Is the pod pitch deck open?\n- Is he checking the investor list sheet?\n\n### Off task looks like\n- Is he reading unrelated email threads?\n- Is he on social media?\n- Is he working on app code instead of writing?\n\n### Working smart here\n- Draft once with AI, then edit in your voice.\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.",
+ "questions": {
+  "rub_on_t1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he writing the reply to Dana? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he reading Dana's last email? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he writing to an investor about the Acme pod? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t4": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he looking up an investor's firm? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t5": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is the pod pitch deck open? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t6": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he checking the investor list sheet? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he reading unrelated email threads? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he on social media? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he working on app code instead of writing? Yes only when the screen right now plainly shows it."
+  },
+  "ms_m1": {
+   "type": "noul",
+   "instructions": "Is milestone \"The reply to Dana is sent in Gmail\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  },
+  "ms_m2": {
+   "type": "noul",
+   "instructions": "Is milestone \"Three investors are emailed about the pod\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  }
+ },
+ "goal_questions": [
+  {
+   "id": "rub_on_t1",
+   "text": "Is he writing the reply to Dana?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t2",
+   "text": "Is he reading Dana's last email?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t3",
+   "text": "Is he writing to an investor about the Acme pod?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t4",
+   "text": "Is he looking up an investor's firm?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t5",
+   "text": "Is the pod pitch deck open?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t6",
+   "text": "Is he checking the investor list sheet?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_off_x1",
+   "text": "Is he reading unrelated email threads?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x2",
+   "text": "Is he on social media?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x3",
+   "text": "Is he working on app code instead of writing?",
+   "means": "off_task"
+  }
+ ],
+ "prompt": "Goal he typed: reply to Dana\n\nSpecific goal for this block: (none)\n\nWhat it means: (none)\n\nWhat the work involves: (none)\n\nThe block is 25 minutes long.\n\nWrite the rubric as strict JSON."
+}

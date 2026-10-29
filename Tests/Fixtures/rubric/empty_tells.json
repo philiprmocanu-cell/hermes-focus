@@ -1,0 +1,35 @@
+{
+ "name": "empty_tells",
+ "text": "{\"kind\": \"planning\", \"balance\": {\"focus\": 0.6, \"output\": 0.4}, \"milestones\": [], \"on_tells\": [], \"off_tells\": [\"Is he idle?\"], \"smart\": []}",
+ "note": "plan the week only",
+ "labels": [],
+ "prompt_input": {
+  "goal": "plan",
+  "specific": "Plan the week",
+  "understood": "Planning",
+  "related": [],
+  "past_rubric_md": "",
+  "rulings": [],
+  "note": "",
+  "block_min": 25,
+  "current_md": ""
+ },
+ "rubric": {
+  "kind": "mixed",
+  "balance": {
+   "focus": 0.5,
+   "output": 0.5
+  },
+  "milestones": [],
+  "on_tells": [],
+  "off_tells": [],
+  "smart": [],
+  "fallback": true,
+  "note": "plan the week only",
+  "md": "## Rubric — mixed\n\n**Judged 50% on focus, 50% on output: a mixed block.**\n\n_The rubric writer could not answer; this block is judged the usual way._\n\n### Milestones (output is judged against these)\n_None: output is judged on how far the screens show you get._\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.\n\n_Your fix: plan the week only_"
+ },
+ "md": "## Rubric — mixed\n\n**Judged 50% on focus, 50% on output: a mixed block.**\n\n_The rubric writer could not answer; this block is judged the usual way._\n\n### Milestones (output is judged against these)\n_None: output is judged on how far the screens show you get._\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.\n\n_Your fix: plan the week only_",
+ "questions": {},
+ "goal_questions": [],
+ "prompt": "Goal he typed: plan\n\nSpecific goal for this block: Plan the week\n\nWhat it means: Planning\n\nWhat the work involves: (none)\n\nThe block is 25 minutes long.\n\nWrite the rubric as strict JSON."
+}

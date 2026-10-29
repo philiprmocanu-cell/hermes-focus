@@ -1,0 +1,41 @@
+{
+ "name": "malformed_json",
+ "text": "{\"kind\": \"writing\", \"balance\": {\"focus\": 0.4,, \"milestones\": []",
+ "note": "",
+ "labels": [],
+ "prompt_input": {
+  "goal": "essay",
+  "specific": "Draft the intro",
+  "understood": "Writing the essay",
+  "related": [
+   [
+    "sites",
+    [
+     "Canvas"
+    ]
+   ]
+  ],
+  "past_rubric_md": "",
+  "rulings": [],
+  "note": "",
+  "block_min": 25,
+  "current_md": ""
+ },
+ "rubric": {
+  "kind": "mixed",
+  "balance": {
+   "focus": 0.5,
+   "output": 0.5
+  },
+  "milestones": [],
+  "on_tells": [],
+  "off_tells": [],
+  "smart": [],
+  "fallback": true,
+  "md": "## Rubric — mixed\n\n**Judged 50% on focus, 50% on output: a mixed block.**\n\n_The rubric writer could not answer; this block is judged the usual way._\n\n### Milestones (output is judged against these)\n_None: output is judged on how far the screens show you get._\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site."
+ },
+ "md": "## Rubric — mixed\n\n**Judged 50% on focus, 50% on output: a mixed block.**\n\n_The rubric writer could not answer; this block is judged the usual way._\n\n### Milestones (output is judged against these)\n_None: output is judged on how far the screens show you get._\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.",
+ "questions": {},
+ "goal_questions": [],
+ "prompt": "Goal he typed: essay\n\nSpecific goal for this block: Draft the intro\n\nWhat it means: Writing the essay\n\nWhat the work involves: sites: Canvas\n\nThe block is 25 minutes long.\n\nWrite the rubric as strict JSON."
+}

@@ -1,0 +1,2864 @@
+[
+ {
+  "blocks": [],
+  "day": "2026-09-21",
+  "hours_sentence": "",
+  "html": "<html><body>\n<h1><b>Under</b> — 21 out of 1000</h1>\n<p>Only 0 min of focused work across 0 finished blocks — a top performer&#x27;s day is about four hours. It was the first day I&#x27;ve scored, so there is nothing to compare it with yet.</p>\n<p>So far — this page is rewritten after every block and finished at 11:30 pm.</p>\n<h2>What you got done</h2>\n<p>No focus blocks were finished today.</p>\n<h2>Totals</h2>\n<ul>\n<li>Blocks: 0 finished of 0 started</li>\n<li>Focused time: 0 min (of 0 min in blocks)</li>\n</ul>\n<p><b>Tomorrow:</b> Get at least four blocks done tomorrow — start the first one before you open anything else.</p>\n</body></html>",
+  "kwargs": {},
+  "name": "empty_day",
+  "paragraphs": [
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "TITLE",
+    "text": "Under — 21 out of 1000"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Only 0 min of focused work across 0 finished blocks — a top performer's day is about four hours. It was the first day I've scored, so there is nothing to compare it with yet."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "So far — this page is rewritten after every block and finished at 11:30 pm."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "What you got done"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "No focus blocks were finished today."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Totals"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Blocks: 0 finished of 0 started"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Focused time: 0 min (of 0 min in blocks)"
+   },
+   {
+    "bold": 9,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Tomorrow: Get at least four blocks done tomorrow — start the first one before you open anything else."
+   }
+  ],
+  "report": {
+   "attention": {
+    "seconds": 0.0,
+    "value": null
+   },
+   "blocks": [],
+   "board": {},
+   "claude": [],
+   "coach": null,
+   "day": "2026-09-21",
+   "final": false,
+   "goal_hours": null,
+   "goals": [
+    [],
+    []
+   ],
+   "hours": {
+    "activity": [],
+    "blocks": 0,
+    "distraction_s": 0,
+    "eyes": [],
+    "eyes_s": 0.0,
+    "focused_s": 0,
+    "goal_hours": null,
+    "goal_pct": null,
+    "long_breaks": [
+     0,
+     0.0
+    ],
+    "off_goal_s": 0.0,
+    "projects": [],
+    "session_s": 0.0,
+    "sessions": 0,
+    "short_breaks": [
+     0,
+     0.0
+    ],
+    "sites": [],
+    "skipped_breaks": 0,
+    "worked_s": 0
+   },
+   "judged_by": "screens",
+   "leaks": [],
+   "modes": [],
+   "mono": {
+    "seconds": 0.0,
+    "switches_per_min": null,
+    "top_share": null,
+    "value": null
+   },
+   "parts": {
+    "quality": 0.0,
+    "substance": 0.0,
+    "volume": 0.0
+   },
+   "rank": {
+    "earlier": 0,
+    "line": "the first day I've scored, so there is nothing to compare it with yet",
+    "of": 1,
+    "rank": 1
+   },
+   "score": 21,
+   "title": "2026-09-21 — Monday",
+   "tomorrow": "Get at least four blocks done tomorrow — start the first one before you open anything else.",
+   "totals": {
+    "avg": null,
+    "best": null,
+    "blocks": 0,
+    "done": 0,
+    "eye": null,
+    "focused_s": 0,
+    "in_blocks_s": 0,
+    "started": 0
+   },
+   "verdict": "Under",
+   "weekly": null,
+   "why": "Only 0 min of focused work across 0 finished blocks — a top performer's day is about four hours."
+  },
+  "text": "Under — 21 out of 1000\nOnly 0 min of focused work across 0 finished blocks — a top performer's day is about four hours. It was the first day I've scored, so there is nothing to compare it with yet.\nSo far — this page is rewritten after every block and finished at 11:30 pm.\nWhat you got done\nNo focus blocks were finished today.\nTotals\n• Blocks: 0 finished of 0 started\n• Focused time: 0 min (of 0 min in blocks)\nTomorrow: Get at least four blocks done tomorrow — start the first one before you open anything else.",
+  "tz": "UTC",
+  "updated_at": null,
+  "verdict_line": "Today so far: Under, 21 out of 1000 — the first day I've scored, so there is nothing to compare it with yet. Only 0 min of focused work across 0 finished blocks — a top performer's day is about four hours."
+ },
+ {
+  "blocks": [
+   {
+    "active_s": 1200,
+    "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+    "apps": [
+     {
+      "app": "Xcode",
+      "seconds": 1400,
+      "title": "OnboardingView.swift — Acme",
+      "url": ""
+     },
+     {
+      "app": "Google Chrome",
+      "seconds": 100,
+      "title": "SwiftUI docs",
+      "url": "https://developer.apple.com/x"
+     }
+    ],
+    "block_id": "d1",
+    "completed": true,
+    "completion": 1.0,
+    "ended_at": 1790007900.0,
+    "focus_score": 892,
+    "frames": [
+     {
+      "automatable": "",
+      "doing": "editing SwiftUI view",
+      "on_goal": 0.9,
+      "working": 0.9
+     },
+     {
+      "automatable": "",
+      "doing": "writing code",
+      "on_goal": 1.0,
+      "working": 0.8
+     }
+    ],
+    "goal": "Acme onboarding screen",
+    "output_score": 825,
+    "parts": {
+     "engaged": {
+      "hands_on": 1.0,
+      "reading": 0.0,
+      "screens": 0.85,
+      "typing": 1.0,
+      "value": 0.925
+     },
+     "mono": {
+      "switches_per_min": 0.16,
+      "top": "Xcode",
+      "top_share": 0.933,
+      "value": 0.903
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 2,
+      "value": 0.95
+     },
+     "output": {
+      "hands_on": 1.0,
+      "reading": 0.0,
+      "screens": 0.85,
+      "typing": 1.0,
+      "value": 0.887
+     },
+     "progress": null,
+     "quality": {
+      "value": 0.85
+     },
+     "smart": null
+    },
+    "planned_s": 1500,
+    "score": 858,
+    "started_at": 1790006400.0,
+    "switches": 4,
+    "why": "Focus 892: one thing 93% of the time, 0.16 switches a minute; on your goal 95%. Output 825: quality 85%; making or reading for it 92%."
+   }
+  ],
+  "day": "2026-09-21",
+  "hours_sentence": "25 min of work in 1 block — 10% of your 4-hour goal. Most of it went to Acme onboarding screen (25 min).",
+  "html": "<html><body>\n<h1><b>Under</b> — 319 out of 1000</h1>\n<p>You built the onboarding screen. It was the first day I&#x27;ve scored, so there is nothing to compare it with yet.</p>\n<h2>Hours</h2>\n<p><b>Hours worked today:</b> 25 min of work in 1 block — 10% of your 4-hour goal. Most of it went to Acme onboarding screen (25 min).</p>\n<h3>Where your hours went</h3>\n<p><b>By project</b></p>\n<ul>\n<li>Acme onboarding screen — 25 min (100%)</li>\n</ul>\n<p><b>What you were doing</b></p>\n<ul>\n<li>No screens were judged — 25 min (100%)</li>\n</ul>\n<h2>What you got done</h2>\n<h3>4:00–4:25 pm · 858 / 1000 · focus 892, output 825</h3>\n<p><b>Goal:</b> Acme onboarding screen.</p>\n<ul>\n<li>Editing SwiftUI view</li>\n<li>Writing code</li>\n</ul>\n<h2>Totals</h2>\n<ul>\n<li>Blocks: 1 finished of 1 started</li>\n<li>Hours worked: 25 min of your 4-hour goal (10%)</li>\n<li>Focused time: 25 min (of 25 min in blocks)</li>\n<li>Average block: 858 · best: 858</li>\n<li>Focus periods: 1 focus period — 1 block in all.</li>\n<li>Mono-focus: 93% of your block time went to the single thing you were most in — you mostly stayed in one thing at a time, hardly switching apps (0.2 a minute).</li>\n</ul>\n<h2>Completed today</h2>\n<p>Nothing reached the finish line today.</p>\n<h3>Started but not finished</h3>\n<ul>\n<li>Acme onboarding screen — no progress the screens could measure, 25 min spent</li>\n</ul>\n<p><b>Tomorrow:</b> Start before 9.</p>\n<p>Updated 4:00 am. 1000 is an elite performer&#x27;s best; 700 is strong.</p>\n</body></html>",
+  "kwargs": {
+   "final": true,
+   "goal_hours": 4,
+   "judge": {
+    "substance": 0.7,
+    "tomorrow": "start before 9",
+    "why": "you built the onboarding screen"
+   }
+  },
+  "name": "one_block",
+  "paragraphs": [
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "TITLE",
+    "text": "Under — 319 out of 1000"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "You built the onboarding screen. It was the first day I've scored, so there is nothing to compare it with yet."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Hours"
+   },
+   {
+    "bold": 19,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Hours worked today: 25 min of work in 1 block — 10% of your 4-hour goal. Most of it went to Acme onboarding screen (25 min)."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "Where your hours went"
+   },
+   {
+    "bold": 10,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "By project"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Acme onboarding screen — 25 min (100%)"
+   },
+   {
+    "bold": 19,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "What you were doing"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "No screens were judged — 25 min (100%)"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "What you got done"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "4:00–4:25 pm · 858 / 1000 · focus 892, output 825"
+   },
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal: Acme onboarding screen."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Editing SwiftUI view"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Writing code"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Totals"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Blocks: 1 finished of 1 started"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Hours worked: 25 min of your 4-hour goal (10%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Focused time: 25 min (of 25 min in blocks)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Average block: 858 · best: 858"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Focus periods: 1 focus period — 1 block in all."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Mono-focus: 93% of your block time went to the single thing you were most in — you mostly stayed in one thing at a time, hardly switching apps (0.2 a minute)."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Completed today"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Nothing reached the finish line today."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "Started but not finished"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Acme onboarding screen — no progress the screens could measure, 25 min spent"
+   },
+   {
+    "bold": 9,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Tomorrow: Start before 9."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Updated 4:00 am. 1000 is an elite performer's best; 700 is strong."
+   }
+  ],
+  "report": {
+   "attention": {
+    "seconds": 0.0,
+    "value": null
+   },
+   "blocks": [
+    {
+     "active_s": 1200,
+     "advice": "That was a strong block on Acme onboarding screen — do the next one exactly the same way.",
+     "apps": [
+      {
+       "app": "Xcode",
+       "seconds": 1400,
+       "title": "OnboardingView.swift — Acme",
+       "url": ""
+      },
+      {
+       "app": "Google Chrome",
+       "seconds": 100,
+       "title": "SwiftUI docs",
+       "url": "https://developer.apple.com/x"
+      }
+     ],
+     "block_id": "d1",
+     "completed": true,
+     "completion": 1.0,
+     "ended_at": 1790007900.0,
+     "focus_score": 892,
+     "frames": [
+      {
+       "automatable": "",
+       "doing": "editing SwiftUI view",
+       "on_goal": 0.9,
+       "working": 0.9
+      },
+      {
+       "automatable": "",
+       "doing": "writing code",
+       "on_goal": 1.0,
+       "working": 0.8
+      }
+     ],
+     "goal": "Acme onboarding screen",
+     "output_score": 825,
+     "parts": {
+      "engaged": {
+       "hands_on": 1.0,
+       "reading": 0.0,
+       "screens": 0.85,
+       "typing": 1.0,
+       "value": 0.925
+      },
+      "mono": {
+       "switches_per_min": 0.16,
+       "top": "Xcode",
+       "top_share": 0.933,
+       "value": 0.903
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 2,
+       "value": 0.95
+      },
+      "output": {
+       "hands_on": 1.0,
+       "reading": 0.0,
+       "screens": 0.85,
+       "typing": 1.0,
+       "value": 0.887
+      },
+      "progress": null,
+      "quality": {
+       "value": 0.85
+      },
+      "smart": null
+     },
+     "planned_s": 1500,
+     "score": 858,
+     "started_at": 1790006400.0,
+     "switches": 4,
+     "why": "Focus 892: one thing 93% of the time, 0.16 switches a minute; on your goal 95%. Output 825: quality 85%; making or reading for it 92%."
+    }
+   ],
+   "board": {},
+   "claude": [],
+   "coach": null,
+   "day": "2026-09-21",
+   "final": true,
+   "goal_hours": 4.0,
+   "goals": [
+    [],
+    [
+     [
+      "Acme onboarding screen",
+      null,
+      1500.0
+     ]
+    ]
+   ],
+   "hours": {
+    "activity": [
+     [
+      "No screens were judged",
+      1500.0
+     ]
+    ],
+    "blocks": 1,
+    "distraction_s": 0.0,
+    "eyes": [],
+    "eyes_s": 0.0,
+    "focused_s": 1500.0,
+    "goal_hours": 4.0,
+    "goal_pct": 10,
+    "long_breaks": [
+     0,
+     0.0
+    ],
+    "off_goal_s": 0.0,
+    "projects": [
+     [
+      "Acme onboarding screen",
+      1500.0
+     ]
+    ],
+    "session_s": 1500.0,
+    "sessions": 1,
+    "short_breaks": [
+     0,
+     0.0
+    ],
+    "sites": [],
+    "skipped_breaks": 0,
+    "worked_s": 1500.0
+   },
+   "judged_by": "model",
+   "leaks": [],
+   "modes": [],
+   "mono": {
+    "seconds": 1500.0,
+    "switches_per_min": 0.16,
+    "top_share": 0.933,
+    "value": 0.903
+   },
+   "parts": {
+    "quality": 1.0,
+    "substance": 0.7,
+    "volume": 0.104
+   },
+   "rank": {
+    "earlier": 0,
+    "line": "the first day I've scored, so there is nothing to compare it with yet",
+    "of": 1,
+    "rank": 1
+   },
+   "score": 319,
+   "title": "2026-09-21 — Monday",
+   "tomorrow": "Start before 9.",
+   "totals": {
+    "avg": 858,
+    "best": 858,
+    "blocks": 1,
+    "done": 1,
+    "eye": null,
+    "focused_s": 1500.0,
+    "in_blocks_s": 1500.0,
+    "started": 1
+   },
+   "verdict": "Under",
+   "weekly": null,
+   "why": "You built the onboarding screen."
+  },
+  "text": "Under — 319 out of 1000\nYou built the onboarding screen. It was the first day I've scored, so there is nothing to compare it with yet.\nHours\nHours worked today: 25 min of work in 1 block — 10% of your 4-hour goal. Most of it went to Acme onboarding screen (25 min).\nWhere your hours went\nBy project\n• Acme onboarding screen — 25 min (100%)\nWhat you were doing\n• No screens were judged — 25 min (100%)\nWhat you got done\n4:00–4:25 pm · 858 / 1000 · focus 892, output 825\nGoal: Acme onboarding screen.\n• Editing SwiftUI view\n• Writing code\nTotals\n• Blocks: 1 finished of 1 started\n• Hours worked: 25 min of your 4-hour goal (10%)\n• Focused time: 25 min (of 25 min in blocks)\n• Average block: 858 · best: 858\n• Focus periods: 1 focus period — 1 block in all.\n• Mono-focus: 93% of your block time went to the single thing you were most in — you mostly stayed in one thing at a time, hardly switching apps (0.2 a minute).\nCompleted today\nNothing reached the finish line today.\nStarted but not finished\n• Acme onboarding screen — no progress the screens could measure, 25 min spent\nTomorrow: Start before 9.\nUpdated 4:00 am. 1000 is an elite performer's best; 700 is strong.",
+  "tz": "UTC",
+  "updated_at": 1790049600.0,
+  "verdict_line": "Today: Under, 319 out of 1000 — the first day I've scored, so there is nothing to compare it with yet. You built the onboarding screen."
+ },
+ {
+  "blocks": [
+   {
+    "active_s": 900,
+    "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+    "apps": [
+     {
+      "app": "Google Docs",
+      "seconds": 1425,
+      "title": "Acme rulings"
+     },
+     {
+      "app": "Claude",
+      "seconds": 75
+     }
+    ],
+    "block_id": "d1",
+    "completed": true,
+    "completion": 1.0,
+    "done": [
+     "  drafted rulings 1-4. ",
+     "",
+     "- read the old rulings"
+    ],
+    "ended_at": 1790007900.0,
+    "eye": {
+     "away": 0.05,
+     "blank": 0.1,
+     "on_screen": 0.9,
+     "quality": "good",
+     "reading": 0.6,
+     "samples": 900
+    },
+    "focus_score": 861,
+    "frames": [
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 0.3,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     },
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 0.6,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     },
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 0.8,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     },
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 0.8,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     }
+    ],
+    "goal": "acme rulings",
+    "goal_achieved": 0.8,
+    "output_score": 661,
+    "parts": {
+     "engaged": {
+      "hands_on": 0.8,
+      "reading": 0.0,
+      "screens": 0.8,
+      "typing": 0.8,
+      "value": 0.8
+     },
+     "mono": {
+      "switches_per_min": 0.12,
+      "top": "Google Docs",
+      "top_share": 0.95,
+      "value": 0.927
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 4,
+      "value": 0.9
+     },
+     "output": {
+      "hands_on": 0.8,
+      "reading": 0.0,
+      "screens": 0.8,
+      "typing": 0.8,
+      "value": 0.772
+     },
+     "progress": {
+      "value": 0.8
+     },
+     "quality": {
+      "value": 0.75
+     },
+     "smart": {
+      "value": 0.7
+     }
+    },
+    "planned_s": 1500,
+    "score": 761,
+    "specific_goal": "Draft rulings 1-5 in the Acme doc",
+    "started_at": 1790006400.0,
+    "switches": 3,
+    "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 661: got 80% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+   },
+   {
+    "active_s": 900,
+    "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+    "advice_from": "opus",
+    "apps": [
+     {
+      "app": "Google Docs",
+      "seconds": 1425,
+      "title": "Acme rulings"
+     },
+     {
+      "app": "Claude",
+      "seconds": 75
+     }
+    ],
+    "block_id": "d2",
+    "completed": true,
+    "completion": 1.0,
+    "ended_at": 1790009700.0,
+    "focus_score": 861,
+    "frames": [
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 1.0,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     },
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 1.0,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     },
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 1.0,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     },
+     {
+      "mode": "making",
+      "on_goal": 0.9,
+      "progress": 1.0,
+      "quality": 0.75,
+      "smart": 0.7,
+      "working": 0.8
+     }
+    ],
+    "goal": "acme rulings",
+    "goal_achieved": 0.95,
+    "output_score": 749,
+    "parts": {
+     "engaged": {
+      "hands_on": 0.8,
+      "reading": 0.0,
+      "screens": 0.8,
+      "typing": 0.8,
+      "value": 0.8
+     },
+     "mono": {
+      "switches_per_min": 0.12,
+      "top": "Google Docs",
+      "top_share": 0.95,
+      "value": 0.927
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 4,
+      "value": 0.9
+     },
+     "output": {
+      "hands_on": 0.8,
+      "reading": 0.0,
+      "screens": 0.8,
+      "typing": 0.8,
+      "value": 0.834
+     },
+     "progress": {
+      "value": 1.0
+     },
+     "quality": {
+      "value": 0.75
+     },
+     "smart": {
+      "value": 0.7
+     }
+    },
+    "planned_s": 1500,
+    "score": 805,
+    "specific_goal": "Draft rulings 6-10 in the Acme doc",
+    "started_at": 1790008200.0,
+    "switches": 3,
+    "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 749: got 100% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+   },
+   {
+    "active_s": 200,
+    "advice": "Good, focused reading — end the next block by writing down the three things you took from it.",
+    "apps": [
+     {
+      "app": "Preview",
+      "seconds": 1400,
+      "title": "HIST 2 guide.pdf"
+     }
+    ],
+    "balance": {
+     "focus": 0.9,
+     "output": 0.1
+    },
+    "balance_line": "Judged 90% on focus, 10% on output: a reading block",
+    "block_id": "d3",
+    "completed": true,
+    "completion": 1.0,
+    "ended_at": 1790011500.0,
+    "focus_score": 890,
+    "frames": [
+     {
+      "at": 1790000060.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000120.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000180.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000240.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000300.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000360.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000420.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000480.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000540.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     },
+     {
+      "at": 1790000600.0,
+      "doing": "reading HIST 2 guide chapter 4",
+      "mode": "studying",
+      "on_goal": 0.9,
+      "quality": 0.75,
+      "seconds": 60,
+      "working": 0.75
+     }
+    ],
+    "goal": "read chapter 4 of the HIST 2 guide",
+    "input_minutes": 0.6,
+    "kind": "reading",
+    "milestones": {
+     "missed": [
+      "The controls are outlined in the notes"
+     ],
+     "reached": [
+      "Chapter 4 read to the end."
+     ],
+     "total": 2
+    },
+    "milestones_reached": [
+     "m1"
+    ],
+    "on_task_share": 1.0,
+    "output_score": 500,
+    "parts": {
+     "engaged": {
+      "hands_on": 0.9,
+      "reading": 0.9,
+      "screens": 0.75,
+      "typing": 0.178,
+      "value": 0.825
+     },
+     "mono": {
+      "switches_per_min": 0.12,
+      "top": "Preview",
+      "top_share": 1.0,
+      "value": 0.976
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 10,
+      "value": 0.9
+     },
+     "output": {
+      "hands_on": 0.9,
+      "reading": 0.9,
+      "screens": 0.75,
+      "typing": 0.178,
+      "value": 0.653
+     },
+     "progress": {
+      "value": 0.5
+     },
+     "quality": {
+      "value": 0.75
+     },
+     "smart": null
+    },
+    "planned_s": 1500,
+    "score": 851,
+    "started_at": 1790010000.0,
+    "switches": 3,
+    "why": "Judged 90% on focus, 10% on output: a reading block. Focus 890: one thing 100% of the time, 0.12 switches a minute; on your goal 90%. Output 500: got 50% of the way to the goal; quality 75%; making or reading for it 82%. Milestones: 1 of 2 reached (Chapter 4 read to the end). Missed: The controls are outlined in the notes. Output capped at 500: 1 of 2 milestones reached."
+   },
+   {
+    "active_s": 1300,
+    "advice": "You got about 67% of the way to \"Fix the Acme onboarding crash\" — start the next block straight on the part that's left.",
+    "after_skipped_break": true,
+    "apps": [
+     {
+      "app": "Xcode",
+      "seconds": 1400,
+      "title": "OnboardingView.swift — Acme",
+      "url": ""
+     },
+     {
+      "app": "Google Chrome",
+      "seconds": 100,
+      "title": "SwiftUI docs",
+      "url": "https://developer.apple.com/x"
+     }
+    ],
+    "balance": {
+     "focus": 0.35,
+     "output": 0.65
+    },
+    "balance_line": "Judged 35% on focus, 65% on output: a building block",
+    "block_id": "d4",
+    "completed": true,
+    "completion": 1.0,
+    "ended_at": 1790014800.0,
+    "focus_score": 902,
+    "frames": [
+     {
+      "at": 1790000060.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000120.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000180.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000240.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000300.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000360.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000420.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000480.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000540.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     },
+     {
+      "at": 1790000600.0,
+      "doing": "fixing the onboarding crash",
+      "mode": "making",
+      "on_goal": 0.95,
+      "progress": 0.9,
+      "quality": 0.85,
+      "seconds": 60,
+      "smart": 0.8,
+      "working": 0.9
+     }
+    ],
+    "goal": "Fix the Acme onboarding crash",
+    "kind": "building",
+    "milestones": {
+     "missed": [
+      "The fix is committed"
+     ],
+     "reached": [
+      "The crash no longer reproduces",
+      "A test covers the crash."
+     ],
+     "total": 3
+    },
+    "milestones_reached": [
+     "a",
+     "b"
+    ],
+    "on_task_share": 1.0,
+    "original_goal": "Write the HIST 1 paper body",
+    "output_score": 667,
+    "parts": {
+     "engaged": {
+      "hands_on": 1.0,
+      "reading": 0.0,
+      "screens": 0.9,
+      "typing": 1.0,
+      "value": 0.95
+     },
+     "mono": {
+      "switches_per_min": 0.08,
+      "top": "Xcode",
+      "top_share": 0.933,
+      "value": 0.918
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 10,
+      "value": 0.95
+     },
+     "output": {
+      "hands_on": 1.0,
+      "reading": 0.0,
+      "screens": 0.9,
+      "typing": 1.0,
+      "value": 0.795
+     },
+     "progress": {
+      "value": 0.667
+     },
+     "quality": {
+      "value": 0.85
+     },
+     "smart": {
+      "value": 0.8
+     }
+    },
+    "planned_s": 1500,
+    "score": 749,
+    "specific_goal": "Fix the Acme onboarding crash",
+    "started_at": 1790013300.0,
+    "switches": 2,
+    "why": "Judged 35% on focus, 65% on output: a building block. Focus 902: one thing 93% of the time, 0.08 switches a minute; on your goal 95%. Output 667: got 67% of the way to the goal; quality 85%; working smart 80%; making or reading for it 95%. Milestones: 2 of 3 reached (The crash no longer reproduces; A test covers the crash). Missed: The fix is committed. Output capped at 667: 2 of 3 milestones reached."
+   },
+   {
+    "active_s": 300,
+    "advice": "You stopped after 10 of 25 minutes — try to see the next one through, even if it goes slowly.",
+    "apps": [
+     {
+      "app": "Google Chrome",
+      "seconds": 400,
+      "url": "https://www.youtube.com/watch"
+     },
+     {
+      "app": "Google Chrome",
+      "seconds": 200,
+      "title": "Canvas",
+      "url": "https://canvas.example.edu/x"
+     }
+    ],
+    "block_id": "d5",
+    "completed": false,
+    "completion": 0.4,
+    "distraction_s": 400,
+    "ended_at": 1790025000.0,
+    "focus_score": 81,
+    "frames": [
+     {
+      "automatable": "Have AI summarise the announcements",
+      "doing": "watching youtube",
+      "mode": "consuming",
+      "on_goal": 0.1,
+      "url": "https://www.youtube.com/watch",
+      "working": 0.1
+     },
+     {
+      "doing": "reading Canvas announcements",
+      "mode": "studying",
+      "on_goal": 0.8,
+      "working": 0.5
+     }
+    ],
+    "goal": "stuff",
+    "inferred_goal": "reading Canvas announcements",
+    "output_score": 86,
+    "parts": {
+     "engaged": {
+      "hands_on": 0.667,
+      "reading": 0.135,
+      "screens": 0.3,
+      "typing": 0.667,
+      "value": 0.483
+     },
+     "mono": {
+      "switches_per_min": 3.0,
+      "top": "youtube.com",
+      "top_share": 0.667,
+      "value": 0.267
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 2,
+      "value": 0.45
+     },
+     "output": {
+      "hands_on": 0.667,
+      "reading": 0.135,
+      "screens": 0.3,
+      "typing": 0.667,
+      "value": 0.381
+     },
+     "progress": null,
+     "quality": {
+      "value": 0.3
+     },
+     "smart": null
+    },
+    "planned_s": 1500,
+    "score": 84,
+    "started_at": 1790024400.0,
+    "switches": 30,
+    "why": "Focus 81: one thing 67% of the time, 3.0 switches a minute; on your goal 45%. Output 86: quality 30%; making or reading for it 48%. Finished 40% of the block."
+   },
+   {
+    "active_s": 1200,
+    "advice": "You lost 3 minutes to Mail — close it before the next block starts.",
+    "apps": [
+     {
+      "app": "Google Docs",
+      "seconds": 1300,
+      "title": "HIST 1 intro"
+     },
+     {
+      "app": "Mail",
+      "seconds": 200
+     }
+    ],
+    "block_id": "d6",
+    "completed": true,
+    "completion": 1.0,
+    "ended_at": 1790027700.0,
+    "focus_score": 606,
+    "frames": [
+     {
+      "doing": "writing HIST 1 intro",
+      "mode": "making",
+      "on_goal": 0.9,
+      "working": 0.7
+     },
+     {
+      "doing": "Writing HIST 1 intro",
+      "mode": "making",
+      "on_goal": 0.9,
+      "working": 0.7
+     },
+     {
+      "app": "Mail",
+      "doing": "checking mail",
+      "mode": "other",
+      "on_goal": 0.2,
+      "working": 0.2
+     }
+    ],
+    "goal": "HIST 1 paper",
+    "goal_achieved": 0.6,
+    "output_score": 469,
+    "parts": {
+     "engaged": {
+      "hands_on": 1.0,
+      "reading": 0.0,
+      "screens": 0.533,
+      "typing": 1.0,
+      "value": 0.767
+     },
+     "mono": {
+      "switches_per_min": 0.16,
+      "top": "Google Docs",
+      "top_share": 0.867,
+      "value": 0.839
+     },
+     "on_goal": {
+      "from": "screenshots",
+      "n": 3,
+      "value": 0.667
+     },
+     "output": {
+      "hands_on": 1.0,
+      "reading": 0.0,
+      "screens": 0.533,
+      "typing": 1.0,
+      "value": 0.623
+     },
+     "progress": {
+      "value": 0.6
+     },
+     "quality": {
+      "value": 0.533
+     },
+     "smart": null
+    },
+    "planned_s": 1500,
+    "score": 538,
+    "specific_goal": "Write the HIST 1 paper intro",
+    "started_at": 1790026200.0,
+    "switches": 4,
+    "why": "Focus 606: one thing 87% of the time, 0.16 switches a minute; on your goal 67%. Output 469: got 60% of the way to the goal; quality 53%; making or reading for it 77%."
+   }
+  ],
+  "day": "2026-09-21",
+  "hours_sentence": "2 h 15 min of work in 6 blocks — 90% of your 2.5-hour goal. Most of it went to Acme (1 h 15 min).",
+  "html": "<html><body>\n<h1><b>Solid</b> — 570 out of 1000</h1>\n<p>2 h of focused work across 5 finished blocks — good, but a top performer&#x27;s day is about four hours. It was your 3rd best day of the last 6.</p>\n<p>So far — this page is rewritten after every block and finished at 11:30 pm.</p>\n<h2>Hours</h2>\n<p><b>Hours worked today:</b> 2 h 15 min of work in 6 blocks — 90% of your 2.5-hour goal. Most of it went to Acme (1 h 15 min).</p>\n<p>Counting the breaks in between, you were in a focus session for 3 h 15 min.</p>\n<h3>Where your hours went</h3>\n<p><b>By project</b></p>\n<ul>\n<li>Acme — 1 h 15 min (56%)</li>\n<li>HIST 2 — 25 min (19%)</li>\n<li>HIST 1 paper — 25 min (19%)</li>\n<li>Canvas — 10 min (7%)</li>\n</ul>\n<p><b>What you were doing</b></p>\n<ul>\n<li>Making things (writing, coding, building) — 1 h 32 min (68%)</li>\n<li>Studying and reading for the goal — 30 min (22%)</li>\n<li>Something else — 8 min (6%)</li>\n<li>Watching and scrolling — 5 min (4%)</li>\n</ul>\n<p><b>What your eyes were doing (of the 25 min the camera watched)</b></p>\n<ul>\n<li>Reading the screen — 15 min (60%)</li>\n<li>Staring blankly — 2 min (10%)</li>\n<li>Looking away — 1 min (5%)</li>\n</ul>\n<p><b>Where it leaked</b></p>\n<ul>\n<li>Off your goal — 13 min (10%)</li>\n<li>Plainly distracting sites and apps — 7 min</li>\n<li>youtube.com — 7 min</li>\n<li>Mail — 3 min</li>\n</ul>\n<p><b>Breaks</b></p>\n<ul>\n<li>2 short breaks — 10 min</li>\n<li>2 long breaks — 50 min</li>\n<li>1 break skipped (your call, it costs you nothing)</li>\n</ul>\n<h2>What you got done</h2>\n<h3>9:00–9:25 am · 761 / 1000 · focus 861, output 661</h3>\n<p><b>Goal:</b> Draft rulings 1-5 in the Acme doc.</p>\n<ul>\n<li>Drafted rulings 1-4</li>\n<li>Read the old rulings</li>\n</ul>\n<p>Got 80% of the way to that goal.</p>\n<h3>9:30–9:55 am · 805 / 1000 · focus 861, output 749</h3>\n<p><b>Goal:</b> Draft rulings 6-10 in the Acme doc.</p>\n<ul>\n<li>Worked on acme rulings</li>\n</ul>\n<p>Got 95% of the way to that goal.</p>\n<p><b>Work smarter:</b> Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.</p>\n<h3>10:00–10:25 am · 851 / 1000 · focus 890, output 500</h3>\n<p>Judged 90% on focus, 10% on output: a reading block.</p>\n<p>Milestones: 1 of 2 reached (Chapter 4 read to the end). Missed: The controls are outlined in the notes.</p>\n<p><b>Goal:</b> Read chapter 4 of the HIST 2 guide.</p>\n<ul>\n<li>Reading HIST 2 guide chapter 4</li>\n</ul>\n<h3>10:55–11:20 am · 749 / 1000 · focus 902, output 667</h3>\n<p>Judged 35% on focus, 65% on output: a building block.</p>\n<p>Milestones: 2 of 3 reached (The crash no longer reproduces; A test covers the crash). Missed: The fix is committed.</p>\n<p><b>Goal:</b> Fix the Acme onboarding crash.</p>\n<p>You started this block on &quot;Write the HIST 1 paper body&quot; and moved to what is above — scored against what you actually did.</p>\n<ul>\n<li>Fixing the onboarding crash</li>\n</ul>\n<h3>2:00–2:10 pm · 84 / 1000 · focus 81, output 86 (stopped early)</h3>\n<p><b>Goal (worked out from your screen):</b> Reading Canvas announcements.</p>\n<ul>\n<li>Reading Canvas announcements</li>\n</ul>\n<h3>2:30–2:55 pm · 538 / 1000 · focus 606, output 469</h3>\n<p><b>Goal:</b> Write the HIST 1 paper intro.</p>\n<ul>\n<li>Writing HIST 1 intro</li>\n</ul>\n<p>Got 60% of the way to that goal.</p>\n<h2>Totals</h2>\n<ul>\n<li>Blocks: 5 finished of 7 started</li>\n<li>Hours worked: 2 h 15 min of your 2.5-hour goal (90%)</li>\n<li>Focused time: 2 h (of 2 h 15 min in blocks)</li>\n<li>Average block: 631 · best: 851</li>\n<li>Focus periods: 2 focus periods — 6 blocks in all, about 3.0 blocks a period.</li>\n<li>Mono-focus: 92% of your block time went to the single thing you were most in — you mostly stayed in one thing at a time, hardly switching apps (0.3 a minute).</li>\n</ul>\n<h2>Completed today</h2>\n<ul>\n<li>Draft rulings 6-10 in the Acme doc — 25 min</li>\n</ul>\n<h3>Started but not finished</h3>\n<ul>\n<li>Draft rulings 1-5 in the Acme doc — 80% of the way there, 25 min spent</li>\n<li>Read chapter 4 of the HIST 2 guide — no progress the screens could measure, 25 min spent</li>\n<li>Fix the Acme onboarding crash — no progress the screens could measure, 25 min spent</li>\n<li>Reading Canvas announcements — no progress the screens could measure, 10 min spent</li>\n<li>Write the HIST 1 paper intro — 60% of the way there, 25 min spent</li>\n</ul>\n<h2>The week</h2>\n<p>The last seven days, read together.</p>\n<h3>Patterns</h3>\n<ul>\n<li>2 days scored, averaging 550 out of 1000</li>\n<li>Best day 2026-09-16 at 700; worst 2026-09-15 at 400</li>\n<li>3 h 30 min of work across the week, 1 h 45 min a day</li>\n</ul>\n<h3>What leaked, every day</h3>\n<ul>\n<li>reddit.com — 15 min across the week</li>\n<li>x.com — 15 min across the week</li>\n</ul>\n<h3>Change this next week</h3>\n<ul>\n<li>Cut the biggest leak in half: reddit.com</li>\n<li>Start the first block before anything else opens</li>\n</ul>\n<p><b>Tomorrow:</b> Close youtube.com before your first block tomorrow — it cost you 7 min today.</p>\n<p>Updated 5:20 pm. 1000 is an elite performer&#x27;s best; 700 is strong.</p>\n</body></html>",
+  "kwargs": {
+   "events": [
+    {
+     "at": 1790018400.0,
+     "kind": "session_stopped"
+    },
+    {
+     "at": 1790013200.0,
+     "kind": "break_skipped"
+    }
+   ],
+   "goal_hours": 2.5,
+   "history": {
+    "2026-09-01": 999,
+    "2026-09-10": 800,
+    "2026-09-15": 400,
+    "2026-09-18": 650,
+    "2026-09-19": 300,
+    "2026-09-20": 550,
+    "2026-09-22": 999
+   },
+   "projects": [
+    "acme",
+    "notes-app"
+   ],
+   "started_ids": [
+    "d1",
+    "x9"
+   ],
+   "weekly": {
+    "best_hours": "",
+    "change": [
+     "Cut the biggest leak in half: reddit.com",
+     "Start the first block before anything else opens"
+    ],
+    "from": "fallback",
+    "leaks": [
+     "reddit.com — 15 min across the week",
+     "x.com — 15 min across the week"
+    ],
+    "patterns": [
+     "2 days scored, averaging 550 out of 1000",
+     "Best day 2026-09-16 at 700; worst 2026-09-15 at 400",
+     "3 h 30 min of work across the week, 1 h 45 min a day"
+    ],
+    "worst_hours": ""
+   }
+  },
+  "name": "six_blocks",
+  "paragraphs": [
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "TITLE",
+    "text": "Solid — 570 out of 1000"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "2 h of focused work across 5 finished blocks — good, but a top performer's day is about four hours. It was your 3rd best day of the last 6."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "So far — this page is rewritten after every block and finished at 11:30 pm."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Hours"
+   },
+   {
+    "bold": 19,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Hours worked today: 2 h 15 min of work in 6 blocks — 90% of your 2.5-hour goal. Most of it went to Acme (1 h 15 min)."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Counting the breaks in between, you were in a focus session for 3 h 15 min."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "Where your hours went"
+   },
+   {
+    "bold": 10,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "By project"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Acme — 1 h 15 min (56%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "HIST 2 — 25 min (19%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "HIST 1 paper — 25 min (19%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Canvas — 10 min (7%)"
+   },
+   {
+    "bold": 19,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "What you were doing"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Making things (writing, coding, building) — 1 h 32 min (68%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Studying and reading for the goal — 30 min (22%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Something else — 8 min (6%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Watching and scrolling — 5 min (4%)"
+   },
+   {
+    "bold": 60,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "What your eyes were doing (of the 25 min the camera watched)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Reading the screen — 15 min (60%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Staring blankly — 2 min (10%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Looking away — 1 min (5%)"
+   },
+   {
+    "bold": 15,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Where it leaked"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Off your goal — 13 min (10%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Plainly distracting sites and apps — 7 min"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "youtube.com — 7 min"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Mail — 3 min"
+   },
+   {
+    "bold": 6,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Breaks"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "2 short breaks — 10 min"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "2 long breaks — 50 min"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "1 break skipped (your call, it costs you nothing)"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "What you got done"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "9:00–9:25 am · 761 / 1000 · focus 861, output 661"
+   },
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal: Draft rulings 1-5 in the Acme doc."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Drafted rulings 1-4"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Read the old rulings"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Got 80% of the way to that goal."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "9:30–9:55 am · 805 / 1000 · focus 861, output 749"
+   },
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal: Draft rulings 6-10 in the Acme doc."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Worked on acme rulings"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Got 95% of the way to that goal."
+   },
+   {
+    "bold": 13,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Work smarter: Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "10:00–10:25 am · 851 / 1000 · focus 890, output 500"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Judged 90% on focus, 10% on output: a reading block."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Milestones: 1 of 2 reached (Chapter 4 read to the end). Missed: The controls are outlined in the notes."
+   },
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal: Read chapter 4 of the HIST 2 guide."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Reading HIST 2 guide chapter 4"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "10:55–11:20 am · 749 / 1000 · focus 902, output 667"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Judged 35% on focus, 65% on output: a building block."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Milestones: 2 of 3 reached (The crash no longer reproduces; A test covers the crash). Missed: The fix is committed."
+   },
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal: Fix the Acme onboarding crash."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "You started this block on \"Write the HIST 1 paper body\" and moved to what is above — scored against what you actually did."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Fixing the onboarding crash"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "2:00–2:10 pm · 84 / 1000 · focus 81, output 86 (stopped early)"
+   },
+   {
+    "bold": 35,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal (worked out from your screen): Reading Canvas announcements."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Reading Canvas announcements"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "2:30–2:55 pm · 538 / 1000 · focus 606, output 469"
+   },
+   {
+    "bold": 5,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Goal: Write the HIST 1 paper intro."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Writing HIST 1 intro"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Got 60% of the way to that goal."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Totals"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Blocks: 5 finished of 7 started"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Hours worked: 2 h 15 min of your 2.5-hour goal (90%)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Focused time: 2 h (of 2 h 15 min in blocks)"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Average block: 631 · best: 851"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Focus periods: 2 focus periods — 6 blocks in all, about 3.0 blocks a period."
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Mono-focus: 92% of your block time went to the single thing you were most in — you mostly stayed in one thing at a time, hardly switching apps (0.3 a minute)."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "Completed today"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Draft rulings 6-10 in the Acme doc — 25 min"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "Started but not finished"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Draft rulings 1-5 in the Acme doc — 80% of the way there, 25 min spent"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Read chapter 4 of the HIST 2 guide — no progress the screens could measure, 25 min spent"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Fix the Acme onboarding crash — no progress the screens could measure, 25 min spent"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Reading Canvas announcements — no progress the screens could measure, 10 min spent"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Write the HIST 1 paper intro — 60% of the way there, 25 min spent"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_1",
+    "text": "The week"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "The last seven days, read together."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "Patterns"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "2 days scored, averaging 550 out of 1000"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Best day 2026-09-16 at 700; worst 2026-09-15 at 400"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "3 h 30 min of work across the week, 1 h 45 min a day"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "What leaked, every day"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "reddit.com — 15 min across the week"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "x.com — 15 min across the week"
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "HEADING_2",
+    "text": "Change this next week"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Cut the biggest leak in half: reddit.com"
+   },
+   {
+    "bold": 0,
+    "bullet": true,
+    "style": "NORMAL_TEXT",
+    "text": "Start the first block before anything else opens"
+   },
+   {
+    "bold": 9,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Tomorrow: Close youtube.com before your first block tomorrow — it cost you 7 min today."
+   },
+   {
+    "bold": 0,
+    "bullet": false,
+    "style": "NORMAL_TEXT",
+    "text": "Updated 5:20 pm. 1000 is an elite performer's best; 700 is strong."
+   }
+  ],
+  "report": {
+   "attention": {
+    "seconds": 0.0,
+    "value": null
+   },
+   "blocks": [
+    {
+     "active_s": 900,
+     "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+     "apps": [
+      {
+       "app": "Google Docs",
+       "seconds": 1425,
+       "title": "Acme rulings"
+      },
+      {
+       "app": "Claude",
+       "seconds": 75
+      }
+     ],
+     "block_id": "d1",
+     "completed": true,
+     "completion": 1.0,
+     "done": [
+      "  drafted rulings 1-4. ",
+      "",
+      "- read the old rulings"
+     ],
+     "ended_at": 1790007900.0,
+     "eye": {
+      "away": 0.05,
+      "blank": 0.1,
+      "on_screen": 0.9,
+      "quality": "good",
+      "reading": 0.6,
+      "samples": 900
+     },
+     "focus_score": 861,
+     "frames": [
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 0.3,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      },
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 0.6,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      },
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 0.8,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      },
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 0.8,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      }
+     ],
+     "goal": "acme rulings",
+     "goal_achieved": 0.8,
+     "output_score": 661,
+     "parts": {
+      "engaged": {
+       "hands_on": 0.8,
+       "reading": 0.0,
+       "screens": 0.8,
+       "typing": 0.8,
+       "value": 0.8
+      },
+      "mono": {
+       "switches_per_min": 0.12,
+       "top": "Google Docs",
+       "top_share": 0.95,
+       "value": 0.927
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 4,
+       "value": 0.9
+      },
+      "output": {
+       "hands_on": 0.8,
+       "reading": 0.0,
+       "screens": 0.8,
+       "typing": 0.8,
+       "value": 0.772
+      },
+      "progress": {
+       "value": 0.8
+      },
+      "quality": {
+       "value": 0.75
+      },
+      "smart": {
+       "value": 0.7
+      }
+     },
+     "planned_s": 1500,
+     "score": 761,
+     "specific_goal": "Draft rulings 1-5 in the Acme doc",
+     "started_at": 1790006400.0,
+     "switches": 3,
+     "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 661: got 80% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+    },
+    {
+     "active_s": 900,
+     "advice": "Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.",
+     "advice_from": "opus",
+     "apps": [
+      {
+       "app": "Google Docs",
+       "seconds": 1425,
+       "title": "Acme rulings"
+      },
+      {
+       "app": "Claude",
+       "seconds": 75
+      }
+     ],
+     "block_id": "d2",
+     "completed": true,
+     "completion": 1.0,
+     "ended_at": 1790009700.0,
+     "focus_score": 861,
+     "frames": [
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 1.0,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      },
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 1.0,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      },
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 1.0,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      },
+      {
+       "mode": "making",
+       "on_goal": 0.9,
+       "progress": 1.0,
+       "quality": 0.75,
+       "smart": 0.7,
+       "working": 0.8
+      }
+     ],
+     "goal": "acme rulings",
+     "goal_achieved": 0.95,
+     "output_score": 749,
+     "parts": {
+      "engaged": {
+       "hands_on": 0.8,
+       "reading": 0.0,
+       "screens": 0.8,
+       "typing": 0.8,
+       "value": 0.8
+      },
+      "mono": {
+       "switches_per_min": 0.12,
+       "top": "Google Docs",
+       "top_share": 0.95,
+       "value": 0.927
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 4,
+       "value": 0.9
+      },
+      "output": {
+       "hands_on": 0.8,
+       "reading": 0.0,
+       "screens": 0.8,
+       "typing": 0.8,
+       "value": 0.834
+      },
+      "progress": {
+       "value": 1.0
+      },
+      "quality": {
+       "value": 0.75
+      },
+      "smart": {
+       "value": 0.7
+      }
+     },
+     "planned_s": 1500,
+     "score": 805,
+     "specific_goal": "Draft rulings 6-10 in the Acme doc",
+     "started_at": 1790008200.0,
+     "switches": 3,
+     "why": "Focus 861: one thing 95% of the time, 0.12 switches a minute; on your goal 90%. Output 749: got 100% of the way to the goal; quality 75%; working smart 70%; making or reading for it 80%."
+    },
+    {
+     "active_s": 200,
+     "advice": "Good, focused reading — end the next block by writing down the three things you took from it.",
+     "apps": [
+      {
+       "app": "Preview",
+       "seconds": 1400,
+       "title": "HIST 2 guide.pdf"
+      }
+     ],
+     "balance": {
+      "focus": 0.9,
+      "output": 0.1
+     },
+     "balance_line": "Judged 90% on focus, 10% on output: a reading block",
+     "block_id": "d3",
+     "completed": true,
+     "completion": 1.0,
+     "ended_at": 1790011500.0,
+     "focus_score": 890,
+     "frames": [
+      {
+       "at": 1790000060.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000120.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000180.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000240.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000300.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000360.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000420.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000480.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000540.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      },
+      {
+       "at": 1790000600.0,
+       "doing": "reading HIST 2 guide chapter 4",
+       "mode": "studying",
+       "on_goal": 0.9,
+       "quality": 0.75,
+       "seconds": 60,
+       "working": 0.75
+      }
+     ],
+     "goal": "read chapter 4 of the HIST 2 guide",
+     "input_minutes": 0.6,
+     "kind": "reading",
+     "milestones": {
+      "missed": [
+       "The controls are outlined in the notes"
+      ],
+      "reached": [
+       "Chapter 4 read to the end."
+      ],
+      "total": 2
+     },
+     "milestones_reached": [
+      "m1"
+     ],
+     "on_task_share": 1.0,
+     "output_score": 500,
+     "parts": {
+      "engaged": {
+       "hands_on": 0.9,
+       "reading": 0.9,
+       "screens": 0.75,
+       "typing": 0.178,
+       "value": 0.825
+      },
+      "mono": {
+       "switches_per_min": 0.12,
+       "top": "Preview",
+       "top_share": 1.0,
+       "value": 0.976
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 10,
+       "value": 0.9
+      },
+      "output": {
+       "hands_on": 0.9,
+       "reading": 0.9,
+       "screens": 0.75,
+       "typing": 0.178,
+       "value": 0.653
+      },
+      "progress": {
+       "value": 0.5
+      },
+      "quality": {
+       "value": 0.75
+      },
+      "smart": null
+     },
+     "planned_s": 1500,
+     "score": 851,
+     "started_at": 1790010000.0,
+     "switches": 3,
+     "why": "Judged 90% on focus, 10% on output: a reading block. Focus 890: one thing 100% of the time, 0.12 switches a minute; on your goal 90%. Output 500: got 50% of the way to the goal; quality 75%; making or reading for it 82%. Milestones: 1 of 2 reached (Chapter 4 read to the end). Missed: The controls are outlined in the notes. Output capped at 500: 1 of 2 milestones reached."
+    },
+    {
+     "active_s": 1300,
+     "advice": "You got about 67% of the way to \"Fix the Acme onboarding crash\" — start the next block straight on the part that's left.",
+     "after_skipped_break": true,
+     "apps": [
+      {
+       "app": "Xcode",
+       "seconds": 1400,
+       "title": "OnboardingView.swift — Acme",
+       "url": ""
+      },
+      {
+       "app": "Google Chrome",
+       "seconds": 100,
+       "title": "SwiftUI docs",
+       "url": "https://developer.apple.com/x"
+      }
+     ],
+     "balance": {
+      "focus": 0.35,
+      "output": 0.65
+     },
+     "balance_line": "Judged 35% on focus, 65% on output: a building block",
+     "block_id": "d4",
+     "completed": true,
+     "completion": 1.0,
+     "ended_at": 1790014800.0,
+     "focus_score": 902,
+     "frames": [
+      {
+       "at": 1790000060.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000120.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000180.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000240.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000300.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000360.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000420.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000480.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000540.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      },
+      {
+       "at": 1790000600.0,
+       "doing": "fixing the onboarding crash",
+       "mode": "making",
+       "on_goal": 0.95,
+       "progress": 0.9,
+       "quality": 0.85,
+       "seconds": 60,
+       "smart": 0.8,
+       "working": 0.9
+      }
+     ],
+     "goal": "Fix the Acme onboarding crash",
+     "kind": "building",
+     "milestones": {
+      "missed": [
+       "The fix is committed"
+      ],
+      "reached": [
+       "The crash no longer reproduces",
+       "A test covers the crash."
+      ],
+      "total": 3
+     },
+     "milestones_reached": [
+      "a",
+      "b"
+     ],
+     "on_task_share": 1.0,
+     "original_goal": "Write the HIST 1 paper body",
+     "output_score": 667,
+     "parts": {
+      "engaged": {
+       "hands_on": 1.0,
+       "reading": 0.0,
+       "screens": 0.9,
+       "typing": 1.0,
+       "value": 0.95
+      },
+      "mono": {
+       "switches_per_min": 0.08,
+       "top": "Xcode",
+       "top_share": 0.933,
+       "value": 0.918
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 10,
+       "value": 0.95
+      },
+      "output": {
+       "hands_on": 1.0,
+       "reading": 0.0,
+       "screens": 0.9,
+       "typing": 1.0,
+       "value": 0.795
+      },
+      "progress": {
+       "value": 0.667
+      },
+      "quality": {
+       "value": 0.85
+      },
+      "smart": {
+       "value": 0.8
+      }
+     },
+     "planned_s": 1500,
+     "score": 749,
+     "specific_goal": "Fix the Acme onboarding crash",
+     "started_at": 1790013300.0,
+     "switches": 2,
+     "why": "Judged 35% on focus, 65% on output: a building block. Focus 902: one thing 93% of the time, 0.08 switches a minute; on your goal 95%. Output 667: got 67% of the way to the goal; quality 85%; working smart 80%; making or reading for it 95%. Milestones: 2 of 3 reached (The crash no longer reproduces; A test covers the crash). Missed: The fix is committed. Output capped at 667: 2 of 3 milestones reached."
+    },
+    {
+     "active_s": 300,
+     "advice": "You stopped after 10 of 25 minutes — try to see the next one through, even if it goes slowly.",
+     "apps": [
+      {
+       "app": "Google Chrome",
+       "seconds": 400,
+       "url": "https://www.youtube.com/watch"
+      },
+      {
+       "app": "Google Chrome",
+       "seconds": 200,
+       "title": "Canvas",
+       "url": "https://canvas.example.edu/x"
+      }
+     ],
+     "block_id": "d5",
+     "completed": false,
+     "completion": 0.4,
+     "distraction_s": 400,
+     "ended_at": 1790025000.0,
+     "focus_score": 81,
+     "frames": [
+      {
+       "automatable": "Have AI summarise the announcements",
+       "doing": "watching youtube",
+       "mode": "consuming",
+       "on_goal": 0.1,
+       "url": "https://www.youtube.com/watch",
+       "working": 0.1
+      },
+      {
+       "doing": "reading Canvas announcements",
+       "mode": "studying",
+       "on_goal": 0.8,
+       "working": 0.5
+      }
+     ],
+     "goal": "stuff",
+     "inferred_goal": "reading Canvas announcements",
+     "output_score": 86,
+     "parts": {
+      "engaged": {
+       "hands_on": 0.667,
+       "reading": 0.135,
+       "screens": 0.3,
+       "typing": 0.667,
+       "value": 0.483
+      },
+      "mono": {
+       "switches_per_min": 3.0,
+       "top": "youtube.com",
+       "top_share": 0.667,
+       "value": 0.267
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 2,
+       "value": 0.45
+      },
+      "output": {
+       "hands_on": 0.667,
+       "reading": 0.135,
+       "screens": 0.3,
+       "typing": 0.667,
+       "value": 0.381
+      },
+      "progress": null,
+      "quality": {
+       "value": 0.3
+      },
+      "smart": null
+     },
+     "planned_s": 1500,
+     "score": 84,
+     "started_at": 1790024400.0,
+     "switches": 30,
+     "why": "Focus 81: one thing 67% of the time, 3.0 switches a minute; on your goal 45%. Output 86: quality 30%; making or reading for it 48%. Finished 40% of the block."
+    },
+    {
+     "active_s": 1200,
+     "advice": "You lost 3 minutes to Mail — close it before the next block starts.",
+     "apps": [
+      {
+       "app": "Google Docs",
+       "seconds": 1300,
+       "title": "HIST 1 intro"
+      },
+      {
+       "app": "Mail",
+       "seconds": 200
+      }
+     ],
+     "block_id": "d6",
+     "completed": true,
+     "completion": 1.0,
+     "ended_at": 1790027700.0,
+     "focus_score": 606,
+     "frames": [
+      {
+       "doing": "writing HIST 1 intro",
+       "mode": "making",
+       "on_goal": 0.9,
+       "working": 0.7
+      },
+      {
+       "doing": "Writing HIST 1 intro",
+       "mode": "making",
+       "on_goal": 0.9,
+       "working": 0.7
+      },
+      {
+       "app": "Mail",
+       "doing": "checking mail",
+       "mode": "other",
+       "on_goal": 0.2,
+       "working": 0.2
+      }
+     ],
+     "goal": "HIST 1 paper",
+     "goal_achieved": 0.6,
+     "output_score": 469,
+     "parts": {
+      "engaged": {
+       "hands_on": 1.0,
+       "reading": 0.0,
+       "screens": 0.533,
+       "typing": 1.0,
+       "value": 0.767
+      },
+      "mono": {
+       "switches_per_min": 0.16,
+       "top": "Google Docs",
+       "top_share": 0.867,
+       "value": 0.839
+      },
+      "on_goal": {
+       "from": "screenshots",
+       "n": 3,
+       "value": 0.667
+      },
+      "output": {
+       "hands_on": 1.0,
+       "reading": 0.0,
+       "screens": 0.533,
+       "typing": 1.0,
+       "value": 0.623
+      },
+      "progress": {
+       "value": 0.6
+      },
+      "quality": {
+       "value": 0.533
+      },
+      "smart": null
+     },
+     "planned_s": 1500,
+     "score": 538,
+     "specific_goal": "Write the HIST 1 paper intro",
+     "started_at": 1790026200.0,
+     "switches": 4,
+     "why": "Focus 606: one thing 87% of the time, 0.16 switches a minute; on your goal 67%. Output 469: got 60% of the way to the goal; quality 53%; making or reading for it 77%."
+    }
+   ],
+   "board": {},
+   "claude": [],
+   "coach": null,
+   "day": "2026-09-21",
+   "final": false,
+   "goal_hours": 2.5,
+   "goals": [
+    [
+     [
+      "Draft rulings 6-10 in the Acme doc",
+      0.95,
+      1500.0
+     ]
+    ],
+    [
+     [
+      "Draft rulings 1-5 in the Acme doc",
+      0.8,
+      1500.0
+     ],
+     [
+      "Read chapter 4 of the HIST 2 guide",
+      null,
+      1500.0
+     ],
+     [
+      "Fix the Acme onboarding crash",
+      null,
+      1500.0
+     ],
+     [
+      "Reading Canvas announcements",
+      null,
+      600.0
+     ],
+     [
+      "Write the HIST 1 paper intro",
+      0.6,
+      1500.0
+     ]
+    ]
+   ],
+   "hours": {
+    "activity": [
+     [
+      "Making things (writing, coding, building)",
+      5500.0
+     ],
+     [
+      "Studying and reading for the goal",
+      1800.0
+     ],
+     [
+      "Something else",
+      500.0
+     ],
+     [
+      "Watching and scrolling",
+      300.0
+     ]
+    ],
+    "blocks": 6,
+    "distraction_s": 400.0,
+    "eyes": [
+     [
+      "Reading the screen",
+      900.0
+     ],
+     [
+      "Staring blankly",
+      150.0
+     ],
+     [
+      "Looking away",
+      75.0
+     ]
+    ],
+    "eyes_s": 1500.0,
+    "focused_s": 7224.857142857143,
+    "goal_hours": 2.5,
+    "goal_pct": 90,
+    "long_breaks": [
+     2,
+     3000.0
+    ],
+    "off_goal_s": 800.0,
+    "projects": [
+     [
+      "Acme",
+      4500.0
+     ],
+     [
+      "HIST 2",
+      1500.0
+     ],
+     [
+      "HIST 1 paper",
+      1500.0
+     ],
+     [
+      "Canvas",
+      600.0
+     ]
+    ],
+    "session_s": 11700.0,
+    "sessions": 2,
+    "short_breaks": [
+     2,
+     600.0
+    ],
+    "sites": [
+     [
+      "youtube.com",
+      400.0
+     ],
+     [
+      "Mail",
+      200.0
+     ]
+    ],
+    "skipped_breaks": 1,
+    "worked_s": 8100.0
+   },
+   "judged_by": "screens",
+   "leaks": [
+    [
+     "youtube.com",
+     400.0
+    ],
+    [
+     "Mail",
+     200.0
+    ],
+    [
+     "Staring blankly at the screen",
+     150.0
+    ]
+   ],
+   "modes": [],
+   "mono": {
+    "seconds": 8100.0,
+    "switches_per_min": 0.3333333333333333,
+    "top_share": 0.9197777777777778,
+    "value": 0.8692222222222222
+   },
+   "parts": {
+    "quality": 0.679,
+    "substance": 0.606,
+    "volume": 0.502
+   },
+   "rank": {
+    "earlier": 5,
+    "line": "your 3rd best day of the last 6",
+    "of": 6,
+    "rank": 3
+   },
+   "score": 570,
+   "title": "2026-09-21 — Monday",
+   "tomorrow": "Close youtube.com before your first block tomorrow — it cost you 7 min today.",
+   "totals": {
+    "avg": 631,
+    "best": 851,
+    "blocks": 6,
+    "done": 5,
+    "eye": {
+     "away": 0.05,
+     "blank": 0.1,
+     "reading": 0.6,
+     "seconds": 1500.0
+    },
+    "focused_s": 7224.857142857143,
+    "in_blocks_s": 8100.0,
+    "started": 7
+   },
+   "verdict": "Solid",
+   "weekly": {
+    "best_hours": "",
+    "change": [
+     "Cut the biggest leak in half: reddit.com",
+     "Start the first block before anything else opens"
+    ],
+    "from": "fallback",
+    "leaks": [
+     "reddit.com — 15 min across the week",
+     "x.com — 15 min across the week"
+    ],
+    "patterns": [
+     "2 days scored, averaging 550 out of 1000",
+     "Best day 2026-09-16 at 700; worst 2026-09-15 at 400",
+     "3 h 30 min of work across the week, 1 h 45 min a day"
+    ],
+    "worst_hours": ""
+   },
+   "why": "2 h of focused work across 5 finished blocks — good, but a top performer's day is about four hours."
+  },
+  "text": "Solid — 570 out of 1000\n2 h of focused work across 5 finished blocks — good, but a top performer's day is about four hours. It was your 3rd best day of the last 6.\nSo far — this page is rewritten after every block and finished at 11:30 pm.\nHours\nHours worked today: 2 h 15 min of work in 6 blocks — 90% of your 2.5-hour goal. Most of it went to Acme (1 h 15 min).\nCounting the breaks in between, you were in a focus session for 3 h 15 min.\nWhere your hours went\nBy project\n• Acme — 1 h 15 min (56%)\n• HIST 2 — 25 min (19%)\n• HIST 1 paper — 25 min (19%)\n• Canvas — 10 min (7%)\nWhat you were doing\n• Making things (writing, coding, building) — 1 h 32 min (68%)\n• Studying and reading for the goal — 30 min (22%)\n• Something else — 8 min (6%)\n• Watching and scrolling — 5 min (4%)\nWhat your eyes were doing (of the 25 min the camera watched)\n• Reading the screen — 15 min (60%)\n• Staring blankly — 2 min (10%)\n• Looking away — 1 min (5%)\nWhere it leaked\n• Off your goal — 13 min (10%)\n• Plainly distracting sites and apps — 7 min\n• youtube.com — 7 min\n• Mail — 3 min\nBreaks\n• 2 short breaks — 10 min\n• 2 long breaks — 50 min\n• 1 break skipped (your call, it costs you nothing)\nWhat you got done\n9:00–9:25 am · 761 / 1000 · focus 861, output 661\nGoal: Draft rulings 1-5 in the Acme doc.\n• Drafted rulings 1-4\n• Read the old rulings\nGot 80% of the way to that goal.\n9:30–9:55 am · 805 / 1000 · focus 861, output 749\nGoal: Draft rulings 6-10 in the Acme doc.\n• Worked on acme rulings\nGot 95% of the way to that goal.\nWork smarter: Work smarter, not just harder — ask the AI for exactly what you need in one clear line instead of doing it by hand.\n10:00–10:25 am · 851 / 1000 · focus 890, output 500\nJudged 90% on focus, 10% on output: a reading block.\nMilestones: 1 of 2 reached (Chapter 4 read to the end). Missed: The controls are outlined in the notes.\nGoal: Read chapter 4 of the HIST 2 guide.\n• Reading HIST 2 guide chapter 4\n10:55–11:20 am · 749 / 1000 · focus 902, output 667\nJudged 35% on focus, 65% on output: a building block.\nMilestones: 2 of 3 reached (The crash no longer reproduces; A test covers the crash). Missed: The fix is committed.\nGoal: Fix the Acme onboarding crash.\nYou started this block on \"Write the HIST 1 paper body\" and moved to what is above — scored against what you actually did.\n• Fixing the onboarding crash\n2:00–2:10 pm · 84 / 1000 · focus 81, output 86 (stopped early)\nGoal (worked out from your screen): Reading Canvas announcements.\n• Reading Canvas announcements\n2:30–2:55 pm · 538 / 1000 · focus 606, output 469\nGoal: Write the HIST 1 paper intro.\n• Writing HIST 1 intro\nGot 60% of the way to that goal.\nTotals\n• Blocks: 5 finished of 7 started\n• Hours worked: 2 h 15 min of your 2.5-hour goal (90%)\n• Focused time: 2 h (of 2 h 15 min in blocks)\n• Average block: 631 · best: 851\n• Focus periods: 2 focus periods — 6 blocks in all, about 3.0 blocks a period.\n• Mono-focus: 92% of your block time went to the single thing you were most in — you mostly stayed in one thing at a time, hardly switching apps (0.3 a minute).\nCompleted today\n• Draft rulings 6-10 in the Acme doc — 25 min\nStarted but not finished\n• Draft rulings 1-5 in the Acme doc — 80% of the way there, 25 min spent\n• Read chapter 4 of the HIST 2 guide — no progress the screens could measure, 25 min spent\n• Fix the Acme onboarding crash — no progress the screens could measure, 25 min spent\n• Reading Canvas announcements — no progress the screens could measure, 10 min spent\n• Write the HIST 1 paper intro — 60% of the way there, 25 min spent\nThe week\nThe last seven days, read together.\nPatterns\n• 2 days scored, averaging 550 out of 1000\n• Best day 2026-09-16 at 700; worst 2026-09-15 at 400\n• 3 h 30 min of work across the week, 1 h 45 min a day\nWhat leaked, every day\n• reddit.com — 15 min across the week\n• x.com — 15 min across the week\nChange this next week\n• Cut the biggest leak in half: reddit.com\n• Start the first block before anything else opens\nTomorrow: Close youtube.com before your first block tomorrow — it cost you 7 min today.\nUpdated 5:20 pm. 1000 is an elite performer's best; 700 is strong.",
+  "tz": "America/Los_Angeles",
+  "updated_at": 1790036400.0,
+  "verdict_line": "Today so far: Solid, 570 out of 1000 — your 3rd best day of the last 6. 2 h of focused work across 5 finished blocks — good, but a top performer's day is about four hours."
+ }
+]

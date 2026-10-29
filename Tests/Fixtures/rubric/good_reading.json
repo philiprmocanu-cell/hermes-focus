@@ -1,0 +1,184 @@
+{
+ "name": "good_reading",
+ "text": "```json\n{\"kind\": \"Reading\", \"balance\": {\"focus\": 0.9, \"output\": 0.1},\n \"milestones\": [{\"id\": \"m1\", \"text\": \"Finished section 3 of the Kahneman chapter\"}],\n \"on_tells\": [\"Is he reading the Kahneman chapter PDF?\",\n              {\"question\": \"Is he highlighting   passages in the chapter?\"},\n              {\"id\": \"Notes Taken!\", \"text\": \"Is he writing notes on the chapter?\"},\n              {\"id\": \"t4\", \"text\": \"Is he looking up a term from the chapter?\"},\n              {\"id\": \"t4\", \"text\": \"Is he reading the course's discussion of System 1?\"},\n              {\"id\": \"t6\", \"text\": \"is he reading the kahneman chapter pdf?\"},\n              {\"id\": \"t7\", \"text\": \"Is he asking an AI to explain a passage?\"}],\n \"off_tells\": [{\"id\": \"x1\", \"text\": \"Is he watching a video unrelated to the reading?\"},\n               {\"id\": \"x2\", \"text\": \"Is he scrolling a social feed?\"},\n               {\"id\": \"x3\", \"text\": \"Is he shopping online?\"}],\n \"smart\": \"Read with a question in mind: what is System 1 for?\"}\n```",
+ "note": "",
+ "labels": [],
+ "prompt_input": {
+  "goal": "kahneman reading",
+  "specific": "Read section 3 of the Kahneman chapter",
+  "understood": "Reading chapter 3 for PSYCH 101",
+  "related": [
+   [
+    "people",
+    []
+   ],
+   [
+    "projects",
+    [
+     "PSYCH 101"
+    ]
+   ],
+   [
+    "terms",
+    [
+     "System 1",
+     "heuristics"
+    ]
+   ]
+  ],
+  "past_rubric_md": "",
+  "rulings": [],
+  "note": "",
+  "block_min": 40,
+  "current_md": ""
+ },
+ "rubric": {
+  "kind": "reading",
+  "balance": {
+   "focus": 0.9,
+   "output": 0.1
+  },
+  "milestones": [
+   {
+    "id": "m1",
+    "text": "Finished section 3 of the Kahneman chapter"
+   }
+  ],
+  "on_tells": [
+   {
+    "id": "t1",
+    "text": "Is he reading the Kahneman chapter PDF?"
+   },
+   {
+    "id": "t2",
+    "text": "Is he highlighting passages in the chapter?"
+   },
+   {
+    "id": "notes_taken",
+    "text": "Is he writing notes on the chapter?"
+   },
+   {
+    "id": "t4",
+    "text": "Is he looking up a term from the chapter?"
+   },
+   {
+    "id": "t4_2",
+    "text": "Is he reading the course's discussion of System 1?"
+   },
+   {
+    "id": "t7",
+    "text": "Is he asking an AI to explain a passage?"
+   }
+  ],
+  "off_tells": [
+   {
+    "id": "x1",
+    "text": "Is he watching a video unrelated to the reading?"
+   },
+   {
+    "id": "x2",
+    "text": "Is he scrolling a social feed?"
+   },
+   {
+    "id": "x3",
+    "text": "Is he shopping online?"
+   }
+  ],
+  "smart": [
+   "Read with a question in mind: what is System 1 for?"
+  ],
+  "fallback": false,
+  "md": "## Rubric — reading\n\n**Judged 90% on focus, 10% on output: a reading block.**\n\n### Milestones (output is judged against these)\n1. Finished section 3 of the Kahneman chapter\n\n### On task looks like\n- Is he reading the Kahneman chapter PDF?\n- Is he highlighting passages in the chapter?\n- Is he writing notes on the chapter?\n- Is he looking up a term from the chapter?\n- Is he reading the course's discussion of System 1?\n- Is he asking an AI to explain a passage?\n\n### Off task looks like\n- Is he watching a video unrelated to the reading?\n- Is he scrolling a social feed?\n- Is he shopping online?\n\n### Working smart here\n- Read with a question in mind: what is System 1 for?\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site."
+ },
+ "md": "## Rubric — reading\n\n**Judged 90% on focus, 10% on output: a reading block.**\n\n### Milestones (output is judged against these)\n1. Finished section 3 of the Kahneman chapter\n\n### On task looks like\n- Is he reading the Kahneman chapter PDF?\n- Is he highlighting passages in the chapter?\n- Is he writing notes on the chapter?\n- Is he looking up a term from the chapter?\n- Is he reading the course's discussion of System 1?\n- Is he asking an AI to explain a passage?\n\n### Off task looks like\n- Is he watching a video unrelated to the reading?\n- Is he scrolling a social feed?\n- Is he shopping online?\n\n### Working smart here\n- Read with a question in mind: what is System 1 for?\n\n### What 1,000 takes\nEvery milestone reached, on task for at least 95% of the block and no distraction site.",
+ "questions": {
+  "rub_on_t1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he reading the Kahneman chapter PDF? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he highlighting passages in the chapter? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_notes_taken": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he writing notes on the chapter? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t4": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he looking up a term from the chapter? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t4_2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he reading the course's discussion of System 1? Yes only when the screen right now plainly shows it."
+  },
+  "rub_on_t7": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being ON task (`goal.checks`): Is he asking an AI to explain a passage? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x1": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he watching a video unrelated to the reading? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x2": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he scrolling a social feed? Yes only when the screen right now plainly shows it."
+  },
+  "rub_off_x3": {
+   "type": "noul",
+   "instructions": "This goal's rubric, a sign of being OFF task (`goal.checks`): Is he shopping online? Yes only when the screen right now plainly shows it."
+  },
+  "ms_m1": {
+   "type": "noul",
+   "instructions": "Is milestone \"Finished section 3 of the Kahneman chapter\" visibly reached on this screen or in the story so far? Yes only when it is plainly done, not started or half done."
+  }
+ },
+ "goal_questions": [
+  {
+   "id": "rub_on_t1",
+   "text": "Is he reading the Kahneman chapter PDF?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t2",
+   "text": "Is he highlighting passages in the chapter?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_notes_taken",
+   "text": "Is he writing notes on the chapter?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t4",
+   "text": "Is he looking up a term from the chapter?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t4_2",
+   "text": "Is he reading the course's discussion of System 1?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_on_t7",
+   "text": "Is he asking an AI to explain a passage?",
+   "means": "on_task"
+  },
+  {
+   "id": "rub_off_x1",
+   "text": "Is he watching a video unrelated to the reading?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x2",
+   "text": "Is he scrolling a social feed?",
+   "means": "off_task"
+  },
+  {
+   "id": "rub_off_x3",
+   "text": "Is he shopping online?",
+   "means": "off_task"
+  }
+ ],
+ "prompt": "Goal he typed: kahneman reading\n\nSpecific goal for this block: Read section 3 of the Kahneman chapter\n\nWhat it means: Reading chapter 3 for PSYCH 101\n\nWhat the work involves: projects: PSYCH 101; terms: System 1, heuristics\n\nThe block is 40 minutes long.\n\nWrite the rubric as strict JSON."
+}

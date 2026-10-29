@@ -1,0 +1,1873 @@
+{
+ "distraction_site": [
+  {
+   "app": "",
+   "goal": "",
+   "out": "Instagram",
+   "url": "https://www.instagram.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "TikTok",
+   "url": "https://www.tiktok.com/foryou"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "YouTube Shorts",
+   "url": "https://www.youtube.com/shorts/abc"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "YouTube home",
+   "url": "https://www.youtube.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "YouTube home",
+   "url": "https://www.youtube.com/feed/subscriptions"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the Reddit front page",
+   "url": "https://www.reddit.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the Reddit front page",
+   "url": "https://reddit.com/r/popular/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the X feed",
+   "url": "https://x.com/home"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the X feed",
+   "url": "https://twitter.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the LinkedIn feed",
+   "url": "https://www.linkedin.com/feed/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the LinkedIn feed",
+   "url": "https://www.linkedin.com/feed/foryou/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://www.amazon.com/dp/B0"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://www.etsy.com/listing/1"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://www.youtube.com/watch?v=fq3wx"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://www.reddit.com/r/swift/comments/1"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://x.com/someone/status/1"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://www.linkedin.com/messaging/thread/1"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://console.aws.amazon.com/ec2"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://mail.google.com/mail/u/0/#inbox"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://www.cosmos.so/e/1"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Facebook",
+   "url": "https://m.facebook.com/home.php"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Facebook",
+   "url": "https://fb.com"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Snapchat",
+   "url": "https://www.snapchat.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Netflix",
+   "url": "https://www.netflix.com/browse"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Twitch",
+   "url": "https://www.twitch.tv/somebody"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the Reddit front page",
+   "url": "https://www.reddit.com/r/all"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the Reddit front page",
+   "url": "https://old.reddit.com/top"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "the X feed",
+   "url": "https://x.com/i/trending/123"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://www.amazon.co.uk/x"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://smile.amazon.de/y"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://amazon.com.au/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://aws.amazon.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://shop.app/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://www.temu.com/x"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://www.ebay.com/itm/1"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "a shopping site",
+   "url": "https://hm.com"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "YouTube home",
+   "url": "https://www.youtube.com/explore"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "YouTube home",
+   "url": "https://youtube.com/home"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://www.youtube.com/@channel"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Instagram",
+   "url": "www.instagram.com/direct/inbox/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "Instagram",
+   "url": "instagram.com"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": ""
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://notinstagram.com/"
+  },
+  {
+   "app": "",
+   "goal": "",
+   "out": "",
+   "url": "https://instagram.com.evil.net/"
+  },
+  {
+   "app": "",
+   "goal": "post the Acme reel on Instagram",
+   "out": "",
+   "url": "https://www.instagram.com/"
+  },
+  {
+   "app": "",
+   "goal": "LinkedIn outreach",
+   "out": "",
+   "url": "https://www.linkedin.com/feed/"
+  },
+  {
+   "app": "",
+   "goal": "buy a USB-C hub",
+   "out": "",
+   "url": "https://www.amazon.com/x"
+  },
+  {
+   "app": "",
+   "goal": "plan the socials for Acme",
+   "out": "a shopping site",
+   "url": "https://www.amazon.com/x"
+  },
+  {
+   "app": "",
+   "goal": "plan the socials for Acme",
+   "out": "",
+   "url": "https://www.instagram.com/"
+  },
+  {
+   "app": "",
+   "goal": "Instagramming",
+   "out": "",
+   "url": "https://www.instagram.com/"
+  },
+  {
+   "app": "",
+   "goal": "write an X thread",
+   "out": "",
+   "url": "https://x.com/home"
+  },
+  {
+   "app": "",
+   "goal": "post in the swift subreddit",
+   "out": "",
+   "url": "https://www.reddit.com/"
+  },
+  {
+   "app": "",
+   "goal": "Shopping   list",
+   "out": "",
+   "url": "https://www.etsy.com/"
+  },
+  {
+   "app": "Instagram",
+   "goal": "",
+   "out": "Instagram",
+   "url": ""
+  },
+  {
+   "app": "  TikTok ",
+   "goal": "",
+   "out": "TikTok",
+   "url": ""
+  },
+  {
+   "app": "Instagram",
+   "goal": "reels for Acme",
+   "out": "",
+   "url": ""
+  },
+  {
+   "app": "Netflix",
+   "goal": "netflix",
+   "out": "",
+   "url": ""
+  },
+  {
+   "app": "Google Chrome",
+   "goal": "",
+   "out": "Instagram",
+   "url": "https://www.instagram.com/"
+  },
+  {
+   "app": "Slack",
+   "goal": "",
+   "out": "",
+   "url": ""
+  },
+  {
+   "app": "Twitch",
+   "goal": "a livestream test",
+   "out": "",
+   "url": ""
+  }
+ ],
+ "exception_junk": [
+  {
+   "exc": null,
+   "out": false
+  },
+  {
+   "exc": {},
+   "out": false
+  },
+  {
+   "exc": {
+    "site": ""
+   },
+   "out": false
+  },
+  {
+   "exc": "x",
+   "out": false
+  },
+  {
+   "exc": {
+    "site": "mail.google.com"
+   },
+   "out": true
+  }
+ ],
+ "exceptions": [
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said mail.google.com (Re: pilot - Gmail) was for work during this block: treat it as on task.",
+    "site": "mail.google.com",
+    "title": "Re: pilot - Gmail"
+   },
+   "matches": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1"
+   }
+  },
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said mail.google.com (Inbox (3)) was for work during this block: treat it as on task.",
+    "site": "mail.google.com",
+    "title": "Inbox (3)"
+   },
+   "matches": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Inbox (3)",
+    "url": "https://mail.google.com/mail/u/0/#inbox"
+   }
+  },
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said Claude was for work during this block: treat it as on task.",
+    "site": "claude",
+    "title": "Claude"
+   },
+   "matches": [
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Claude",
+    "title": "Claude",
+    "url": ""
+   }
+  },
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said Claude (anything) was for work during this block: treat it as on task.",
+    "site": "claude",
+    "title": "anything"
+   },
+   "matches": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Claude",
+    "title": "anything",
+    "url": ""
+   }
+  },
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said mail.google.com (Re: pilot — Gmail!!) was for work during this block: treat it as on task.",
+    "site": "mail.google.com",
+    "title": "Re: pilot — Gmail!!"
+   },
+   "matches": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Re: pilot — Gmail!!",
+    "url": "https://www.mail.google.com/x"
+   }
+  },
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said Figma was for work during this block: treat it as on task.",
+    "site": "figma",
+    "title": ""
+   },
+   "matches": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true
+   ],
+   "screen": {
+    "app": "Figma",
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "by": "him",
+   "exc": {
+    "at": 1790000000.0,
+    "rule": "He said figma (Board) was for work during this block: treat it as on task.",
+    "site": "figma",
+    "title": "Board"
+   },
+   "matches": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "screen": {
+    "app": "figma",
+    "title": "Board",
+    "url": ""
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found mail.google.com (Re: pilot - Gmail) on task for this block: treat it as on task.",
+    "site": "mail.google.com",
+    "title": "Re: pilot - Gmail"
+   },
+   "matches": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Re: pilot - Gmail",
+    "url": "https://mail.google.com/mail/u/0/#inbox/1"
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found mail.google.com (Inbox (3)) on task for this block: treat it as on task.",
+    "site": "mail.google.com",
+    "title": "Inbox (3)"
+   },
+   "matches": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Inbox (3)",
+    "url": "https://mail.google.com/mail/u/0/#inbox"
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found Claude on task for this block: treat it as on task.",
+    "site": "claude",
+    "title": "Claude"
+   },
+   "matches": [
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Claude",
+    "title": "Claude",
+    "url": ""
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found Claude (anything) on task for this block: treat it as on task.",
+    "site": "claude",
+    "title": "anything"
+   },
+   "matches": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Claude",
+    "title": "anything",
+    "url": ""
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found mail.google.com (Re: pilot — Gmail!!) on task for this block: treat it as on task.",
+    "site": "mail.google.com",
+    "title": "Re: pilot — Gmail!!"
+   },
+   "matches": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "screen": {
+    "app": "Google Chrome",
+    "title": "Re: pilot — Gmail!!",
+    "url": "https://www.mail.google.com/x"
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found Figma on task for this block: treat it as on task.",
+    "site": "figma",
+    "title": ""
+   },
+   "matches": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true
+   ],
+   "screen": {
+    "app": "Figma",
+    "title": "",
+    "url": ""
+   }
+  },
+  {
+   "by": "second",
+   "exc": {
+    "at": 1790000000.0,
+    "by": "second",
+    "rule": "A closer look found figma (Board) on task for this block: treat it as on task.",
+    "site": "figma",
+    "title": "Board"
+   },
+   "matches": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "screen": {
+    "app": "figma",
+    "title": "Board",
+    "url": ""
+   }
+  }
+ ],
+ "goal_questions_clean": [
+  {
+   "out": [
+    {
+     "id": "q1",
+     "means": "on_task",
+     "text": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+    },
+    {
+     "id": "q2",
+     "means": "on_task",
+     "text": "Is it a Loom recording for Dana?"
+    },
+    {
+     "id": "q3",
+     "means": "off_task",
+     "text": "Is he watching a YouTube video unrelated to Acme?"
+    }
+   ],
+   "raw": [
+    {
+     "id": "x",
+     "means": "on_task",
+     "text": "Is the screen a Gmail thread with Dana or anyone at Acme about the response?"
+    },
+    {
+     "means": "on-task",
+     "text": "Is it a Loom recording for Dana?"
+    },
+    {
+     "means": "off_task",
+     "text": "Is he watching a YouTube video unrelated to Acme?"
+    },
+    {
+     "text": "no meaning given"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it a Loom recording for Dana?"
+    }
+   ]
+  },
+  {
+   "out": [
+    {
+     "id": "q1",
+     "means": "on_task",
+     "text": "Is it doc 0?"
+    },
+    {
+     "id": "q2",
+     "means": "on_task",
+     "text": "Is it doc 1?"
+    },
+    {
+     "id": "q3",
+     "means": "on_task",
+     "text": "Is it doc 2?"
+    },
+    {
+     "id": "q4",
+     "means": "on_task",
+     "text": "Is it doc 3?"
+    },
+    {
+     "id": "q5",
+     "means": "on_task",
+     "text": "Is it doc 4?"
+    },
+    {
+     "id": "q6",
+     "means": "on_task",
+     "text": "Is it doc 5?"
+    },
+    {
+     "id": "q7",
+     "means": "on_task",
+     "text": "Is it doc 6?"
+    },
+    {
+     "id": "q8",
+     "means": "on_task",
+     "text": "Is it doc 7?"
+    }
+   ],
+   "raw": [
+    {
+     "means": "on_task",
+     "text": "Is it doc 0?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 1?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 2?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 3?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 4?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 5?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 6?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 7?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 8?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 9?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 10?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 11?"
+    }
+   ]
+  },
+  {
+   "out": [],
+   "raw": "nope"
+  },
+  {
+   "out": [
+    {
+     "id": "q1",
+     "means": "on_task",
+     "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+   ],
+   "raw": [
+    {
+     "means": "on_task",
+     "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+   ]
+  },
+  {
+   "out": [
+    {
+     "id": "rub_off_badid",
+     "means": "off_task",
+     "text": "Off one"
+    },
+    {
+     "id": "q1",
+     "means": "on_task",
+     "text": "spaced text"
+    }
+   ],
+   "raw": [
+    {
+     "id": "RUB_OFF_Bad-Id!",
+     "means": "Off Task",
+     "text": "Off one"
+    },
+    "junk",
+    {
+     "id": "q9",
+     "means": " on-task ",
+     "text": "  spaced \n text "
+    }
+   ]
+  },
+  {
+   "out": [
+    {
+     "id": "rub_on_t0",
+     "means": "on_task",
+     "text": "rubric tell 0"
+    },
+    {
+     "id": "rub_on_t1",
+     "means": "on_task",
+     "text": "rubric tell 1"
+    },
+    {
+     "id": "rub_on_t2",
+     "means": "on_task",
+     "text": "rubric tell 2"
+    },
+    {
+     "id": "rub_on_t3",
+     "means": "on_task",
+     "text": "rubric tell 3"
+    },
+    {
+     "id": "rub_on_t4",
+     "means": "on_task",
+     "text": "rubric tell 4"
+    },
+    {
+     "id": "rub_on_t5",
+     "means": "on_task",
+     "text": "rubric tell 5"
+    },
+    {
+     "id": "rub_on_t6",
+     "means": "on_task",
+     "text": "rubric tell 6"
+    },
+    {
+     "id": "rub_on_t7",
+     "means": "on_task",
+     "text": "rubric tell 7"
+    },
+    {
+     "id": "rub_on_t8",
+     "means": "on_task",
+     "text": "rubric tell 8"
+    },
+    {
+     "id": "rub_on_t9",
+     "means": "on_task",
+     "text": "rubric tell 9"
+    },
+    {
+     "id": "rub_on_t10",
+     "means": "on_task",
+     "text": "rubric tell 10"
+    },
+    {
+     "id": "rub_on_t11",
+     "means": "on_task",
+     "text": "rubric tell 11"
+    },
+    {
+     "id": "rub_on_t12",
+     "means": "on_task",
+     "text": "rubric tell 12"
+    },
+    {
+     "id": "rub_on_t13",
+     "means": "on_task",
+     "text": "rubric tell 13"
+    },
+    {
+     "id": "rub_on_t14",
+     "means": "on_task",
+     "text": "rubric tell 14"
+    },
+    {
+     "id": "rub_on_t15",
+     "means": "on_task",
+     "text": "rubric tell 15"
+    },
+    {
+     "id": "rub_on_t16",
+     "means": "on_task",
+     "text": "rubric tell 16"
+    },
+    {
+     "id": "rub_on_t17",
+     "means": "on_task",
+     "text": "rubric tell 17"
+    },
+    {
+     "id": "rub_on_t18",
+     "means": "on_task",
+     "text": "rubric tell 18"
+    },
+    {
+     "id": "rub_on_t19",
+     "means": "on_task",
+     "text": "rubric tell 19"
+    },
+    {
+     "id": "rub_on_t20",
+     "means": "on_task",
+     "text": "rubric tell 20"
+    },
+    {
+     "id": "rub_on_t21",
+     "means": "on_task",
+     "text": "rubric tell 21"
+    },
+    {
+     "id": "rub_on_t22",
+     "means": "on_task",
+     "text": "rubric tell 22"
+    },
+    {
+     "id": "rub_on_t23",
+     "means": "on_task",
+     "text": "rubric tell 23"
+    },
+    {
+     "id": "rub_on_t24",
+     "means": "on_task",
+     "text": "rubric tell 24"
+    },
+    {
+     "id": "rub_on_t25",
+     "means": "on_task",
+     "text": "rubric tell 25"
+    },
+    {
+     "id": "q1",
+     "means": "on_task",
+     "text": "Is it doc 0?"
+    },
+    {
+     "id": "q2",
+     "means": "on_task",
+     "text": "Is it doc 1?"
+    },
+    {
+     "id": "q3",
+     "means": "on_task",
+     "text": "Is it doc 2?"
+    },
+    {
+     "id": "q4",
+     "means": "on_task",
+     "text": "Is it doc 3?"
+    },
+    {
+     "id": "q5",
+     "means": "on_task",
+     "text": "Is it doc 4?"
+    },
+    {
+     "id": "q6",
+     "means": "on_task",
+     "text": "Is it doc 5?"
+    },
+    {
+     "id": "q7",
+     "means": "on_task",
+     "text": "Is it doc 6?"
+    },
+    {
+     "id": "q8",
+     "means": "on_task",
+     "text": "Is it doc 7?"
+    }
+   ],
+   "raw": [
+    {
+     "id": "rub_on_t0",
+     "means": "on_task",
+     "text": "rubric tell 0"
+    },
+    {
+     "id": "rub_on_t1",
+     "means": "on_task",
+     "text": "rubric tell 1"
+    },
+    {
+     "id": "rub_on_t2",
+     "means": "on_task",
+     "text": "rubric tell 2"
+    },
+    {
+     "id": "rub_on_t3",
+     "means": "on_task",
+     "text": "rubric tell 3"
+    },
+    {
+     "id": "rub_on_t4",
+     "means": "on_task",
+     "text": "rubric tell 4"
+    },
+    {
+     "id": "rub_on_t5",
+     "means": "on_task",
+     "text": "rubric tell 5"
+    },
+    {
+     "id": "rub_on_t6",
+     "means": "on_task",
+     "text": "rubric tell 6"
+    },
+    {
+     "id": "rub_on_t7",
+     "means": "on_task",
+     "text": "rubric tell 7"
+    },
+    {
+     "id": "rub_on_t8",
+     "means": "on_task",
+     "text": "rubric tell 8"
+    },
+    {
+     "id": "rub_on_t9",
+     "means": "on_task",
+     "text": "rubric tell 9"
+    },
+    {
+     "id": "rub_on_t10",
+     "means": "on_task",
+     "text": "rubric tell 10"
+    },
+    {
+     "id": "rub_on_t11",
+     "means": "on_task",
+     "text": "rubric tell 11"
+    },
+    {
+     "id": "rub_on_t12",
+     "means": "on_task",
+     "text": "rubric tell 12"
+    },
+    {
+     "id": "rub_on_t13",
+     "means": "on_task",
+     "text": "rubric tell 13"
+    },
+    {
+     "id": "rub_on_t14",
+     "means": "on_task",
+     "text": "rubric tell 14"
+    },
+    {
+     "id": "rub_on_t15",
+     "means": "on_task",
+     "text": "rubric tell 15"
+    },
+    {
+     "id": "rub_on_t16",
+     "means": "on_task",
+     "text": "rubric tell 16"
+    },
+    {
+     "id": "rub_on_t17",
+     "means": "on_task",
+     "text": "rubric tell 17"
+    },
+    {
+     "id": "rub_on_t18",
+     "means": "on_task",
+     "text": "rubric tell 18"
+    },
+    {
+     "id": "rub_on_t19",
+     "means": "on_task",
+     "text": "rubric tell 19"
+    },
+    {
+     "id": "rub_on_t20",
+     "means": "on_task",
+     "text": "rubric tell 20"
+    },
+    {
+     "id": "rub_on_t21",
+     "means": "on_task",
+     "text": "rubric tell 21"
+    },
+    {
+     "id": "rub_on_t22",
+     "means": "on_task",
+     "text": "rubric tell 22"
+    },
+    {
+     "id": "rub_on_t23",
+     "means": "on_task",
+     "text": "rubric tell 23"
+    },
+    {
+     "id": "rub_on_t24",
+     "means": "on_task",
+     "text": "rubric tell 24"
+    },
+    {
+     "id": "rub_on_t25",
+     "means": "on_task",
+     "text": "rubric tell 25"
+    },
+    {
+     "id": "rub_on_t26",
+     "means": "on_task",
+     "text": "rubric tell 26"
+    },
+    {
+     "id": "rub_on_t27",
+     "means": "on_task",
+     "text": "rubric tell 27"
+    },
+    {
+     "id": "rub_on_t28",
+     "means": "on_task",
+     "text": "rubric tell 28"
+    },
+    {
+     "id": "rub_on_t29",
+     "means": "on_task",
+     "text": "rubric tell 29"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 0?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 1?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 2?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 3?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 4?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 5?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 6?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 7?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 8?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 9?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 10?"
+    },
+    {
+     "means": "on_task",
+     "text": "Is it doc 11?"
+    }
+   ]
+  }
+ ],
+ "is_away": [
+  {
+   "idle_s": 100,
+   "out": false,
+   "screen": {
+    "app": "Slack"
+   },
+   "studying": false,
+   "text_len": 0
+  },
+  {
+   "idle_s": 130,
+   "out": true,
+   "screen": {
+    "app": "Slack"
+   },
+   "studying": false,
+   "text_len": 0
+  },
+  {
+   "idle_s": 120,
+   "out": true,
+   "screen": {
+    "app": "Slack"
+   },
+   "studying": false,
+   "text_len": 0
+  },
+  {
+   "idle_s": 300,
+   "out": false,
+   "screen": {
+    "app": "Preview"
+   },
+   "studying": false,
+   "text_len": 0
+  },
+  {
+   "idle_s": 400,
+   "out": true,
+   "screen": {
+    "app": "Preview"
+   },
+   "studying": false,
+   "text_len": 0
+  },
+  {
+   "idle_s": 300,
+   "out": false,
+   "screen": {
+    "app": "Claude"
+   },
+   "studying": false,
+   "text_len": 5000
+  },
+  {
+   "idle_s": 300,
+   "out": false,
+   "screen": {
+    "app": "Slack"
+   },
+   "studying": true,
+   "text_len": 0
+  },
+  {
+   "idle_s": null,
+   "out": false,
+   "screen": {
+    "app": "Slack"
+   },
+   "studying": false,
+   "text_len": 0
+  },
+  {
+   "idle_s": "150",
+   "out": true,
+   "screen": {
+    "app": "Slack"
+   },
+   "studying": false,
+   "text_len": 0
+  }
+ ],
+ "picture_app": [
+  {
+   "app": "Figma",
+   "out": true,
+   "url": ""
+  },
+  {
+   "app": "Google Chrome",
+   "out": true,
+   "url": "https://www.figma.com/file/1"
+  },
+  {
+   "app": "Xcode",
+   "out": false,
+   "url": ""
+  },
+  {
+   "app": "Preview",
+   "out": true,
+   "url": ""
+  },
+  {
+   "app": "Google Chrome",
+   "out": true,
+   "url": "https://youtu.be/abc"
+  },
+  {
+   "app": "Google Chrome",
+   "out": true,
+   "url": "https://m.youtube.com/"
+  },
+  {
+   "app": "Final Cut Pro",
+   "out": true,
+   "url": ""
+  },
+  {
+   "app": "Google Chrome",
+   "out": false,
+   "url": "https://notyoutube.com/"
+  },
+  {
+   "app": "",
+   "out": false,
+   "url": ""
+  },
+  {
+   "app": "Safari",
+   "out": true,
+   "url": "https://cosmos.so/x"
+  },
+  {
+   "app": "Adobe Photoshop 2025",
+   "out": true,
+   "url": ""
+  }
+ ],
+ "reading_material": [
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://nerd.wwnorton.com/nerd/75821/r/goto/cfi/304!/4"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://learn.zybooks.com/zybook/CS110A/chapter/3"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://school.instructure.com/courses/1/pages/x"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Preview",
+    "url": ""
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://example.com/paper.pdf"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Claude"
+   },
+   "text_len": 5000
+  },
+  {
+   "idle_limit": 120,
+   "idle_limit_studying": 360,
+   "out": false,
+   "screen": {
+    "app": "Claude"
+   },
+   "text_len": 2999
+  },
+  {
+   "idle_limit": 120,
+   "idle_limit_studying": 360,
+   "out": false,
+   "screen": {
+    "app": "Slack",
+    "url": ""
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://docs.google.com/document/d/1"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://docs.google.com/spreadsheets/d/1"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://en.wikipedia.org/wiki/Jev"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Adobe  Acrobat Reader",
+    "url": ""
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Kindle",
+    "url": null
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://example.com/X.PDF/"
+   },
+   "text_len": 0
+  },
+  {
+   "idle_limit": 120,
+   "idle_limit_studying": 360,
+   "out": false,
+   "screen": {},
+   "text_len": 0
+  },
+  {
+   "idle_limit": 360,
+   "idle_limit_studying": 360,
+   "out": true,
+   "screen": {
+    "app": "Google Chrome",
+    "url": "https://mycanvas.school.edu/"
+   },
+   "text_len": 0
+  }
+ ],
+ "related_terms": [
+  {
+   "out": {
+    "people": [
+     "Dana"
+    ],
+    "sites": [
+     "Gmail",
+     "Loom"
+    ]
+   },
+   "related": {
+    "junk": 1,
+    "people": [
+     "Dana",
+     "Dana"
+    ],
+    "sites": [
+     "Gmail",
+     "Loom"
+    ]
+   }
+  },
+  {
+   "out": {
+    "people": [
+     "Robin Northwind"
+    ],
+    "terms": [
+     "t0",
+     "t1",
+     "t2",
+     "t3",
+     "t4",
+     "t5",
+     "t6",
+     "t7"
+    ]
+   },
+   "related": {
+    "people": "  Robin  Northwind ",
+    "projects": [],
+    "terms": [
+     "t0",
+     "t1",
+     "t2",
+     "t3",
+     "t4",
+     "t5",
+     "t6",
+     "t7",
+     "t8",
+     "t9",
+     "t10",
+     "t11"
+    ]
+   }
+  },
+  {
+   "out": {
+    "terms": [
+     "A",
+     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "7"
+    ]
+   },
+   "related": {
+    "terms": [
+     "A",
+     "a",
+     " ",
+     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     7,
+     null
+    ]
+   }
+  },
+  {
+   "out": {},
+   "related": "nope"
+  },
+  {
+   "out": {},
+   "related": null
+  },
+  {
+   "out": {},
+   "related": {}
+  }
+ ],
+ "search_words": [
+  {
+   "out": "time in japan now",
+   "url": "https://www.google.com/search?q=time+in+japan+now&rlz=1"
+  },
+  {
+   "out": "fisheye dewarp",
+   "url": "https://www.youtube.com/results?search_query=fisheye+dewarp"
+  },
+  {
+   "out": "",
+   "url": "https://www.youtube.com/watch?v=1"
+  },
+  {
+   "out": "",
+   "url": ""
+  },
+  {
+   "out": "日本 time",
+   "url": "google.com/search?q=%E6%97%A5%E6%9C%AC+%20time"
+  },
+  {
+   "out": "swift json",
+   "url": "https://www.bing.com/search?q=swift++json&form=QBLH"
+  },
+  {
+   "out": "a",
+   "url": "https://duckduckgo.com/?q=a&q=b"
+  },
+  {
+   "out": "yahoo words",
+   "url": "https://search.yahoo.com/search?p=yahoo+words"
+  },
+  {
+   "out": "what is jev",
+   "url": "https://www.perplexity.ai/search?q=what+is+jev"
+  },
+  {
+   "out": "brave",
+   "url": "https://search.brave.com/search?q=brave"
+  },
+  {
+   "out": "trees",
+   "url": "https://www.ecosia.org/search?q=trees"
+  },
+  {
+   "out": "kagi",
+   "url": "https://kagi.com/search?q=kagi"
+  },
+  {
+   "out": "uk search",
+   "url": "https://www.google.co.uk/search?q=uk+search"
+  },
+  {
+   "out": "",
+   "url": "https://www.google.com/search?q="
+  },
+  {
+   "out": "tokyo",
+   "url": "https://www.google.com/maps?q=tokyo"
+  },
+  {
+   "out": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ",
+   "url": "https://user:pw@WWW.Google.com:443/search?q=word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+word+"
+  },
+  {
+   "out": "100% sure",
+   "url": "https://www.google.com/search?q=100%25+sure&q=second"
+  },
+  {
+   "out": "",
+   "url": "https://example.com/?q=not+a+search"
+  },
+  {
+   "out": "inbox",
+   "url": "https://mail.google.com/mail/u/0/?q=inbox"
+  },
+  {
+   "out": "bad%ZZpercent",
+   "url": "https://www.google.com/search?q=bad%ZZpercent"
+  },
+  {
+   "out": "�� bytes",
+   "url": "https://www.google.com/search?q=%ff%fe+bytes"
+  },
+  {
+   "out": "",
+   "url": "http://[::1]/search?q=x"
+  },
+  {
+   "out": "",
+   "url": "http://[bad/search?q=x"
+  },
+  {
+   "out": "lower",
+   "url": "HTTPS://Google.Com/Search?Q=upper&q=lower"
+  },
+  {
+   "out": "",
+   "url": "https://www.youtube.com/results?search_query="
+  },
+  {
+   "out": "",
+   "url": "https://www.google.com/search#q=fragment"
+  },
+  {
+   "out": "tab and newline",
+   "url": "https://www.google.com/search?q=tab%09and%0Anewline"
+  }
+ ],
+ "text_digest": [
+  {
+   "out": "5bb92a8adba67b8f",
+   "text": "secret visible words"
+  },
+  {
+   "out": "5bb92a8adba67b8f",
+   "text": "  secret\n visible\twords "
+  },
+  {
+   "out": "da39a3ee5e6b4b0d",
+   "text": ""
+  },
+  {
+   "out": "3d88d73a0a793175",
+   "text": "日本 — ümlaut"
+  },
+  {
+   "out": "7dbde93504122a70",
+   "text": "a\u001cb"
+  }
+ ],
+ "today_line": [
+  {
+   "events": [
+    [
+     "14:00",
+     "Team standup"
+    ],
+    [
+     "16:30",
+     "Call Robin"
+    ],
+    [
+     "18:00",
+     "Dinner"
+    ]
+   ],
+   "goals": [
+    "Acme onboarding",
+    "HIST reading"
+   ],
+   "out": "Today's plan: Acme onboarding; HIST reading. Next on the calendar: 14:00 Team standup; 16:30 Call Robin."
+  },
+  {
+   "events": [],
+   "goals": [],
+   "out": ""
+  },
+  {
+   "events": [
+    [
+     "1",
+     "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+    ],
+    [
+     "1",
+     "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+    ]
+   ],
+   "goals": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   ],
+   "out": "Today's plan: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx; xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx; xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx; xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx; xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx. Next on the calendar: 1 yy"
+  },
+  {
+   "events": [
+    [
+     "",
+     ""
+    ],
+    [
+     "9:00",
+     "  "
+    ]
+   ],
+   "goals": [
+    "",
+    "  a  b ",
+    null,
+    "c",
+    "d",
+    "e",
+    "f"
+   ],
+   "out": "Today's plan: a b; c; d; e; f. Next on the calendar: 9:00."
+  }
+ ]
+}
